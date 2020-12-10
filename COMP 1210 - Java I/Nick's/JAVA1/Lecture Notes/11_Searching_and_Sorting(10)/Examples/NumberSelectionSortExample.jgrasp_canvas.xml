@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>NumberSelectionSortExample</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>60</X>
+      <Y>60</Y>
+      <W>648</W>
+      <H>157</H>
+    </Bounds>
+    <LabelLoc>
+      <H>LEFT</H>
+      <V>CENTER</V>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.lang.Double[]` ia</Expression>
+      <ViewerClass>java__lang__Object_BarGraphView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>60</X>
+      <Y>230</Y>
+      <W>688</W>
+      <H>171</H>
+    </Bounds>
+    <LabelLoc>
+      <X>0</X>
+      <Y>85</Y>
+      <H>LEFT</H>
+      <V>CENTER</V>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.lang.Double[]` ia</Expression>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+        <StructureData>
+          <Type>Array</Type>
+          <SzExp>_struct_.length</SzExp>
+          <ElementExp>_struct_[_index_]</ElementExp>
+          <IndexExp>min#index#scan</IndexExp>
+        </StructureData>
+        <ViewData>
+          <Width>50</Width>
+        </ViewData>
+      </ViewerData>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>805</W>
+    <H>647</H>
+  </Size>
+</Canvas>

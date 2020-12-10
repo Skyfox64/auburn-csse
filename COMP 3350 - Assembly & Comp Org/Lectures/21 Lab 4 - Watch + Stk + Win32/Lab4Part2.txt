@@ -1,0 +1,43 @@
+.model flat, stdcall
+
+STD_INPUT_HANDLE = -10
+STD_OUTPUT_HANDLE = -11
+STD_ERROR_HANDLE = -12
+
+GetStdHandle PROTO,  ; Get handle for stdin/stdout/stderr
+    nStdHandle:DWORD
+
+WriteConsoleA PROTO,  ; Display output on the console
+    hConsoleOutput:DWORD,             ; Console handle
+    lpBuffer:PTR BYTE,                ; Output buffer
+    nNumberOfCharsToWrite:DWORD,      ; Size of buffer
+    lpNumberOfCharsWritten:PTR DWORD, ; Num bytes written
+    lpReserved:DWORD                  ; (Not used)
+
+ExitProcess PROTO, dwExitCode:DWORD
+
+.data
+message         BYTE "Hello, world!"
+hStdout         DWORD ?
+numCharsWritten DWORD ?
+
+.code
+main PROC
+    ; Get a handle for standard output
+    push STD_OUTPUT_HANDLE
+    call GetStdHandle
+    mov hStdout, eax
+
+    ; Write hello to standard output
+    push 0
+    push OFFSET numCharsWritten
+    push LENGTHOF message
+    push OFFSET message
+    push hStdout
+    call WriteConsoleA
+
+    ; Exit
+    push 0
+    call ExitProcess
+main ENDP
+END main

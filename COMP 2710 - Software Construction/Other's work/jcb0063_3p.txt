@@ -1,0 +1,55 @@
+Script started on Mon 10 Nov 2014 11:33:45 PM CDT
+]0;chris@MadGod: ~/Downloadschris@MadGod:~/Downloads$ exit./lab3g++ lab3.cpp -o lab3./lab3[K
+
+
+    ===========================================================
+	|        Welcome to the Shortest Path Maze Solver!        |
+	===========================================================
+
+Enter the name of the Maze configuration file: Maze 1.txt
+The Start Node is: B3
+The destination Node is: H4
+Finding the shortest path from the Start to Destination node ...
+Node visited: B3 B4 A3 B5 A4 A2 C5 A5 A1 B2 C6 D5 A6 B1 C2 E5 B6 D2 C1 E6 F5 E4 D3 D1 F6 D6 F4 D4 E3 C3 E1 G6 G4 F3 C4 E2 H6 G5 G3 F2 H5 G2 F1 H4 
+Congratulations: Found the shortest path successfully.
+The path is: B3 B4 B5 C5 D5 E5 E6 F6 G6 G5 H5 H4 
+
+Enter the name of the Maze configuration file: Maze 2.txt
+The Start Node is: NM
+The destination Node is: GU
+Finding the shortest path from the Start to Destination node ...
+Node visited: NM AZ CO TX OK NV UT CA NE KS LA OR WY IA SD MO AL HI WA ID MT MN ND GA FL NJ WI SC PR MI IL NC TN OH ME KY PA RI WV NY VT 
+Unsuccessful: No path can be found.
+
+Enter the name of the Maze configuration file: Maze 3.txt
+The Start Node is: AFG
+The destination Node is: LAO
+Finding the shortest path from the Start to Destination node ...
+Node visited: AFG FIN GIN IRN DZA IND CHN NOR GRL CYM MNP LBR HTI NRU OMN HKG NIC KEN NPL PAN MYS DOM KAZ KIR ANT MDG QAT MEX FRO PRK NCL PRT GLP KOR USA RUS VAT LAO 
+Congratulations: Found the shortest path successfully.
+The path is: AFG FIN GIN IRN IND NOR MNP NRU KEN KIR PRK KOR LAO 
+
+Enter the name of the Maze configuration file:
+
+       Your input was invalid. Try again.
+
+Enter the name of the Maze configuration file: MAZE 1.txt
+
+       Your input was invalid. Try again.
+
+Enter the name of the Maze configuration file: maze.txt
+
+       Your input was invalid. Try again.
+
+Enter the name of the Maze configuration file: quit
+
+       Your input was invalid. Try again.
+
+Enter the name of the Maze configuration file: Quit
+
+	===========================================================
+	|   Thank you for using the Shortest Path Maze Solver!    |
+	===========================================================
+
+]0;chris@MadGod: ~/Downloadschris@MadGod:~/Downloads$ exit
+Script done on Mon 10 Nov 2014 11:35:59 PM CDT

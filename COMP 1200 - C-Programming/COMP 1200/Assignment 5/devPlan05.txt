@@ -1,0 +1,121 @@
+---'Save As' this file using the name in the assignment instructions.
+---Type you information.
+---Submit the completed development plan via Blackboard with you other files.
+                                                       
+NAME: John Carroll                                        
+ASSIGNMENT: Assignment05                       
+DATE: March 7th, 2012       
+                                                                                    
+PROBLEM SOLVING IN ENGINEERING AND SCIENCE 
+Always use a systematic problem-solving strategy.
+
+1. STATE THE PROBLEM:
+---Describe the problem to be solved for the assignment.
+
+Open and read the file. Retrieve the mountains' heights from the 
+data file. Convert the data into miles and then calculate the 
+distance to the horizon for each mountain. Display the data in a 
+table. Print the highest mountain on each planet at the end of the 
+file.
+
+2. DESCRIBE THE INPUT AND OUTPUT REQUIREMENTS:
+---List and describe the following as needed to solve the problem, as needed.
+---Include units where needed.
+
+   CONSTANTS (known values that don't change):
+
+filename
+earth_diameter=7926 
+mars_diameter=4217
+
+   INPUT (values needed to find the output):
+
+mountainHeights.txt data
+	-Planet number(3 or 4)
+	-Mountain height for earth(ft) and Mars(km) 
+			
+
+   OUTPUT (unknowns)
+
+Distance to the horizon for all mountains
+Highest mountain on Mars
+Highest mountain on Earth
+
+
+   OTHER VARIABLES
+
+Height converted into miles
+
+
+   Relevant formulas: 
+	(for complicated equations, it may be helpful to divide it into parts)
+EARTH
+Conversion for the mountain: Height = mountainHeight/5280
+horizonDistance (Earth) = (sqrt((2*(7926/2)*Height)+(Height^2)))
+
+MARS
+Conversion for the mountain: Height = mountainHeight/1.609344
+horizonDistance (Mars) = (sqrt((2*(4217/2)*Height)+(Height^2)))
+
+*Note: Height = convertedMountainHeight 
+
+
+3. WORK HAND EXAMPLES
+---Solve the problem with a few hand examples.
+---Record the input values used and the results
+___Example____
+Datafile info:
+2
+4 27.0
+3 29029.0
+
+Output:
+Distance from Mountain Peak and Horizon
+Planet   Mountain    Horizon
+Number    Height*   Distance*
+------   --------   --------
+  4        16.8      266.5
+  3         5.5      208.8
+
+
+
+
+
+4. DEVELOP AN ALGORITHM:
+---Think about the steps used to solve the problem to solve the problem by 
+   hand and list them here to create an algorithm. 
+---The algorithm steps should be used as comments in your program as a guide.
+
+include math.h
+define CONSTANTS
+---Open File/INPUT---
+Use FILE * and name the file.
+Use fscanf to read the "11", which is the count, the number of items to be scanned until the program stops.
+----Distance to the Horizon----
+Display Table Headers.
+Initialize for loop for one loop of the data file.
+Scan the two columns of the data file.
+Create switching function between the two cases.
+		Convert the height into Miles
+		Calculate the distance to the horizon
+		Place the max mountains as their own variables
+Display the data in the table, right aligned
+Display the units
+----Highest mountains----
+Display the highest mountain on Mars.
+Display the highest mountain on Earth.
+
+
+
+
+
+5. SOLVE THE PROBLEM:
+---This step represents your writing a computer program to solve the problem. 
+---NOTE: Do not type your program here. Submit it as a computer program file. 
+---Use steps in your algorithm as comments in your program 
+   to guide the development of you program.
+
+6. TEST THE SOLUTION:
+---Run your program using the values from #3 to check for correctness.
+---If there is an error, correct your program code and run again.
+

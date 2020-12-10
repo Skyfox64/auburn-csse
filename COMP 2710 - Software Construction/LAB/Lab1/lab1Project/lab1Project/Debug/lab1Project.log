@@ -1,0 +1,11 @@
+﻿  jcc0044_1.cpp
+c:\users\carroll\google drive\academia\auburn\2014-2015 fall\comp 2710 - software construction\lab\lab1\lab1project\jcc0044_1.cpp(465): warning C4101: 'menuClass' : unreferenced local variable
+c:\users\carroll\google drive\academia\auburn\2014-2015 fall\comp 2710 - software construction\lab\lab1\lab1project\jcc0044_1.cpp(671): warning C4101: 'first_char' : unreferenced local variable
+c:\users\carroll\google drive\academia\auburn\2014-2015 fall\comp 2710 - software construction\lab\lab1\lab1project\jcc0044_1.cpp(718): warning C4101: 'first_char' : unreferenced local variable
+c:\users\carroll\google drive\academia\auburn\2014-2015 fall\comp 2710 - software construction\lab\lab1\lab1project\jcc0044_1.cpp(758): warning C4101: 'menuClass' : unreferenced local variable
+c:\users\carroll\google drive\academia\auburn\2014-2015 fall\comp 2710 - software construction\lab\lab1\lab1project\jcc0044_1.cpp(816): warning C4101: 'first_char' : unreferenced local variable
+c:\users\carroll\google drive\academia\auburn\2014-2015 fall\comp 2710 - software construction\lab\lab1\lab1project\jcc0044_1.cpp(809): warning C4101: 'menuClass' : unreferenced local variable
+c:\users\carroll\google drive\academia\auburn\2014-2015 fall\comp 2710 - software construction\lab\lab1\lab1project\jcc0044_1.cpp(855): warning C4101: 'first_char' : unreferenced local variable
+c:\users\carroll\google drive\academia\auburn\2014-2015 fall\comp 2710 - software construction\lab\lab1\lab1project\jcc0044_1.cpp(846): warning C4101: 'menuClass' : unreferenced local variable
+  LINK : C:\Users\Carroll\Google Drive\Academia\Auburn\2014-2015 Fall\COMP 2710 - Software Construction\LAB\Lab1\lab1Project\Debug\lab1Project.exe not found or not built by the last incremental link; performing full link
+  lab1Project.vcxproj -> C:\Users\Carroll\Google Drive\Academia\Auburn\2014-2015 Fall\COMP 2710 - Software Construction\LAB\Lab1\lab1Project\Debug\lab1Project.exe

@@ -1,0 +1,17 @@
+!656;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;
+SCU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+S+U0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!2615;d
+[\012  grasp [\012   legendy -114.42857142857142\012   legendx -20.857142857142833\012   version 1\012   winflags 2\012   height 324\012   width 352\012   wbp 0\012   initlayout 0\012   yoffs -25.857142857142847\012   xoffs -20.428571428571445\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "Child\\011()V\\011c\\0111\\011\\011\\011Child"\012    condition 0\012    access2 0\012    access 2228256\012    classname "Child"\012    fromclassfiledate 1333842141265\012    fromclassfilename "%\011Child.class"\012    fromfilename "%\011MainClass.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x 1.0\012     y -63.0\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "MainClass\\011()V\\011c\\0111\\011\\011\\011MainClass\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011MainClass"\012    condition 0\012    access2 0\012    access 2490401\012    classname "MainClass"\012    fromclassfiledate 1333842141292\012    fromclassfilename "%\011MainClass.class"\012    fromfilename "%\011MainClass.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x -109.0\012     y 1.0\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "Parent\\011()V\\011c\\0111\\011\\011\\011Parent"\012    condition 0\012    access2 0\012    access 2228256\012    classname "Parent"\012    fromclassfiledate 1333842141261\012    fromclassfilename "%\011Parent.class"\012    fromfilename "%\011MainClass.java"\012   ]\012   id 2\012   graphics [\012    center [\012     x 1.0\012     y 1.0\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  edge [\012   ClassInfo [\012    dependencies "Parent\\011()V\\011c\\011\\011\\011\\011Parent"\012    type 3\012   ]\012   source 2\012   target 1\012  ]\012  edge [\012   ClassInfo [\012    dependencies "Parent\\011()V\\011c\\011\\011\\011\\011Parent"\012    type 0\012   ]\012   source 2\012   target 0\012   graphics [\012    Point [\012     x 1.0\012     y -35.0\012     z 0.0\012    ]\012    Point [\012     x 1.0\012     y -35.0\012     z 0.0\012    ]\012   ]\012   graphics [\012    Point [\012     x 1.0\012     y -35.0\012     z 0.0\012    ]\012    Point [\012     x 1.0\012     y -35.0\012     z 0.0\012    ]\012   ]\012  ]\012  edge [\012   ClassInfo [\012    dependencies "Child\\011()V\\011c\\011\\011\\011\\011Child"\012    type 3\012   ]\012   source 0\012   target 1\012  ]\012 ]!20;g
+%\011MainClass.java
+!17;f
+%	MainClass.java

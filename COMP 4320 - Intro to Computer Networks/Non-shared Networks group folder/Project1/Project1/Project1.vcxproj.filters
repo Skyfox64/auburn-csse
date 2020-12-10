@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>823313e4-91eb-45c6-b899-e7b33caaf2a8</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>b00d1459-f97b-4738-a63d-9dd7c1618f06</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\..\Networks Group Project Folder\netwark-master\client.cpp" />
+    <ClCompile Include="..\..\..\Networks Group Project Folder\netwark-master\packet.cpp" />
+    <ClCompile Include="..\..\..\Networks Group Project Folder\netwark-master\server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="..\..\..\Networks Group Project Folder\netwark-master\packet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Project1_TemporaryKey.pfx" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\c" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\Dumpfile" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\layers.md" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\LICENSE" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\Makefile" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\note.md" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\README.md" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\s" />
+    <None Include="..\..\..\Networks Group Project Folder\netwark-master\Testfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\..\..\Networks Group Project Folder\netwark-master\packet.o" />
+  </ItemGroup>
+</Project>

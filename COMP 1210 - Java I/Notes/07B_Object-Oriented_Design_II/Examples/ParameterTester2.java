@@ -1,0 +1,33 @@
+//********************************************************************
+//  ParameterTester.java       Author: Lewis/Loftus
+//
+//  Demonstrates the effects of passing various types of parameters.
+//********************************************************************
+
+    public class ParameterTester2
+   {
+   //-----------------------------------------------------------------
+   //  Sets up three variables (one primitive and two objects) to
+   //  serve as actual parameters to the changeValues method. Prints
+   //  their values before and after calling the method.
+   //-----------------------------------------------------------------
+       public static void main (String[] args)
+      {
+         ParameterModifier2 modifier = new ParameterModifier2();
+      
+         int a1 = 111;
+         Num a2 = new Num (222);
+         Num a3 = new Num (333);
+         Integer a4 = 444;
+      
+         System.out.println ("Before calling changeValues:");
+         System.out.println ("a1\ta2\ta3\ta4");
+         System.out.println (a1 + "\t" + a2 + "\t" + a3 + "\t" + a4 + "\n");
+      
+         modifier.changeValues (a1, a2, a3, a4);
+      
+         System.out.println ("After calling changeValues:");
+         System.out.println ("a1\ta2\ta3\ta4");
+         System.out.println (a1 + "\t" + a2 + "\t" + a3 + "\t" + a4 + "\n");
+      }
+   }

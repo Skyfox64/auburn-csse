@@ -1,0 +1,508 @@
+Script started on Fri 26 Sep 2014 07:53:55 PM CDT
+]0;john@ZetaGundam: ~/Downloadsjohn@ZetaGundam:~/Downloads$ exit./hw1g++ hw1.cpp -o hw1./hw1[K
+		===========================================================
+		|               The Auburn Messaging System!              |
+		===========================================================
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 1
+
+Please enter user name: George
+
+		===========================================================
+		|       Welcome to Auburn Messaging System, George!       |
+		===========================================================
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 7
+
+Please enter the group name: Tigers
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 8
+
+Please enter the group name: Tigers
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 2
+
+Enter message: Join our new Tigers message group!
+It was fun at the beach.
+How was your summer?
+$$
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 1
+
+Please enter user name: Mary
+
+		===========================================================
+		|        Welcome to Auburn Messaging System, Mary!        |
+		===========================================================
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 8
+
+Enter the group name: Tigers
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 3
+
+Enter the group name: Tigers
+
+Enter message: Welcome back, guys!
+We had so much fun at Ireland!
+$$
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 1
+
+Please enter user name: Abraham
+
+		===========================================================
+		|      Welcome to Auburn Messaging System, Abraham!       |
+		===========================================================
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 8
+
+Enter the group name: Tigers
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 4
+
+Enter the recipient user name: Mary
+
+Enter message: Good Morning, Sunshine!
+When did you get back from Ireland?
+$$
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 7
+
+Please enter the group name: Eagles
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 8
+
+Please enter the group name: Eagles
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 2
+
+Enter message: Just created a new Eagles group!
+Come one, come all!
+Have a blast!
+$$
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 3
+
+Enter the group name: Eagles
+
+Enter message: Eagles have landed!
+War eagle, hey!
+$$
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 3
+
+Enter the group name: Tigers
+
+Enter message: I’m enjoying your group too.
+Spent my summer in South Africa; it was amazing!
+$$
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 1
+
+Please enter user name: Kate
+
+		===========================================================
+		|        Welcome to Auburn Messaging System, Kate!        |
+		===========================================================
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 8
+
+Enter the group name: Eagles
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 3
+
+Enter the group name: Eagles
+
+Enter message: It’s time for Auburn Football!
+War Eagle!
+$$
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 6
+
+		============================================
+		|             Kate’s Home Page             |
+		============================================
+
+Kate(Eagles)>>
+It’s time for Auburn Football!
+War Eagle!
+
+Abraham(Eagles)>>
+Eagles have landed!
+War eagle, hey!
+
+				  More messages? (yes/no): yes
+
+Abraham(All)>>
+Just created a new Eagles group!
+Come one, come all!
+Have a blast!
+
+George(All)>>
+Join our new Tigers message group!
+It was fun at the beach.
+How was your summer?
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 9
+
+Enter user’s name: Mary
+
+		===========================================================
+		|      Welcome back to Auburn Messaging System, Mary!     |
+		===========================================================
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 6
+
+		============================================
+		|             Mary’s Home Page             |
+		============================================
+
+Abraham(Tigers)>>
+I’m enjoying your group too.
+Spent my summer in South Africa; it was amazing!
+
+Abraham(All)>>
+Just created a new Eagles group!
+Come one, come all!
+Have a blast!
+
+				  More messages? (yes/no): yes
+Abraham>>
+Good Morning, Sunshine!
+When did you get back from Ireland?
+
+Mary(Tigers)>>
+Welcome back, guys!
+We had so much fun at Ireland!
+
+George(All)>>
+Join our new Tigers message group!
+It was fun at the beach.
+How was your summer?
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 5
+
+		============================================
+		|             Mary’s Wall Page             |
+		============================================
+
+Mary(Tigers)>>
+Welcome back, guys!
+We had so much fun at Ireland!
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 9
+
+Enter user’s name: Abraham
+
+		===========================================================
+		|    Welcome back to Auburn Messaging System, Abraham!    |
+		===========================================================
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 5
+
+		============================================
+		|           Abraham’s Wall Page            |
+		============================================
+
+Abraham(Tigers)>>
+I’m enjoying your group too.
+Spent my summer in South Africa; it was amazing!
+
+Abraham(Eagles)>>
+Eagles have landed!
+War eagle, hey!
+
+				  More messages? (yes/no): yes
+
+Abraham(All)>>
+Just created a new Eagles group!
+Come one, come all!
+Have a blast!
+
+Abraham(Mary)>>
+Good Morning, Sunshine!
+When did you get back from Ireland?
+
+	1) Create a new user
+	2) Broadcast a message
+	3) Multicast a message
+	4) Unicast a message
+	5) Display Wall page
+	6) Display Home page
+	7) Create a new group
+	8) Join a group
+	9) Switch to a different user
+	10) Quit Auburn Messaging System
+
+Please choose an option: 10
+
+===========================================================
+|       Thank you for using Auburn Messaging System       |
+===========================================================
+]0;john@ZetaGundam: ~/Downloadsjohn@ZetaGundam:~/Downloads$ exit
+Script done on Fri 26 Sep 2014 07:59:55 PM CDT

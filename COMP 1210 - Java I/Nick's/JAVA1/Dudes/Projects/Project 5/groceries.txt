@@ -1,0 +1,7 @@
+0.08
+Meatballs Frozen 4.33
+Cilantro Produce 0.88
+Eggs Refrigerated 1.08
+Hamburgers Refrigerated 2.55
+Pizza Refrigerated 4.7
+Parsley Produce 0.67

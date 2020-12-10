@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="../../css/superhero.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/horseshoe.css"/>
+		<title>
+			Tutoring Portal
+		</title>
+	</head>
+	<body>
+		<h1 style="text-align:center">Tutoring Portal</h1>
+		<div class="well vertical-align">
+			<div class="input-group" style="margin:10px"> 
+				<span style="border-color:grey" class="input-group-addon" id="usernameAddon">Name</span>
+				<input id="usernameForm" type="text" class="form-control" placeholder="Username"></input>
+			</div>
+			<div id="usernameErrorMsg" style=visibility:hidden">
+				<!--<span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>-->
+				<span style="font-size:10px;color:#d9534f;visibility:hidden;margin:10px">Sorry! We don't recognize this username.</span>
+			</div>
+			<div class="input-group haveMercy" style="margin:10px;">
+				<span style="border-color:grey" class="input-group-addon securedLogin" id="passwordAddon">Password</span>
+				<input id="passwordForm" type="text" class="form-control securedLogin" placeholder="Password"></input>
+			</div>
+			<div id="passwordErrorMsg" style=visibility:hidden">
+				<!--<span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>-->
+				<span style="font-size:10px;color:#d9534f;visibility:hidden;margin:10px">Incorrect Password</span>
+			</div>
+			<button type="submit" class="btn btn-danger col-xs-offset-8" id="testbtn" onclick="validateLogin()">Submit</button>
+		</div>
+	</body>
+	
+	<footer>
+		<script src="../../js/jquery2.2.0.js"></script>
+		<script src="../../js/login.js"></script>
+	</footer>
+</html>
+
+<style>
+.securedLogin
+{
+	display: none;
+}
+.haveMercy
+{
+	display: none;
+}
+</style>
+
+

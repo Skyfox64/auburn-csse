@@ -1,0 +1,18 @@
+Jane Lane
+2
+4
+3
+2
+4
+Bob Smith
+1
+2
+3
+4
+1
+Gary Michaels
+5
+5
+4
+3
+5

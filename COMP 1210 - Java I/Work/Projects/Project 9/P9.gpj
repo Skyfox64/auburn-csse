@@ -1,0 +1,37 @@
+!977;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning
+SCU0PATH+=%<JGRASP_PATHS>%;\012PATH+=C:\\Borland\\BCC55\\Bin;
+S+U0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012File\012CLASSPATH+=.%;\012ProjectOrFile\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Debug +Debug_Applet\012CLASSPATH=+%;%<INJECTION_CLASSPATHS>\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012CLASSPATH+=%<CLASSES_DIR>%;\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning
+SyU0PATH+=%<PYTHON_PATH>%;\012PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!122;g
+%\011FlipPhone.java
+%\011SmartPhone.java
+%\011Android.java
+%\011CellPhone.java
+%\011CellPhonesPart1.java
+%\011IPhone.java
+!122;f
+%\011FlipPhone.java
+%\011SmartPhone.java
+%\011Android.java
+%\011CellPhone.java
+%\011CellPhonesPart1.java
+%\011IPhone.java
+!146;l
+%\011CellPhoneTest.java
+%\011CellPhonesPart1Test.java
+%\011IPhoneTest.java
+%\011AndroidTest.java
+%\011FlipPhoneTest.java
+%\011SmartPhoneTest.java
+!1207;t
+jgrCheckstyle0xr	%\011FlipPhone.java	1386720227561:P	%\011SmartPhone.java	1386720227561:P	%\011CellPhoneTest.java	1386720227561:P	%\011Android.java	1386720227561:P	%\011CellPhonesPart1Test.java	1386720227561:P	%\011IPhoneTest.java	1386720227561:P	%\011AndroidTest.java	1386720227561:P	%\011CellPhone.java	1386720227561:P	%\011CellPhonesPart1.java	1386720227561:P	%\011IPhone.java	1386720227561:P	%\011FlipPhoneTest.java	1386720227561:P	%\011SmartPhoneTest.java	1386720227561:P	
+jgrJUnit0xr	%\011FlipPhone.java	1386720223744:P%\011FlipPhoneTest.java	%\011SmartPhone.java	1386720223744:P%\011SmartPhoneTest.java	%\011CellPhoneTest.java	1386720223744:P%\011CellPhone.java	%\011Android.java	1386720223744:P%\011AndroidTest.java	%\011CellPhonesPart1Test.java	1386720223744:P%\011CellPhonesPart1.java	%\011IPhoneTest.java	1386720223744:P%\011IPhone.java	%\011AndroidTest.java	1386720223744:P%\011Android.java	%\011CellPhone.java	1386720223744:P%\011CellPhoneTest.java	%\011CellPhonesPart1.java	1386720223744:P%\011CellPhonesPart1Test.java	%\011IPhone.java	1386720223744:P%\011IPhoneTest.java	%\011FlipPhoneTest.java	1386720223744:P%\011FlipPhone.java	%\011SmartPhoneTest.java	1386720223744:P%\011SmartPhone.java	

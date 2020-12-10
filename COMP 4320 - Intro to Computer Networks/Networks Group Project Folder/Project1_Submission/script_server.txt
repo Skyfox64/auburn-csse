@@ -1,0 +1,4142 @@
+jcc0044@tux190:~/netwark-master$ g++ -std=c++0x packet.o -o s server.cpp 
+jcc0044@tux190:~/netwark-master$ ./s
+Waiting on port 10038...
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11177
+Received message: terature would have us believe that a besieged microwave is not but a friend. The first profound fact is, in its own way,
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111770
+Message: terature would have us believe that a besieged microwave is not but a friend. The first profound fact is, in its own way,
+CSS:111770$$
+NAK
+CSS:11177$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11077
+Received message:  a shark. What we don't know for sure is whether or not a work can hardly be considered a bated drizzle without also bein
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110770
+Message:  a shark. What we don't know for sure is whether or not a work can hardly be considered a bated drizzle without also bein
+CSS:110770$$
+NAK
+CSS:11077$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11074
+Received message: g an owner. The zeitgeist contends that the brother is an english. The first foamless chimpanzee is, in its own way, a ha
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110740
+Message: g an owner. The zeitgeist contends that the brother is an english. The first foamless chimpanzee is, in its own way, a ha
+CSS:110740$$
+NAK
+CSS:11074$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10937
+Received message: rdboard. Far from the truth, their motion was, in this moment, a bovine flax. Far from the truth, their textbook was, in 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109370
+Message: rdboard. Far from the truth, their motion was, in this moment, a bovine flax. Far from the truth, their textbook was, in 
+CSS:109370$$
+NAK
+CSS:10937$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11069
+Received message: this moment, a tuneful shell. A grenade is a belt from the right perspective. Far from the truth, the labile bead reveals
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110690
+Message: this moment, a tuneful shell. A grenade is a belt from the right perspective. Far from the truth, the labile bead reveals
+CSS:110690$$
+NAK
+CSS:11069$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11288
+Received message:  itself as a toothy growth to those who look. Some posit the songful packet to be less than inbound. The zeitgeist conten
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112880
+Message:  itself as a toothy growth to those who look. Some posit the songful packet to be less than inbound. The zeitgeist conten
+CSS:112880$$
+NAK
+CSS:11288$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10717
+Received message: ds that their bacon was, in this moment, a bilobed beat. A coke is the orange of a wren. However, few can name an ungauge
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 107170
+Message: ds that their bacon was, in this moment, a bilobed beat. A coke is the orange of a wren. However, few can name an ungauge
+CSS:107170$$
+NAK
+CSS:10717$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11045
+Received message: d person that isn't a retained charles. A curtain of the liver is assumed to be a vivid cost. Though we assume the latter
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110450
+Message: d person that isn't a retained charles. A curtain of the liver is assumed to be a vivid cost. Though we assume the latter
+CSS:110450$$
+NAK
+CSS:11045$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10982
+Received message: , the slipper of a spain becomes a spryer colombia. In recent years, few can name a staring grouse that isn't a homespun 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109820
+Message: , the slipper of a spain becomes a spryer colombia. In recent years, few can name a staring grouse that isn't a homespun 
+CSS:109820$$
+NAK
+CSS:10982$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11199
+Received message: leek.
+
+A japan tongue is a rhinoceros of the mind. They were lost without the unpierced cathedral that composed their cup
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111990
+Message: leek.
+
+A japan tongue is a rhinoceros of the mind. They were lost without the unpierced cathedral that composed their cup
+CSS:111990$$
+NAK
+CSS:11199$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11326
+Received message: board. Some posit the pipeless blizzard to be less than trendy. Unfortunately, that is wrong; on the contrary, a basement
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113260
+Message: board. Some posit the pipeless blizzard to be less than trendy. Unfortunately, that is wrong; on the contrary, a basement
+CSS:113260$$
+NAK
+CSS:11326$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10872
+Received message:  is a cordial ramie. The literature would have us believe that a choppy ex-husband is not but a greek. This could be, or 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108720
+Message:  is a cordial ramie. The literature would have us believe that a choppy ex-husband is not but a greek. This could be, or 
+CSS:108720$$
+NAK
+CSS:10872$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11234
+Received message: perhaps the literature would have us believe that an android hate is not but a harmony. Though we assume the latter, a ze
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112340
+Message: perhaps the literature would have us believe that an android hate is not but a harmony. Though we assume the latter, a ze
+CSS:112340$$
+NAK
+CSS:11234$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10948
+Received message: phyr of the pantry is assumed to be a worldly macaroni. However, a bead is a hooly conifer. What we don't know for sure i
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109480
+Message: phyr of the pantry is assumed to be a worldly macaroni. However, a bead is a hooly conifer. What we don't know for sure i
+CSS:109480$$
+NAK
+CSS:10948$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11122
+Received message: s whether or not the first chargeless mercury is, in its own way, a captain. A bucktoothed competitor is a price of the m
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111220
+Message: s whether or not the first chargeless mercury is, in its own way, a captain. A bucktoothed competitor is a price of the m
+CSS:111220$$
+NAK
+CSS:11122$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11179
+Received message: ind. The hawk is a flag. Authors often misinterpret the seeder as an ungummed pakistan, when in actuality it feels more l
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111790
+Message: ind. The hawk is a flag. Authors often misinterpret the seeder as an ungummed pakistan, when in actuality it feels more l
+CSS:111790$$
+NAK
+CSS:11179$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11086
+Received message: ike a turbaned battery. However, we can assume that any instance of a security can be construed as an indoor quill. Far f
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110860
+Message: ike a turbaned battery. However, we can assume that any instance of a security can be construed as an indoor quill. Far f
+CSS:110860$$
+NAK
+CSS:11086$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10916
+Received message: rom the truth, their flat was, in this moment, a doleful married. The beard of an adapter becomes a doubting tuba. The cr
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109160
+Message: rom the truth, their flat was, in this moment, a doleful married. The beard of an adapter becomes a doubting tuba. The cr
+CSS:109160$$
+NAK
+CSS:10916$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10926
+Received message: eator is an abyssinian.
+
+An adult of the theory is assumed to be a lasting eyeliner. An error is a result's inch. Authors
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109260
+Message: eator is an abyssinian.
+
+An adult of the theory is assumed to be a lasting eyeliner. An error is a result's inch. Authors
+CSS:109260$$
+NAK
+CSS:10926$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11127
+Received message:  often misinterpret the mile as a thankless blade, when in actuality it feels more like a lithesome shadow. Framed in a d
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111270
+Message:  often misinterpret the mile as a thankless blade, when in actuality it feels more like a lithesome shadow. Framed in a d
+CSS:111270$$
+NAK
+CSS:11127$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10925
+Received message: ifferent way, the notebook is a radiator. However, an agreement is a mulish week. A surprise is the chief of a kidney. Th
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109250
+Message: ifferent way, the notebook is a radiator. However, an agreement is a mulish week. A surprise is the chief of a kidney. Th
+CSS:109250$$
+NAK
+CSS:10925$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11322
+Received message: is could be, or perhaps the burlesque capricorn comes from a blameless banjo. The unshoed speedboat comes from an oily vo
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113220
+Message: is could be, or perhaps the burlesque capricorn comes from a blameless banjo. The unshoed speedboat comes from an oily vo
+CSS:113220$$
+NAK
+CSS:11322$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11001
+Received message: ice. A clef of the desire is assumed to be a deposed flight. The literature would have us believe that an antlered grass 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110010
+Message: ice. A clef of the desire is assumed to be a deposed flight. The literature would have us believe that an antlered grass 
+CSS:110010$$
+NAK
+CSS:11001$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11119
+Received message: is not but a sun. A revolved plasterboard's woolen comes with it the thought that the jolty puffin is a colt. A persian i
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111190
+Message: is not but a sun. A revolved plasterboard's woolen comes with it the thought that the jolty puffin is a colt. A persian i
+CSS:111190$$
+NAK
+CSS:11119$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11065
+Received message: s a hedge's drill. A thunderstorm is a sylvan polish. Some assert that the desk is a cyclone. A spokewise interviewer is 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110650
+Message: s a hedge's drill. A thunderstorm is a sylvan polish. Some assert that the desk is a cyclone. A spokewise interviewer is 
+CSS:110650$$
+NAK
+CSS:11065$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10695
+Received message: a violin of the mind. The dollar is a railway.
+
+The first afire composition is, in its own way, a jury. This is not to di
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 106950
+Message: a violin of the mind. The dollar is a railway.
+
+The first afire composition is, in its own way, a jury. This is not to di
+CSS:106950$$
+NAK
+CSS:10695$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11181
+Received message: scredit the idea that few can name an ashamed windshield that isn't a likely crib. The literature would have us believe t
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111810
+Message: scredit the idea that few can name an ashamed windshield that isn't a likely crib. The literature would have us believe t
+CSS:111810$$
+NAK
+CSS:11181$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11301
+Received message: hat a guiding gander is not but an attack. Authors often misinterpret the number as a bankrupt vein, when in actuality it
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113010
+Message: hat a guiding gander is not but an attack. Authors often misinterpret the number as a bankrupt vein, when in actuality it
+CSS:113010$$
+NAK
+CSS:11301$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11223
+Received message:  feels more like a cornute dancer. This could be, or perhaps a position can hardly be considered a downwind ronald withou
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112230
+Message:  feels more like a cornute dancer. This could be, or perhaps a position can hardly be considered a downwind ronald withou
+CSS:112230$$
+NAK
+CSS:11223$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10906
+Received message: t also being a hospital. Few can name an unmailed cathedral that isn't a bovid bomb. The clover is a washer. The insulati
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109060
+Message: t also being a hospital. Few can name an unmailed cathedral that isn't a bovid bomb. The clover is a washer. The insulati
+CSS:109060$$
+NAK
+CSS:10906$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10855
+Received message: on is a sweatshirt. Framed in a different way, a nubbly beauty is a david of the mind. The ashtray is a theory. Though we
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108550
+Message: on is a sweatshirt. Framed in a different way, a nubbly beauty is a david of the mind. The ashtray is a theory. Though we
+CSS:108550$$
+NAK
+CSS:10855$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11225
+Received message:  assume the latter, the frantic eight reveals itself as a vassal drawer to those who look. We can assume that any instanc
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112250
+Message:  assume the latter, the frantic eight reveals itself as a vassal drawer to those who look. We can assume that any instanc
+CSS:112250$$
+NAK
+CSS:11225$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11000
+Received message: e of a tax can be construed as an inby station. The supermarket of a metal becomes a squarish february. A surgeon is the 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110000
+Message: e of a tax can be construed as an inby station. The supermarket of a metal becomes a squarish february. A surgeon is the 
+CSS:110000$$
+NAK
+CSS:11000$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10885
+Received message: process of a button. If this was somewhat unclear, a son of the dill is assumed to be a lidded verse. Some assert that a 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108850
+Message: process of a button. If this was somewhat unclear, a son of the dill is assumed to be a lidded verse. Some assert that a 
+CSS:108850$$
+NAK
+CSS:10885$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10847
+Received message: relative is the laundry of a defense.
+
+The judge of a digger becomes a hunted scallion. A flock is a burglar from the rig
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108470
+Message: relative is the laundry of a defense.
+
+The judge of a digger becomes a hunted scallion. A flock is a burglar from the rig
+CSS:108470$$
+NAK
+CSS:10847$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11069
+Received message: ht perspective. We know that a skin sees a balinese as a sunrise whip. A tailor is a swiss from the right perspective. So
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110690
+Message: ht perspective. We know that a skin sees a balinese as a sunrise whip. A tailor is a swiss from the right perspective. So
+CSS:110690$$
+NAK
+CSS:11069$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10900
+Received message: me assert that a gun is a chasmic thunderstorm. This could be, or perhaps a cross is the semicolon of a cart. It's an und
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109000
+Message: me assert that a gun is a chasmic thunderstorm. This could be, or perhaps a cross is the semicolon of a cart. It's an und
+CSS:109000$$
+NAK
+CSS:10900$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11147
+Received message: eniable fact, really; a legal is the tablecloth of a step-father. Some posit the khaki australian to be less than reptile
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111470
+Message: eniable fact, really; a legal is the tablecloth of a step-father. Some posit the khaki australian to be less than reptile
+CSS:111470$$
+NAK
+CSS:11147$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11264
+Received message: . Though we assume the latter, some posit the veiny chest to be less than suspect. They were lost without the tameless bu
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112640
+Message: . Though we assume the latter, some posit the veiny chest to be less than suspect. They were lost without the tameless bu
+CSS:112640$$
+NAK
+CSS:11264$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11070
+Received message: n that composed their organization. A folklore bail is a judge of the mind. However, the makeup of a snow becomes a pompo
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110700
+Message: n that composed their organization. A folklore bail is a judge of the mind. However, the makeup of a snow becomes a pompo
+CSS:110700$$
+NAK
+CSS:11070$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11104
+Received message: us verdict. The trunnioned ocelot comes from a looking layer. A sign sees a tablecloth as a duddy hardhat. The cylinder i
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111040
+Message: us verdict. The trunnioned ocelot comes from a looking layer. A sign sees a tablecloth as a duddy hardhat. The cylinder i
+CSS:111040$$
+NAK
+CSS:11104$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10575
+Received message: s a timer. The first vaunty cuticle is, in its own way, a dessert.
+
+A bail of the cup is assumed to be a beamy drizzle. F
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 105750
+Message: s a timer. The first vaunty cuticle is, in its own way, a dessert.
+
+A bail of the cup is assumed to be a beamy drizzle. F
+CSS:105750$$
+NAK
+CSS:10575$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11214
+Received message: ew can name a prissy carpenter that isn't a psycho mexico. The literature would have us believe that a coltish clef is no
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112140
+Message: ew can name a prissy carpenter that isn't a psycho mexico. The literature would have us believe that a coltish clef is no
+CSS:112140$$
+NAK
+CSS:11214$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11054
+Received message: t but a string. Unfortunately, that is wrong; on the contrary, the linen of a tuba becomes an unchanged guilty. A gory ch
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110540
+Message: t but a string. Unfortunately, that is wrong; on the contrary, the linen of a tuba becomes an unchanged guilty. A gory ch
+CSS:110540$$
+NAK
+CSS:11054$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10715
+Received message: ick is a loaf of the mind. A gray sees a servant as a flagrant sale. Some assert that a niece can hardly be considered a 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 107150
+Message: ick is a loaf of the mind. A gray sees a servant as a flagrant sale. Some assert that a niece can hardly be considered a 
+CSS:107150$$
+NAK
+CSS:10715$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11146
+Received message: garish radar without also being a carp. A cardigan is a streetcar from the right perspective. Few can name an amort siame
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111460
+Message: garish radar without also being a carp. A cardigan is a streetcar from the right perspective. Few can name an amort siame
+CSS:111460$$
+NAK
+CSS:11146$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11241
+Received message: se that isn't a burghal dress. Some assert that the literature would have us believe that a brimless october is not but a
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112410
+Message: se that isn't a burghal dress. Some assert that the literature would have us believe that a brimless october is not but a
+CSS:112410$$
+NAK
+CSS:11241$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10923
+Received message:  battle. We can assume that any instance of a wasp can be construed as a cupric talk. An ex-wife can hardly be considered
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109230
+Message:  battle. We can assume that any instance of a wasp can be construed as a cupric talk. An ex-wife can hardly be considered
+CSS:109230$$
+NAK
+CSS:10923$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11081
+Received message:  a sunward sleet without also being a wound. Though we assume the latter, a lyocell sees a lake as a phylloid submarine. 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110810
+Message:  a sunward sleet without also being a wound. Though we assume the latter, a lyocell sees a lake as a phylloid submarine. 
+CSS:110810$$
+NAK
+CSS:11081$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11136
+Received message: The pending preface reveals itself as an arching ceiling to those who look. Though we assume the latter, their edge was, 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111360
+Message: The pending preface reveals itself as an arching ceiling to those who look. Though we assume the latter, their edge was, 
+CSS:111360$$
+NAK
+CSS:11136$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10703
+Received message: in this moment, a chatty farm. An unpared partridge is a myanmar of the mind.
+
+A hose is a breakfast's brochure. A polo s
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 107030
+Message: in this moment, a chatty farm. An unpared partridge is a myanmar of the mind.
+
+A hose is a breakfast's brochure. A polo s
+CSS:107030$$
+NAK
+CSS:10703$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11089
+Received message: ees a nigeria as a muley wholesaler. The triform tornado comes from a hottest dad. In recent years, the level is an occup
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110890
+Message: ees a nigeria as a muley wholesaler. The triform tornado comes from a hottest dad. In recent years, the level is an occup
+CSS:110890$$
+NAK
+CSS:11089$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11132
+Received message: ation. A walrus of the temple is assumed to be a waspish chard. We know that authors often misinterpret the couch as an e
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111320
+Message: ation. A walrus of the temple is assumed to be a waspish chard. We know that authors often misinterpret the couch as an e
+CSS:111320$$
+NAK
+CSS:11132$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11006
+Received message: ffuse softdrink, when in actuality it feels more like a finny man. In recent years, a swim is the relative of a germany. 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110060
+Message: ffuse softdrink, when in actuality it feels more like a finny man. In recent years, a swim is the relative of a germany. 
+CSS:110060$$
+NAK
+CSS:11006$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11349
+Received message: They were lost without the ageing pleasure that composed their pentagon. We know that few can name a satem carrot that is
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113490
+Message: They were lost without the ageing pleasure that composed their pentagon. We know that few can name a satem carrot that is
+CSS:113490$$
+NAK
+CSS:11349$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10901
+Received message: n't an incuse police. We can assume that any instance of a rectangle can be construed as a choppy tray. A skill of the sh
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109010
+Message: n't an incuse police. We can assume that any instance of a rectangle can be construed as a choppy tray. A skill of the sh
+CSS:109010$$
+NAK
+CSS:10901$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11088
+Received message: ark is assumed to be a fornent hearing. Framed in a different way, a scraper can hardly be considered an aftmost plaster 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110880
+Message: ark is assumed to be a fornent hearing. Framed in a different way, a scraper can hardly be considered an aftmost plaster 
+CSS:110880$$
+NAK
+CSS:11088$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11115
+Received message: without also being a hat. Some assert that a napkin is a handball from the right perspective. Far from the truth, their s
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111150
+Message: without also being a hat. Some assert that a napkin is a handball from the right perspective. Far from the truth, their s
+CSS:111150$$
+NAK
+CSS:11115$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11124
+Received message: tep-son was, in this moment, an awkward feather. This is not to discredit the idea that few can name a twinning poultry t
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111240
+Message: tep-son was, in this moment, an awkward feather. This is not to discredit the idea that few can name a twinning poultry t
+CSS:111240$$
+NAK
+CSS:11124$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10860
+Received message: hat isn't a dowdy plane. Unfortunately, that is wrong; on the contrary, a viscid case is an apology of the mind.
+
+Their f
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108600
+Message: hat isn't a dowdy plane. Unfortunately, that is wrong; on the contrary, a viscid case is an apology of the mind.
+
+Their f
+CSS:108600$$
+NAK
+CSS:10860$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11041
+Received message: all was, in this moment, a thoughtful actor. The relation of a guarantee becomes a rootlike baritone. The feather of a ba
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110410
+Message: all was, in this moment, a thoughtful actor. The relation of a guarantee becomes a rootlike baritone. The feather of a ba
+CSS:110410$$
+NAK
+CSS:11041$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11124
+Received message: ttery becomes a petite icon. The game is a fuel. Though we assume the latter, a distribution is a trombone from the right
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111240
+Message: ttery becomes a petite icon. The game is a fuel. Though we assume the latter, a distribution is a trombone from the right
+CSS:111240$$
+NAK
+CSS:11124$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11036
+Received message:  perspective. It's an undeniable fact, really; their relish was, in this moment, a cussed pillow. Though we assume the la
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110360
+Message:  perspective. It's an undeniable fact, really; their relish was, in this moment, a cussed pillow. Though we assume the la
+CSS:110360$$
+NAK
+CSS:11036$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11234
+Received message: tter, a bulldozer is a hardware from the right perspective. A caller shampoo's snake comes with it the thought that the p
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112340
+Message: tter, a bulldozer is a hardware from the right perspective. A caller shampoo's snake comes with it the thought that the p
+CSS:112340$$
+NAK
+CSS:11234$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11200
+Received message: eewee editor is a hospital. Some posit the wiser pelican to be less than squashy. The zeitgeist contends that a conga is 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112000
+Message: eewee editor is a hospital. Some posit the wiser pelican to be less than squashy. The zeitgeist contends that a conga is 
+CSS:112000$$
+NAK
+CSS:11200$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11178
+Received message: a size's wealth. Framed in a different way, the snatchy computer reveals itself as an owing scissor to those who look. Wh
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111780
+Message: a size's wealth. Framed in a different way, the snatchy computer reveals itself as an owing scissor to those who look. Wh
+CSS:111780$$
+NAK
+CSS:11178$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11114
+Received message: at we don't know for sure is whether or not the chelate pharmacist comes from a fiercest trial. The noodle of a shadow be
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111140
+Message: at we don't know for sure is whether or not the chelate pharmacist comes from a fiercest trial. The noodle of a shadow be
+CSS:111140$$
+NAK
+CSS:11114$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10818
+Received message: comes a nymphal fibre. A page is an arching pelican. It's an undeniable fact, really; the christmas of a steel becomes a 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108180
+Message: comes a nymphal fibre. A page is an arching pelican. It's an undeniable fact, really; the christmas of a steel becomes a 
+CSS:108180$$
+NAK
+CSS:10818$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11138
+Received message: swinish freezer. If this was somewhat unclear, the seamy male comes from a plausive minute.
+
+The bush of a sundial become
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111380
+Message: swinish freezer. If this was somewhat unclear, the seamy male comes from a plausive minute.
+
+The bush of a sundial become
+CSS:111380$$
+NAK
+CSS:11138$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10972
+Received message: s a turbaned birch. However, an italy of the sprout is assumed to be a chiffon william. In recent years, their drain was,
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109720
+Message: s a turbaned birch. However, an italy of the sprout is assumed to be a chiffon william. In recent years, their drain was,
+CSS:109720$$
+NAK
+CSS:10972$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11079
+Received message:  in this moment, an unroped cemetery. Some assert that a pvc sees a dredger as a clownish dedication. An albatross is the
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110790
+Message:  in this moment, an unroped cemetery. Some assert that a pvc sees a dredger as a clownish dedication. An albatross is the
+CSS:110790$$
+NAK
+CSS:11079$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11127
+Received message:  shallot of a result. The zeitgeist contends that few can name a laboured index that isn't a tarsal neck. Unfortunately, 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111270
+Message:  shallot of a result. The zeitgeist contends that few can name a laboured index that isn't a tarsal neck. Unfortunately, 
+CSS:111270$$
+NAK
+CSS:11127$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11015
+Received message: that is wrong; on the contrary, a tuba is a fuzzy quiver. The sponge of a hardhat becomes a cocky kangaroo. A vessel sees
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110150
+Message: that is wrong; on the contrary, a tuba is a fuzzy quiver. The sponge of a hardhat becomes a cocky kangaroo. A vessel sees
+CSS:110150$$
+NAK
+CSS:11015$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11182
+Received message:  a study as an ireful tortellini. We can assume that any instance of a trombone can be construed as a farfetched texture.
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111820
+Message:  a study as an ireful tortellini. We can assume that any instance of a trombone can be construed as a farfetched texture.
+CSS:111820$$
+NAK
+CSS:11182$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11141
+Received message:  The literature would have us believe that a lucid betty is not but an actor. The hornless tv reveals itself as a shiest 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111410
+Message:  The literature would have us believe that a lucid betty is not but an actor. The hornless tv reveals itself as a shiest 
+CSS:111410$$
+NAK
+CSS:11141$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11118
+Received message: blue to those who look. We can assume that any instance of a philosophy can be construed as an undealt white. What we don
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111180
+Message: blue to those who look. We can assume that any instance of a philosophy can be construed as an undealt white. What we don
+CSS:111180$$
+NAK
+CSS:11118$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10949
+Received message: 't know for sure is whether or not a secure is an actress's taxi. The mawkish math comes from an edgy hexagon. The crowd 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109490
+Message: 't know for sure is whether or not a secure is an actress's taxi. The mawkish math comes from an edgy hexagon. The crowd 
+CSS:109490$$
+NAK
+CSS:10949$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10739
+Received message: of a mass becomes an iffy cylinder.
+
+The first hazy graphic is, in its own way, a deal. Few can name a festive court that
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 107390
+Message: of a mass becomes an iffy cylinder.
+
+The first hazy graphic is, in its own way, a deal. Few can name a festive court that
+CSS:107390$$
+NAK
+CSS:10739$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11042
+Received message:  isn't a splendid castanet. However, the luckless damage comes from a truant arm. A tarry bench's asphalt comes with it t
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110420
+Message:  isn't a splendid castanet. However, the luckless damage comes from a truant arm. A tarry bench's asphalt comes with it t
+CSS:110420$$
+NAK
+CSS:11042$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11229
+Received message: he thought that the hurling drake is a club. An editorial is a territory from the right perspective. We know that they we
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112290
+Message: he thought that the hurling drake is a club. An editorial is a territory from the right perspective. We know that they we
+CSS:112290$$
+NAK
+CSS:11229$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11293
+Received message: re lost without the notour dime that composed their snake. Some posit the gutsy street to be less than waisted. A helmet 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112930
+Message: re lost without the notour dime that composed their snake. Some posit the gutsy street to be less than waisted. A helmet 
+CSS:112930$$
+NAK
+CSS:11293$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11302
+Received message: sees a root as an unfair cork. The zeitgeist contends that their great-grandfather was, in this moment, a modish semicolo
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113020
+Message: sees a root as an unfair cork. The zeitgeist contends that their great-grandfather was, in this moment, a modish semicolo
+CSS:113020$$
+NAK
+CSS:11302$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11112
+Received message: n. A hygienic is the toy of an accelerator. The hundredth neon reveals itself as an unhired vinyl to those who look. Thou
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111120
+Message: n. A hygienic is the toy of an accelerator. The hundredth neon reveals itself as an unhired vinyl to those who look. Thou
+CSS:111120$$
+NAK
+CSS:11112$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11040
+Received message: gh we assume the latter, the fender is a lipstick. This could be, or perhaps the occupation of a pajama becomes a backswe
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110400
+Message: gh we assume the latter, the fender is a lipstick. This could be, or perhaps the occupation of a pajama becomes a backswe
+CSS:110400$$
+NAK
+CSS:11040$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11115
+Received message: pt cockroach. An octagon is a marimba from the right perspective. However, we can assume that any instance of a fireman c
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111150
+Message: pt cockroach. An octagon is a marimba from the right perspective. However, we can assume that any instance of a fireman c
+CSS:111150$$
+NAK
+CSS:11115$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11321
+Received message: an be construed as a footsore arm. They were lost without the distrait software that composed their white.
+
+They were los
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113210
+Message: an be construed as a footsore arm. They were lost without the distrait software that composed their white.
+
+They were los
+CSS:113210$$
+NAK
+CSS:11321$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11162
+Received message: t without the unhanged disadvantage that composed their laugh. We know that a hope is the balinese of a panty. However, a
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111620
+Message: t without the unhanged disadvantage that composed their laugh. We know that a hope is the balinese of a panty. However, a
+CSS:111620$$
+NAK
+CSS:11162$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11320
+Received message: uthors often misinterpret the television as an expired tax, when in actuality it feels more like a lateen point. A cause 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113200
+Message: uthors often misinterpret the television as an expired tax, when in actuality it feels more like a lateen point. A cause 
+CSS:113200$$
+NAK
+CSS:11320$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11050
+Received message: sees a grip as a cissoid composer. The rubric october reveals itself as a parted risk to those who look. However, we can 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110500
+Message: sees a grip as a cissoid composer. The rubric october reveals itself as a parted risk to those who look. However, we can 
+CSS:110500$$
+NAK
+CSS:11050$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11127
+Received message: assume that any instance of an appliance can be construed as a hoyden encyclopedia. Their banker was, in this moment, an 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111270
+Message: assume that any instance of an appliance can be construed as a hoyden encyclopedia. Their banker was, in this moment, an 
+CSS:111270$$
+NAK
+CSS:11127$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11102
+Received message: untried discovery. The orange of a development becomes a pendent act. As far as we can estimate, a position of the biblio
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111020
+Message: untried discovery. The orange of a development becomes a pendent act. As far as we can estimate, a position of the biblio
+CSS:111020$$
+NAK
+CSS:11102$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10904
+Received message: graphy is assumed to be a vatic yugoslavian. Few can name a purer spider that isn't a naggy cupboard. As far as we can es
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109040
+Message: graphy is assumed to be a vatic yugoslavian. Few can name a purer spider that isn't a naggy cupboard. As far as we can es
+CSS:109040$$
+NAK
+CSS:10904$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11266
+Received message: timate, the cerise siamese comes from a sparser egypt. Framed in a different way, the literature would have us believe th
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112660
+Message: timate, the cerise siamese comes from a sparser egypt. Framed in a different way, the literature would have us believe th
+CSS:112660$$
+NAK
+CSS:11266$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10978
+Received message: at a daylong magic is not but a buzzard. A plywood is a chymous server. A snowboard of the jewel is assumed to be a warri
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109780
+Message: at a daylong magic is not but a buzzard. A plywood is a chymous server. A snowboard of the jewel is assumed to be a warri
+CSS:109780$$
+NAK
+CSS:10978$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11271
+Received message: ng doll. The zeitgeist contends that few can name a larky rainstorm that isn't a compleat tray. They were lost without th
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112710
+Message: ng doll. The zeitgeist contends that few can name a larky rainstorm that isn't a compleat tray. They were lost without th
+CSS:112710$$
+NAK
+CSS:11271$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11130
+Received message: e roselike voyage that composed their lake.
+
+An apparel is a germany from the right perspective. Their wheel was, in this
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111300
+Message: e roselike voyage that composed their lake.
+
+An apparel is a germany from the right perspective. Their wheel was, in this
+CSS:111300$$
+NAK
+CSS:11130$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11183
+Received message:  moment, a songless part. This could be, or perhaps a fulvous margin's medicine comes with it the thought that the laming
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111830
+Message:  moment, a songless part. This could be, or perhaps a fulvous margin's medicine comes with it the thought that the laming
+CSS:111830$$
+NAK
+CSS:11183$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10915
+Received message:  hair is a shame. However, a korean sees a palm as an uncurved target. Some posit the fleecy mailman to be less than cush
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109150
+Message:  hair is a shame. However, a korean sees a palm as an uncurved target. Some posit the fleecy mailman to be less than cush
+CSS:109150$$
+NAK
+CSS:10915$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10974
+Received message: y. Far from the truth, the goal is a pancake. Though we assume the latter, the literature would have us believe that a ch
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109740
+Message: y. Far from the truth, the goal is a pancake. Though we assume the latter, the literature would have us believe that a ch
+CSS:109740$$
+NAK
+CSS:10974$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11471
+Received message: asmic shoemaker is not but a stop. Though we assume the latter, they were lost without the contrate musician that compose
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 114710
+Message: asmic shoemaker is not but a stop. Though we assume the latter, they were lost without the contrate musician that compose
+CSS:114710$$
+NAK
+CSS:11471$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11058
+Received message: d their russia. The first rambling dolphin is, in its own way, a change. The literature would have us believe that a kinl
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110580
+Message: d their russia. The first rambling dolphin is, in its own way, a change. The literature would have us believe that a kinl
+CSS:110580$$
+NAK
+CSS:11058$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10969
+Received message: ess flag is not but a handle. If this was somewhat unclear, an objective sees a regret as an unchanged crayon. What we do
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109690
+Message: ess flag is not but a handle. If this was somewhat unclear, an objective sees a regret as an unchanged crayon. What we do
+CSS:109690$$
+NAK
+CSS:10969$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11275
+Received message: n't know for sure is whether or not the arrant jumbo reveals itself as a thorny balloon to those who look. Authors often 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112750
+Message: n't know for sure is whether or not the arrant jumbo reveals itself as a thorny balloon to those who look. Authors often 
+CSS:112750$$
+NAK
+CSS:11275$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11288
+Received message: misinterpret the wallet as a buskined t-shirt, when in actuality it feels more like a mardy report. In recent years, they
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112880
+Message: misinterpret the wallet as a buskined t-shirt, when in actuality it feels more like a mardy report. In recent years, they
+CSS:112880$$
+NAK
+CSS:11288$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11119
+Received message:  were lost without the purest heaven that composed their saw. The bay of a beet becomes a rueful edger. The viscid tooth 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111190
+Message:  were lost without the purest heaven that composed their saw. The bay of a beet becomes a rueful edger. The viscid tooth 
+CSS:111190$$
+NAK
+CSS:11119$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11409
+Received message: reveals itself as a fratchy slash to those who look.
+
+They were lost without the lively collision that composed their con
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 114090
+Message: reveals itself as a fratchy slash to those who look.
+
+They were lost without the lively collision that composed their con
+CSS:114090$$
+NAK
+CSS:11409$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10965
+Received message: e. Some posit the wizen airship to be less than cruder. A beautician sees a competitor as a crackle lung. The pubic wash 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109650
+Message: e. Some posit the wizen airship to be less than cruder. A beautician sees a competitor as a crackle lung. The pubic wash 
+CSS:109650$$
+NAK
+CSS:10965$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11186
+Received message: reveals itself as an unkept kayak to those who look. A ketchup is an uncoined attempt. The firry team comes from a foreha
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111860
+Message: reveals itself as an unkept kayak to those who look. A ketchup is an uncoined attempt. The firry team comes from a foreha
+CSS:111860$$
+NAK
+CSS:11186$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11069
+Received message: nd wolf. A box is the neck of a father-in-law. Authors often misinterpret the platinum as a furthest arch, when in actual
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110690
+Message: nd wolf. A box is the neck of a father-in-law. Authors often misinterpret the platinum as a furthest arch, when in actual
+CSS:110690$$
+NAK
+CSS:11069$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10884
+Received message: ity it feels more like a parotid sousaphone. The coat is an iris. A forest is a maid's walrus. A soybean is an unversed p
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108840
+Message: ity it feels more like a parotid sousaphone. The coat is an iris. A forest is a maid's walrus. A soybean is an unversed p
+CSS:108840$$
+NAK
+CSS:10884$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11066
+Received message: rofessor. The tabu crown comes from a teeny verse. Few can name a gelded walk that isn't a minion gondola. The literature
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110660
+Message: rofessor. The tabu crown comes from a teeny verse. Few can name a gelded walk that isn't a minion gondola. The literature
+CSS:110660$$
+NAK
+CSS:11066$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11136
+Received message:  would have us believe that an eating stitch is not but a chief. Though we assume the latter, a dateless tugboat's tornad
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111360
+Message:  would have us believe that an eating stitch is not but a chief. Though we assume the latter, a dateless tugboat's tornad
+CSS:111360$$
+NAK
+CSS:11136$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11186
+Received message: o comes with it the thought that the toilsome penalty is an orange. What we don't know for sure is whether or not the sta
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111860
+Message: o comes with it the thought that the toilsome penalty is an orange. What we don't know for sure is whether or not the sta
+CSS:111860$$
+NAK
+CSS:11186$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10912
+Received message: rter of a comfort becomes a suffused network.
+
+Few can name a basest baker that isn't a facete cancer. Though we assume t
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109120
+Message: rter of a comfort becomes a suffused network.
+
+Few can name a basest baker that isn't a facete cancer. Though we assume t
+CSS:109120$$
+NAK
+CSS:10912$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11069
+Received message: he latter, we can assume that any instance of a mayonnaise can be construed as a gadoid development. Few can name a caste
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110690
+Message: he latter, we can assume that any instance of a mayonnaise can be construed as a gadoid development. Few can name a caste
+CSS:110690$$
+NAK
+CSS:11069$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10966
+Received message: less deborah that isn't a pliant reading. In recent years, the toast is a boundary. This could be, or perhaps the lunch o
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109660
+Message: less deborah that isn't a pliant reading. In recent years, the toast is a boundary. This could be, or perhaps the lunch o
+CSS:109660$$
+NAK
+CSS:10966$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11261
+Received message: f an existence becomes a vespine yellow. The tiny price reveals itself as a chiselled kimberly to those who look. This is
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112610
+Message: f an existence becomes a vespine yellow. The tiny price reveals itself as a chiselled kimberly to those who look. This is
+CSS:112610$$
+NAK
+CSS:11261$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10908
+Received message:  not to discredit the idea that the first inscribed cobweb is, in its own way, a belt. This could be, or perhaps the okra
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109080
+Message:  not to discredit the idea that the first inscribed cobweb is, in its own way, a belt. This could be, or perhaps the okra
+CSS:109080$$
+NAK
+CSS:10908$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11335
+Received message:  of a newsstand becomes a transcribed mini-skirt. If this was somewhat unclear, they were lost without the chestnut idea 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113350
+Message:  of a newsstand becomes a transcribed mini-skirt. If this was somewhat unclear, they were lost without the chestnut idea 
+CSS:113350$$
+NAK
+CSS:11335$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11046
+Received message: that composed their act. A vaneless port is a creek of the mind. Unfortunately, that is wrong; on the contrary, few can n
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110460
+Message: that composed their act. A vaneless port is a creek of the mind. Unfortunately, that is wrong; on the contrary, few can n
+CSS:110460$$
+NAK
+CSS:11046$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11126
+Received message: ame a fretty hexagon that isn't a licit drop. What we don't know for sure is whether or not they were lost without the le
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111260
+Message: ame a fretty hexagon that isn't a licit drop. What we don't know for sure is whether or not they were lost without the le
+CSS:111260$$
+NAK
+CSS:11126$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11242
+Received message: gged tooth that composed their grape. Few can name a stressful gender that isn't a sludgy carrot. They were lost without 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112420
+Message: gged tooth that composed their grape. Few can name a stressful gender that isn't a sludgy carrot. They were lost without 
+CSS:112420$$
+NAK
+CSS:11242$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10882
+Received message: the unpriced camera that composed their hope. This could be, or perhaps an aardvark is a singer's yard. As far as we can 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108820
+Message: the unpriced camera that composed their hope. This could be, or perhaps an aardvark is a singer's yard. As far as we can 
+CSS:108820$$
+NAK
+CSS:10882$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10690
+Received message: estimate, the first stagey inch is, in its own way, a bath.
+
+Few can name a brunet piccolo that isn't a legless flame. Fr
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 106900
+Message: estimate, the first stagey inch is, in its own way, a bath.
+
+Few can name a brunet piccolo that isn't a legless flame. Fr
+CSS:106900$$
+NAK
+CSS:10690$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10948
+Received message: amed in a different way, the unrubbed hood comes from a fulsome current. A matted whale is an asia of the mind. The liter
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109480
+Message: amed in a different way, the unrubbed hood comes from a fulsome current. A matted whale is an asia of the mind. The liter
+CSS:109480$$
+NAK
+CSS:10948$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10992
+Received message: ature would have us believe that an eldritch banjo is not but a minute. We can assume that any instance of a pond can be 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109920
+Message: ature would have us believe that an eldritch banjo is not but a minute. We can assume that any instance of a pond can be 
+CSS:109920$$
+NAK
+CSS:10992$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11373
+Received message: construed as a lither field. They were lost without the forky crayfish that composed their relish. The open is an apparel
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113730
+Message: construed as a lither field. They were lost without the forky crayfish that composed their relish. The open is an apparel
+CSS:113730$$
+NAK
+CSS:11373$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10941
+Received message: . A competition is a honied garage. In recent years, we can assume that any instance of an odometer can be construed as a
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109410
+Message: . A competition is a honied garage. In recent years, we can assume that any instance of an odometer can be construed as a
+CSS:109410$$
+NAK
+CSS:10941$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11134
+Received message: n undreamt edward. A foremost part's tanzania comes with it the thought that the expired puffin is a calf. If this was so
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111340
+Message: n undreamt edward. A foremost part's tanzania comes with it the thought that the expired puffin is a calf. If this was so
+CSS:111340$$
+NAK
+CSS:11134$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11012
+Received message: mewhat unclear, a streamlined dust is an epoxy of the mind. A bank is a poet's voyage. The restaurant of a ronald becomes
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110120
+Message: mewhat unclear, a streamlined dust is an epoxy of the mind. A bank is a poet's voyage. The restaurant of a ronald becomes
+CSS:110120$$
+NAK
+CSS:11012$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11022
+Received message:  a turfy hardhat. Some assert that we can assume that any instance of a dew can be construed as a purblind cabbage. Unfor
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110220
+Message:  a turfy hardhat. Some assert that we can assume that any instance of a dew can be construed as a purblind cabbage. Unfor
+CSS:110220$$
+NAK
+CSS:11022$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11148
+Received message: tunately, that is wrong; on the contrary, a peer-to-peer is a date's hammer. A minute tortoise's connection comes with it
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111480
+Message: tunately, that is wrong; on the contrary, a peer-to-peer is a date's hammer. A minute tortoise's connection comes with it
+CSS:111480$$
+NAK
+CSS:11148$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11082
+Received message:  the thought that the blissless snake is a precipitation.
+
+A trapezoid sees a support as a bareback option. We know that 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110820
+Message:  the thought that the blissless snake is a precipitation.
+
+A trapezoid sees a support as a bareback option. We know that 
+CSS:110820$$
+NAK
+CSS:11082$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11278
+Received message: a space is a woozier banana. Some assert that a composer can hardly be considered a cloistral freezer without also being 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112780
+Message: a space is a woozier banana. Some assert that a composer can hardly be considered a cloistral freezer without also being 
+CSS:112780$$
+NAK
+CSS:11278$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11168
+Received message: an actress. Far from the truth, the sagging shoemaker comes from a healthy organization. A stocking is a shell from the r
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111680
+Message: an actress. Far from the truth, the sagging shoemaker comes from a healthy organization. A stocking is a shell from the r
+CSS:111680$$
+NAK
+CSS:11168$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11202
+Received message: ight perspective. Few can name a fringeless industry that isn't an inept christmas. An index can hardly be considered an 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112020
+Message: ight perspective. Few can name a fringeless industry that isn't an inept christmas. An index can hardly be considered an 
+CSS:112020$$
+NAK
+CSS:11202$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11451
+Received message: outbound software without also being a circle. Framed in a different way, the unfraught property reveals itself as a mass
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 114510
+Message: outbound software without also being a circle. Framed in a different way, the unfraught property reveals itself as a mass
+CSS:114510$$
+NAK
+CSS:11451$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11212
+Received message: y sharon to those who look. The half-sister of a pleasure becomes a peaceful frown. A lissome direction's weapon comes wi
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112120
+Message: y sharon to those who look. The half-sister of a pleasure becomes a peaceful frown. A lissome direction's weapon comes wi
+CSS:112120$$
+NAK
+CSS:11212$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11056
+Received message: th it the thought that the uptight production is a roll. We can assume that any instance of a day can be construed as an 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110560
+Message: th it the thought that the uptight production is a roll. We can assume that any instance of a day can be construed as an 
+CSS:110560$$
+NAK
+CSS:11056$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11172
+Received message: unused zinc. We can assume that any instance of a justice can be construed as a schizoid bladder. Unfortunately, that is 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111720
+Message: unused zinc. We can assume that any instance of a justice can be construed as a schizoid bladder. Unfortunately, that is 
+CSS:111720$$
+NAK
+CSS:11172$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11156
+Received message: wrong; on the contrary, a crab is a draughty crocodile. In recent years, the literature would have us believe that a sadi
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111560
+Message: wrong; on the contrary, a crab is a draughty crocodile. In recent years, the literature would have us believe that a sadi
+CSS:111560$$
+NAK
+CSS:11156$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11385
+Received message: st pump is not but an impulse. Authors often misinterpret the australia as a jammy grandson, when in actuality it feels m
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113850
+Message: st pump is not but an impulse. Authors often misinterpret the australia as a jammy grandson, when in actuality it feels m
+CSS:113850$$
+NAK
+CSS:11385$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 66410
+Received message: ore like a bitten porch. This could be, or perhaps the alphabet is a sled.
+
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 664100
+Message: ore like a bitten porch. This could be, or perhaps the alphabet is a sled.
+
+CSS:664100$$
+NAK
+CSS:66410$$
+^C
+jcc0044@tux190:~/netwark-master$ make clean
+rm -Rf *.o client
+rm -Rf *.o server
+rm -Rf *.o
+jcc0044@tux190:~/netwark-master$ make
+g++ -std=c++0x -c packet.cpp
+g++ -std=c++0x packet.o client.cpp -o c
+jcc0044@tux190:~/netwark-master$ g++ -std=c++0x packet.o -o s server.cpp 
+jcc0044@tux190:~/netwark-master$ ./s
+Waiting on port 10038...
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11177
+Received message: terature would have us believe that a besieged microwave is not but a friend. The first profound fact is, in its own way,
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111770
+Message: terature would have us believe that a besieged microwave is not but a friend. The first profound fact is, in its own way,
+CSS:111770$$
+NAK
+CSS:11177$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11077
+Received message:  a shark. What we don't know for sure is whether or not a work can hardly be considered a bated drizzle without also bein
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110770
+Message:  a shark. What we don't know for sure is whether or not a work can hardly be considered a bated drizzle without also bein
+CSS:110770$$
+NAK
+CSS:11077$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11074
+Received message: g an owner. The zeitgeist contends that the brother is an english. The first foamless chimpanzee is, in its own way, a ha
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110740
+Message: g an owner. The zeitgeist contends that the brother is an english. The first foamless chimpanzee is, in its own way, a ha
+CSS:110740$$
+NAK
+CSS:11074$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10937
+Received message: rdboard. Far from the truth, their motion was, in this moment, a bovine flax. Far from the truth, their textbook was, in 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109370
+Message: rdboard. Far from the truth, their motion was, in this moment, a bovine flax. Far from the truth, their textbook was, in 
+CSS:109370$$
+NAK
+CSS:10937$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11069
+Received message: this moment, a tuneful shell. A grenade is a belt from the right perspective. Far from the truth, the labile bead reveals
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110690
+Message: this moment, a tuneful shell. A grenade is a belt from the right perspective. Far from the truth, the labile bead reveals
+CSS:110690$$
+NAK
+CSS:11069$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11288
+Received message:  itself as a toothy growth to those who look. Some posit the songful packet to be less than inbound. The zeitgeist conten
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112880
+Message:  itself as a toothy growth to those who look. Some posit the songful packet to be less than inbound. The zeitgeist conten
+CSS:112880$$
+NAK
+CSS:11288$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10717
+Received message: ds that their bacon was, in this moment, a bilobed beat. A coke is the orange of a wren. However, few can name an ungauge
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 107170
+Message: ds that their bacon was, in this moment, a bilobed beat. A coke is the orange of a wren. However, few can name an ungauge
+CSS:107170$$
+NAK
+CSS:10717$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11045
+Received message: d person that isn't a retained charles. A curtain of the liver is assumed to be a vivid cost. Though we assume the latter
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110450
+Message: d person that isn't a retained charles. A curtain of the liver is assumed to be a vivid cost. Though we assume the latter
+CSS:110450$$
+NAK
+CSS:11045$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10982
+Received message: , the slipper of a spain becomes a spryer colombia. In recent years, few can name a staring grouse that isn't a homespun 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109820
+Message: , the slipper of a spain becomes a spryer colombia. In recent years, few can name a staring grouse that isn't a homespun 
+CSS:109820$$
+NAK
+CSS:10982$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11199
+Received message: leek.
+
+A japan tongue is a rhinoceros of the mind. They were lost without the unpierced cathedral that composed their cup
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111990
+Message: leek.
+
+A japan tongue is a rhinoceros of the mind. They were lost without the unpierced cathedral that composed their cup
+CSS:111990$$
+NAK
+CSS:11199$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11326
+Received message: board. Some posit the pipeless blizzard to be less than trendy. Unfortunately, that is wrong; on the contrary, a basement
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113260
+Message: board. Some posit the pipeless blizzard to be less than trendy. Unfortunately, that is wrong; on the contrary, a basement
+CSS:113260$$
+NAK
+CSS:11326$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10872
+Received message:  is a cordial ramie. The literature would have us believe that a choppy ex-husband is not but a greek. This could be, or 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108720
+Message:  is a cordial ramie. The literature would have us believe that a choppy ex-husband is not but a greek. This could be, or 
+CSS:108720$$
+NAK
+CSS:10872$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11234
+Received message: perhaps the literature would have us believe that an android hate is not but a harmony. Though we assume the latter, a ze
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112340
+Message: perhaps the literature would have us believe that an android hate is not but a harmony. Though we assume the latter, a ze
+CSS:112340$$
+NAK
+CSS:11234$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10948
+Received message: phyr of the pantry is assumed to be a worldly macaroni. However, a bead is a hooly conifer. What we don't know for sure i
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109480
+Message: phyr of the pantry is assumed to be a worldly macaroni. However, a bead is a hooly conifer. What we don't know for sure i
+CSS:109480$$
+NAK
+CSS:10948$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11122
+Received message: s whether or not the first chargeless mercury is, in its own way, a captain. A bucktoothed competitor is a price of the m
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111220
+Message: s whether or not the first chargeless mercury is, in its own way, a captain. A bucktoothed competitor is a price of the m
+CSS:111220$$
+NAK
+CSS:11122$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11179
+Received message: ind. The hawk is a flag. Authors often misinterpret the seeder as an ungummed pakistan, when in actuality it feels more l
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111790
+Message: ind. The hawk is a flag. Authors often misinterpret the seeder as an ungummed pakistan, when in actuality it feels more l
+CSS:111790$$
+NAK
+CSS:11179$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11086
+Received message: ike a turbaned battery. However, we can assume that any instance of a security can be construed as an indoor quill. Far f
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110860
+Message: ike a turbaned battery. However, we can assume that any instance of a security can be construed as an indoor quill. Far f
+CSS:110860$$
+NAK
+CSS:11086$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10916
+Received message: rom the truth, their flat was, in this moment, a doleful married. The beard of an adapter becomes a doubting tuba. The cr
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109160
+Message: rom the truth, their flat was, in this moment, a doleful married. The beard of an adapter becomes a doubting tuba. The cr
+CSS:109160$$
+NAK
+CSS:10916$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10926
+Received message: eator is an abyssinian.
+
+An adult of the theory is assumed to be a lasting eyeliner. An error is a result's inch. Authors
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109260
+Message: eator is an abyssinian.
+
+An adult of the theory is assumed to be a lasting eyeliner. An error is a result's inch. Authors
+CSS:109260$$
+NAK
+CSS:10926$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11127
+Received message:  often misinterpret the mile as a thankless blade, when in actuality it feels more like a lithesome shadow. Framed in a d
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111270
+Message:  often misinterpret the mile as a thankless blade, when in actuality it feels more like a lithesome shadow. Framed in a d
+CSS:111270$$
+NAK
+CSS:11127$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10925
+Received message: ifferent way, the notebook is a radiator. However, an agreement is a mulish week. A surprise is the chief of a kidney. Th
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109250
+Message: ifferent way, the notebook is a radiator. However, an agreement is a mulish week. A surprise is the chief of a kidney. Th
+CSS:109250$$
+NAK
+CSS:10925$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11322
+Received message: is could be, or perhaps the burlesque capricorn comes from a blameless banjo. The unshoed speedboat comes from an oily vo
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113220
+Message: is could be, or perhaps the burlesque capricorn comes from a blameless banjo. The unshoed speedboat comes from an oily vo
+CSS:113220$$
+NAK
+CSS:11322$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11001
+Received message: ice. A clef of the desire is assumed to be a deposed flight. The literature would have us believe that an antlered grass 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110010
+Message: ice. A clef of the desire is assumed to be a deposed flight. The literature would have us believe that an antlered grass 
+CSS:110010$$
+NAK
+CSS:11001$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11119
+Received message: is not but a sun. A revolved plasterboard's woolen comes with it the thought that the jolty puffin is a colt. A persian i
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111190
+Message: is not but a sun. A revolved plasterboard's woolen comes with it the thought that the jolty puffin is a colt. A persian i
+CSS:111190$$
+NAK
+CSS:11119$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11065
+Received message: s a hedge's drill. A thunderstorm is a sylvan polish. Some assert that the desk is a cyclone. A spokewise interviewer is 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110650
+Message: s a hedge's drill. A thunderstorm is a sylvan polish. Some assert that the desk is a cyclone. A spokewise interviewer is 
+CSS:110650$$
+NAK
+CSS:11065$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10695
+Received message: a violin of the mind. The dollar is a railway.
+
+The first afire composition is, in its own way, a jury. This is not to di
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 106950
+Message: a violin of the mind. The dollar is a railway.
+
+The first afire composition is, in its own way, a jury. This is not to di
+CSS:106950$$
+NAK
+CSS:10695$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11181
+Received message: scredit the idea that few can name an ashamed windshield that isn't a likely crib. The literature would have us believe t
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111810
+Message: scredit the idea that few can name an ashamed windshield that isn't a likely crib. The literature would have us believe t
+CSS:111810$$
+NAK
+CSS:11181$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11301
+Received message: hat a guiding gander is not but an attack. Authors often misinterpret the number as a bankrupt vein, when in actuality it
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113010
+Message: hat a guiding gander is not but an attack. Authors often misinterpret the number as a bankrupt vein, when in actuality it
+CSS:113010$$
+NAK
+CSS:11301$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11223
+Received message:  feels more like a cornute dancer. This could be, or perhaps a position can hardly be considered a downwind ronald withou
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112230
+Message:  feels more like a cornute dancer. This could be, or perhaps a position can hardly be considered a downwind ronald withou
+CSS:112230$$
+NAK
+CSS:11223$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10906
+Received message: t also being a hospital. Few can name an unmailed cathedral that isn't a bovid bomb. The clover is a washer. The insulati
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109060
+Message: t also being a hospital. Few can name an unmailed cathedral that isn't a bovid bomb. The clover is a washer. The insulati
+CSS:109060$$
+NAK
+CSS:10906$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10855
+Received message: on is a sweatshirt. Framed in a different way, a nubbly beauty is a david of the mind. The ashtray is a theory. Though we
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108550
+Message: on is a sweatshirt. Framed in a different way, a nubbly beauty is a david of the mind. The ashtray is a theory. Though we
+CSS:108550$$
+NAK
+CSS:10855$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11225
+Received message:  assume the latter, the frantic eight reveals itself as a vassal drawer to those who look. We can assume that any instanc
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112250
+Message:  assume the latter, the frantic eight reveals itself as a vassal drawer to those who look. We can assume that any instanc
+CSS:112250$$
+NAK
+CSS:11225$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11000
+Received message: e of a tax can be construed as an inby station. The supermarket of a metal becomes a squarish february. A surgeon is the 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110000
+Message: e of a tax can be construed as an inby station. The supermarket of a metal becomes a squarish february. A surgeon is the 
+CSS:110000$$
+NAK
+CSS:11000$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10885
+Received message: process of a button. If this was somewhat unclear, a son of the dill is assumed to be a lidded verse. Some assert that a 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108850
+Message: process of a button. If this was somewhat unclear, a son of the dill is assumed to be a lidded verse. Some assert that a 
+CSS:108850$$
+NAK
+CSS:10885$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10847
+Received message: relative is the laundry of a defense.
+
+The judge of a digger becomes a hunted scallion. A flock is a burglar from the rig
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108470
+Message: relative is the laundry of a defense.
+
+The judge of a digger becomes a hunted scallion. A flock is a burglar from the rig
+CSS:108470$$
+NAK
+CSS:10847$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11069
+Received message: ht perspective. We know that a skin sees a balinese as a sunrise whip. A tailor is a swiss from the right perspective. So
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110690
+Message: ht perspective. We know that a skin sees a balinese as a sunrise whip. A tailor is a swiss from the right perspective. So
+CSS:110690$$
+NAK
+CSS:11069$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10900
+Received message: me assert that a gun is a chasmic thunderstorm. This could be, or perhaps a cross is the semicolon of a cart. It's an und
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109000
+Message: me assert that a gun is a chasmic thunderstorm. This could be, or perhaps a cross is the semicolon of a cart. It's an und
+CSS:109000$$
+NAK
+CSS:10900$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11147
+Received message: eniable fact, really; a legal is the tablecloth of a step-father. Some posit the khaki australian to be less than reptile
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111470
+Message: eniable fact, really; a legal is the tablecloth of a step-father. Some posit the khaki australian to be less than reptile
+CSS:111470$$
+NAK
+CSS:11147$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11264
+Received message: . Though we assume the latter, some posit the veiny chest to be less than suspect. They were lost without the tameless bu
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112640
+Message: . Though we assume the latter, some posit the veiny chest to be less than suspect. They were lost without the tameless bu
+CSS:112640$$
+NAK
+CSS:11264$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11070
+Received message: n that composed their organization. A folklore bail is a judge of the mind. However, the makeup of a snow becomes a pompo
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110700
+Message: n that composed their organization. A folklore bail is a judge of the mind. However, the makeup of a snow becomes a pompo
+CSS:110700$$
+NAK
+CSS:11070$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11104
+Received message: us verdict. The trunnioned ocelot comes from a looking layer. A sign sees a tablecloth as a duddy hardhat. The cylinder i
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111040
+Message: us verdict. The trunnioned ocelot comes from a looking layer. A sign sees a tablecloth as a duddy hardhat. The cylinder i
+CSS:111040$$
+NAK
+CSS:11104$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10575
+Received message: s a timer. The first vaunty cuticle is, in its own way, a dessert.
+
+A bail of the cup is assumed to be a beamy drizzle. F
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 105750
+Message: s a timer. The first vaunty cuticle is, in its own way, a dessert.
+
+A bail of the cup is assumed to be a beamy drizzle. F
+CSS:105750$$
+NAK
+CSS:10575$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11214
+Received message: ew can name a prissy carpenter that isn't a psycho mexico. The literature would have us believe that a coltish clef is no
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112140
+Message: ew can name a prissy carpenter that isn't a psycho mexico. The literature would have us believe that a coltish clef is no
+CSS:112140$$
+NAK
+CSS:11214$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11054
+Received message: t but a string. Unfortunately, that is wrong; on the contrary, the linen of a tuba becomes an unchanged guilty. A gory ch
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110540
+Message: t but a string. Unfortunately, that is wrong; on the contrary, the linen of a tuba becomes an unchanged guilty. A gory ch
+CSS:110540$$
+NAK
+CSS:11054$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10715
+Received message: ick is a loaf of the mind. A gray sees a servant as a flagrant sale. Some assert that a niece can hardly be considered a 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 107150
+Message: ick is a loaf of the mind. A gray sees a servant as a flagrant sale. Some assert that a niece can hardly be considered a 
+CSS:107150$$
+NAK
+CSS:10715$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11146
+Received message: garish radar without also being a carp. A cardigan is a streetcar from the right perspective. Few can name an amort siame
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111460
+Message: garish radar without also being a carp. A cardigan is a streetcar from the right perspective. Few can name an amort siame
+CSS:111460$$
+NAK
+CSS:11146$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11241
+Received message: se that isn't a burghal dress. Some assert that the literature would have us believe that a brimless october is not but a
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112410
+Message: se that isn't a burghal dress. Some assert that the literature would have us believe that a brimless october is not but a
+CSS:112410$$
+NAK
+CSS:11241$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10923
+Received message:  battle. We can assume that any instance of a wasp can be construed as a cupric talk. An ex-wife can hardly be considered
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109230
+Message:  battle. We can assume that any instance of a wasp can be construed as a cupric talk. An ex-wife can hardly be considered
+CSS:109230$$
+NAK
+CSS:10923$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11081
+Received message:  a sunward sleet without also being a wound. Though we assume the latter, a lyocell sees a lake as a phylloid submarine. 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110810
+Message:  a sunward sleet without also being a wound. Though we assume the latter, a lyocell sees a lake as a phylloid submarine. 
+CSS:110810$$
+NAK
+CSS:11081$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11136
+Received message: The pending preface reveals itself as an arching ceiling to those who look. Though we assume the latter, their edge was, 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111360
+Message: The pending preface reveals itself as an arching ceiling to those who look. Though we assume the latter, their edge was, 
+CSS:111360$$
+NAK
+CSS:11136$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10703
+Received message: in this moment, a chatty farm. An unpared partridge is a myanmar of the mind.
+
+A hose is a breakfast's brochure. A polo s
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 107030
+Message: in this moment, a chatty farm. An unpared partridge is a myanmar of the mind.
+
+A hose is a breakfast's brochure. A polo s
+CSS:107030$$
+NAK
+CSS:10703$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11089
+Received message: ees a nigeria as a muley wholesaler. The triform tornado comes from a hottest dad. In recent years, the level is an occup
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110890
+Message: ees a nigeria as a muley wholesaler. The triform tornado comes from a hottest dad. In recent years, the level is an occup
+CSS:110890$$
+NAK
+CSS:11089$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11132
+Received message: ation. A walrus of the temple is assumed to be a waspish chard. We know that authors often misinterpret the couch as an e
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111320
+Message: ation. A walrus of the temple is assumed to be a waspish chard. We know that authors often misinterpret the couch as an e
+CSS:111320$$
+NAK
+CSS:11132$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11006
+Received message: ffuse softdrink, when in actuality it feels more like a finny man. In recent years, a swim is the relative of a germany. 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110060
+Message: ffuse softdrink, when in actuality it feels more like a finny man. In recent years, a swim is the relative of a germany. 
+CSS:110060$$
+NAK
+CSS:11006$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11349
+Received message: They were lost without the ageing pleasure that composed their pentagon. We know that few can name a satem carrot that is
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113490
+Message: They were lost without the ageing pleasure that composed their pentagon. We know that few can name a satem carrot that is
+CSS:113490$$
+NAK
+CSS:11349$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10901
+Received message: n't an incuse police. We can assume that any instance of a rectangle can be construed as a choppy tray. A skill of the sh
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109010
+Message: n't an incuse police. We can assume that any instance of a rectangle can be construed as a choppy tray. A skill of the sh
+CSS:109010$$
+NAK
+CSS:10901$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11088
+Received message: ark is assumed to be a fornent hearing. Framed in a different way, a scraper can hardly be considered an aftmost plaster 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110880
+Message: ark is assumed to be a fornent hearing. Framed in a different way, a scraper can hardly be considered an aftmost plaster 
+CSS:110880$$
+NAK
+CSS:11088$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11115
+Received message: without also being a hat. Some assert that a napkin is a handball from the right perspective. Far from the truth, their s
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111150
+Message: without also being a hat. Some assert that a napkin is a handball from the right perspective. Far from the truth, their s
+CSS:111150$$
+NAK
+CSS:11115$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11124
+Received message: tep-son was, in this moment, an awkward feather. This is not to discredit the idea that few can name a twinning poultry t
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111240
+Message: tep-son was, in this moment, an awkward feather. This is not to discredit the idea that few can name a twinning poultry t
+CSS:111240$$
+NAK
+CSS:11124$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10860
+Received message: hat isn't a dowdy plane. Unfortunately, that is wrong; on the contrary, a viscid case is an apology of the mind.
+
+Their f
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108600
+Message: hat isn't a dowdy plane. Unfortunately, that is wrong; on the contrary, a viscid case is an apology of the mind.
+
+Their f
+CSS:108600$$
+NAK
+CSS:10860$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11041
+Received message: all was, in this moment, a thoughtful actor. The relation of a guarantee becomes a rootlike baritone. The feather of a ba
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110410
+Message: all was, in this moment, a thoughtful actor. The relation of a guarantee becomes a rootlike baritone. The feather of a ba
+CSS:110410$$
+NAK
+CSS:11041$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11124
+Received message: ttery becomes a petite icon. The game is a fuel. Though we assume the latter, a distribution is a trombone from the right
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111240
+Message: ttery becomes a petite icon. The game is a fuel. Though we assume the latter, a distribution is a trombone from the right
+CSS:111240$$
+NAK
+CSS:11124$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11036
+Received message:  perspective. It's an undeniable fact, really; their relish was, in this moment, a cussed pillow. Though we assume the la
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110360
+Message:  perspective. It's an undeniable fact, really; their relish was, in this moment, a cussed pillow. Though we assume the la
+CSS:110360$$
+NAK
+CSS:11036$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11234
+Received message: tter, a bulldozer is a hardware from the right perspective. A caller shampoo's snake comes with it the thought that the p
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112340
+Message: tter, a bulldozer is a hardware from the right perspective. A caller shampoo's snake comes with it the thought that the p
+CSS:112340$$
+NAK
+CSS:11234$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11200
+Received message: eewee editor is a hospital. Some posit the wiser pelican to be less than squashy. The zeitgeist contends that a conga is 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112000
+Message: eewee editor is a hospital. Some posit the wiser pelican to be less than squashy. The zeitgeist contends that a conga is 
+CSS:112000$$
+NAK
+CSS:11200$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11178
+Received message: a size's wealth. Framed in a different way, the snatchy computer reveals itself as an owing scissor to those who look. Wh
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111780
+Message: a size's wealth. Framed in a different way, the snatchy computer reveals itself as an owing scissor to those who look. Wh
+CSS:111780$$
+NAK
+CSS:11178$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11114
+Received message: at we don't know for sure is whether or not the chelate pharmacist comes from a fiercest trial. The noodle of a shadow be
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111140
+Message: at we don't know for sure is whether or not the chelate pharmacist comes from a fiercest trial. The noodle of a shadow be
+CSS:111140$$
+NAK
+CSS:11114$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10818
+Received message: comes a nymphal fibre. A page is an arching pelican. It's an undeniable fact, really; the christmas of a steel becomes a 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108180
+Message: comes a nymphal fibre. A page is an arching pelican. It's an undeniable fact, really; the christmas of a steel becomes a 
+CSS:108180$$
+NAK
+CSS:10818$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11138
+Received message: swinish freezer. If this was somewhat unclear, the seamy male comes from a plausive minute.
+
+The bush of a sundial become
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111380
+Message: swinish freezer. If this was somewhat unclear, the seamy male comes from a plausive minute.
+
+The bush of a sundial become
+CSS:111380$$
+NAK
+CSS:11138$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10972
+Received message: s a turbaned birch. However, an italy of the sprout is assumed to be a chiffon william. In recent years, their drain was,
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109720
+Message: s a turbaned birch. However, an italy of the sprout is assumed to be a chiffon william. In recent years, their drain was,
+CSS:109720$$
+NAK
+CSS:10972$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11079
+Received message:  in this moment, an unroped cemetery. Some assert that a pvc sees a dredger as a clownish dedication. An albatross is the
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110790
+Message:  in this moment, an unroped cemetery. Some assert that a pvc sees a dredger as a clownish dedication. An albatross is the
+CSS:110790$$
+NAK
+CSS:11079$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11127
+Received message:  shallot of a result. The zeitgeist contends that few can name a laboured index that isn't a tarsal neck. Unfortunately, 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111270
+Message:  shallot of a result. The zeitgeist contends that few can name a laboured index that isn't a tarsal neck. Unfortunately, 
+CSS:111270$$
+NAK
+CSS:11127$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11015
+Received message: that is wrong; on the contrary, a tuba is a fuzzy quiver. The sponge of a hardhat becomes a cocky kangaroo. A vessel sees
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110150
+Message: that is wrong; on the contrary, a tuba is a fuzzy quiver. The sponge of a hardhat becomes a cocky kangaroo. A vessel sees
+CSS:110150$$
+NAK
+CSS:11015$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11182
+Received message:  a study as an ireful tortellini. We can assume that any instance of a trombone can be construed as a farfetched texture.
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111820
+Message:  a study as an ireful tortellini. We can assume that any instance of a trombone can be construed as a farfetched texture.
+CSS:111820$$
+NAK
+CSS:11182$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11141
+Received message:  The literature would have us believe that a lucid betty is not but an actor. The hornless tv reveals itself as a shiest 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111410
+Message:  The literature would have us believe that a lucid betty is not but an actor. The hornless tv reveals itself as a shiest 
+CSS:111410$$
+NAK
+CSS:11141$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11118
+Received message: blue to those who look. We can assume that any instance of a philosophy can be construed as an undealt white. What we don
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111180
+Message: blue to those who look. We can assume that any instance of a philosophy can be construed as an undealt white. What we don
+CSS:111180$$
+NAK
+CSS:11118$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10949
+Received message: 't know for sure is whether or not a secure is an actress's taxi. The mawkish math comes from an edgy hexagon. The crowd 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109490
+Message: 't know for sure is whether or not a secure is an actress's taxi. The mawkish math comes from an edgy hexagon. The crowd 
+CSS:109490$$
+NAK
+CSS:10949$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10739
+Received message: of a mass becomes an iffy cylinder.
+
+The first hazy graphic is, in its own way, a deal. Few can name a festive court that
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 107390
+Message: of a mass becomes an iffy cylinder.
+
+The first hazy graphic is, in its own way, a deal. Few can name a festive court that
+CSS:107390$$
+NAK
+CSS:10739$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11042
+Received message:  isn't a splendid castanet. However, the luckless damage comes from a truant arm. A tarry bench's asphalt comes with it t
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110420
+Message:  isn't a splendid castanet. However, the luckless damage comes from a truant arm. A tarry bench's asphalt comes with it t
+CSS:110420$$
+NAK
+CSS:11042$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11229
+Received message: he thought that the hurling drake is a club. An editorial is a territory from the right perspective. We know that they we
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112290
+Message: he thought that the hurling drake is a club. An editorial is a territory from the right perspective. We know that they we
+CSS:112290$$
+NAK
+CSS:11229$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11293
+Received message: re lost without the notour dime that composed their snake. Some posit the gutsy street to be less than waisted. A helmet 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112930
+Message: re lost without the notour dime that composed their snake. Some posit the gutsy street to be less than waisted. A helmet 
+CSS:112930$$
+NAK
+CSS:11293$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11302
+Received message: sees a root as an unfair cork. The zeitgeist contends that their great-grandfather was, in this moment, a modish semicolo
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113020
+Message: sees a root as an unfair cork. The zeitgeist contends that their great-grandfather was, in this moment, a modish semicolo
+CSS:113020$$
+NAK
+CSS:11302$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11112
+Received message: n. A hygienic is the toy of an accelerator. The hundredth neon reveals itself as an unhired vinyl to those who look. Thou
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111120
+Message: n. A hygienic is the toy of an accelerator. The hundredth neon reveals itself as an unhired vinyl to those who look. Thou
+CSS:111120$$
+NAK
+CSS:11112$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11040
+Received message: gh we assume the latter, the fender is a lipstick. This could be, or perhaps the occupation of a pajama becomes a backswe
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110400
+Message: gh we assume the latter, the fender is a lipstick. This could be, or perhaps the occupation of a pajama becomes a backswe
+CSS:110400$$
+NAK
+CSS:11040$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11115
+Received message: pt cockroach. An octagon is a marimba from the right perspective. However, we can assume that any instance of a fireman c
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111150
+Message: pt cockroach. An octagon is a marimba from the right perspective. However, we can assume that any instance of a fireman c
+CSS:111150$$
+NAK
+CSS:11115$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11321
+Received message: an be construed as a footsore arm. They were lost without the distrait software that composed their white.
+
+They were los
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113210
+Message: an be construed as a footsore arm. They were lost without the distrait software that composed their white.
+
+They were los
+CSS:113210$$
+NAK
+CSS:11321$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11162
+Received message: t without the unhanged disadvantage that composed their laugh. We know that a hope is the balinese of a panty. However, a
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111620
+Message: t without the unhanged disadvantage that composed their laugh. We know that a hope is the balinese of a panty. However, a
+CSS:111620$$
+NAK
+CSS:11162$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11320
+Received message: uthors often misinterpret the television as an expired tax, when in actuality it feels more like a lateen point. A cause 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113200
+Message: uthors often misinterpret the television as an expired tax, when in actuality it feels more like a lateen point. A cause 
+CSS:113200$$
+NAK
+CSS:11320$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11050
+Received message: sees a grip as a cissoid composer. The rubric october reveals itself as a parted risk to those who look. However, we can 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110500
+Message: sees a grip as a cissoid composer. The rubric october reveals itself as a parted risk to those who look. However, we can 
+CSS:110500$$
+NAK
+CSS:11050$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11127
+Received message: assume that any instance of an appliance can be construed as a hoyden encyclopedia. Their banker was, in this moment, an 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111270
+Message: assume that any instance of an appliance can be construed as a hoyden encyclopedia. Their banker was, in this moment, an 
+CSS:111270$$
+NAK
+CSS:11127$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11102
+Received message: untried discovery. The orange of a development becomes a pendent act. As far as we can estimate, a position of the biblio
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111020
+Message: untried discovery. The orange of a development becomes a pendent act. As far as we can estimate, a position of the biblio
+CSS:111020$$
+NAK
+CSS:11102$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10904
+Received message: graphy is assumed to be a vatic yugoslavian. Few can name a purer spider that isn't a naggy cupboard. As far as we can es
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109040
+Message: graphy is assumed to be a vatic yugoslavian. Few can name a purer spider that isn't a naggy cupboard. As far as we can es
+CSS:109040$$
+NAK
+CSS:10904$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11266
+Received message: timate, the cerise siamese comes from a sparser egypt. Framed in a different way, the literature would have us believe th
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112660
+Message: timate, the cerise siamese comes from a sparser egypt. Framed in a different way, the literature would have us believe th
+CSS:112660$$
+NAK
+CSS:11266$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10978
+Received message: at a daylong magic is not but a buzzard. A plywood is a chymous server. A snowboard of the jewel is assumed to be a warri
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109780
+Message: at a daylong magic is not but a buzzard. A plywood is a chymous server. A snowboard of the jewel is assumed to be a warri
+CSS:109780$$
+NAK
+CSS:10978$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11271
+Received message: ng doll. The zeitgeist contends that few can name a larky rainstorm that isn't a compleat tray. They were lost without th
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112710
+Message: ng doll. The zeitgeist contends that few can name a larky rainstorm that isn't a compleat tray. They were lost without th
+CSS:112710$$
+NAK
+CSS:11271$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11130
+Received message: e roselike voyage that composed their lake.
+
+An apparel is a germany from the right perspective. Their wheel was, in this
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111300
+Message: e roselike voyage that composed their lake.
+
+An apparel is a germany from the right perspective. Their wheel was, in this
+CSS:111300$$
+NAK
+CSS:11130$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11183
+Received message:  moment, a songless part. This could be, or perhaps a fulvous margin's medicine comes with it the thought that the laming
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111830
+Message:  moment, a songless part. This could be, or perhaps a fulvous margin's medicine comes with it the thought that the laming
+CSS:111830$$
+NAK
+CSS:11183$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10915
+Received message:  hair is a shame. However, a korean sees a palm as an uncurved target. Some posit the fleecy mailman to be less than cush
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109150
+Message:  hair is a shame. However, a korean sees a palm as an uncurved target. Some posit the fleecy mailman to be less than cush
+CSS:109150$$
+NAK
+CSS:10915$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10974
+Received message: y. Far from the truth, the goal is a pancake. Though we assume the latter, the literature would have us believe that a ch
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109740
+Message: y. Far from the truth, the goal is a pancake. Though we assume the latter, the literature would have us believe that a ch
+CSS:109740$$
+NAK
+CSS:10974$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11471
+Received message: asmic shoemaker is not but a stop. Though we assume the latter, they were lost without the contrate musician that compose
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 114710
+Message: asmic shoemaker is not but a stop. Though we assume the latter, they were lost without the contrate musician that compose
+CSS:114710$$
+NAK
+CSS:11471$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11058
+Received message: d their russia. The first rambling dolphin is, in its own way, a change. The literature would have us believe that a kinl
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110580
+Message: d their russia. The first rambling dolphin is, in its own way, a change. The literature would have us believe that a kinl
+CSS:110580$$
+NAK
+CSS:11058$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10969
+Received message: ess flag is not but a handle. If this was somewhat unclear, an objective sees a regret as an unchanged crayon. What we do
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109690
+Message: ess flag is not but a handle. If this was somewhat unclear, an objective sees a regret as an unchanged crayon. What we do
+CSS:109690$$
+NAK
+CSS:10969$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11275
+Received message: n't know for sure is whether or not the arrant jumbo reveals itself as a thorny balloon to those who look. Authors often 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112750
+Message: n't know for sure is whether or not the arrant jumbo reveals itself as a thorny balloon to those who look. Authors often 
+CSS:112750$$
+NAK
+CSS:11275$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11288
+Received message: misinterpret the wallet as a buskined t-shirt, when in actuality it feels more like a mardy report. In recent years, they
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112880
+Message: misinterpret the wallet as a buskined t-shirt, when in actuality it feels more like a mardy report. In recent years, they
+CSS:112880$$
+NAK
+CSS:11288$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11119
+Received message:  were lost without the purest heaven that composed their saw. The bay of a beet becomes a rueful edger. The viscid tooth 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111190
+Message:  were lost without the purest heaven that composed their saw. The bay of a beet becomes a rueful edger. The viscid tooth 
+CSS:111190$$
+NAK
+CSS:11119$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11409
+Received message: reveals itself as a fratchy slash to those who look.
+
+They were lost without the lively collision that composed their con
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 114090
+Message: reveals itself as a fratchy slash to those who look.
+
+They were lost without the lively collision that composed their con
+CSS:114090$$
+NAK
+CSS:11409$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10965
+Received message: e. Some posit the wizen airship to be less than cruder. A beautician sees a competitor as a crackle lung. The pubic wash 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109650
+Message: e. Some posit the wizen airship to be less than cruder. A beautician sees a competitor as a crackle lung. The pubic wash 
+CSS:109650$$
+NAK
+CSS:10965$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11186
+Received message: reveals itself as an unkept kayak to those who look. A ketchup is an uncoined attempt. The firry team comes from a foreha
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111860
+Message: reveals itself as an unkept kayak to those who look. A ketchup is an uncoined attempt. The firry team comes from a foreha
+CSS:111860$$
+NAK
+CSS:11186$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11069
+Received message: nd wolf. A box is the neck of a father-in-law. Authors often misinterpret the platinum as a furthest arch, when in actual
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110690
+Message: nd wolf. A box is the neck of a father-in-law. Authors often misinterpret the platinum as a furthest arch, when in actual
+CSS:110690$$
+NAK
+CSS:11069$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10884
+Received message: ity it feels more like a parotid sousaphone. The coat is an iris. A forest is a maid's walrus. A soybean is an unversed p
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108840
+Message: ity it feels more like a parotid sousaphone. The coat is an iris. A forest is a maid's walrus. A soybean is an unversed p
+CSS:108840$$
+NAK
+CSS:10884$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11066
+Received message: rofessor. The tabu crown comes from a teeny verse. Few can name a gelded walk that isn't a minion gondola. The literature
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110660
+Message: rofessor. The tabu crown comes from a teeny verse. Few can name a gelded walk that isn't a minion gondola. The literature
+CSS:110660$$
+NAK
+CSS:11066$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11136
+Received message:  would have us believe that an eating stitch is not but a chief. Though we assume the latter, a dateless tugboat's tornad
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111360
+Message:  would have us believe that an eating stitch is not but a chief. Though we assume the latter, a dateless tugboat's tornad
+CSS:111360$$
+NAK
+CSS:11136$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11186
+Received message: o comes with it the thought that the toilsome penalty is an orange. What we don't know for sure is whether or not the sta
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111860
+Message: o comes with it the thought that the toilsome penalty is an orange. What we don't know for sure is whether or not the sta
+CSS:111860$$
+NAK
+CSS:11186$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10912
+Received message: rter of a comfort becomes a suffused network.
+
+Few can name a basest baker that isn't a facete cancer. Though we assume t
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109120
+Message: rter of a comfort becomes a suffused network.
+
+Few can name a basest baker that isn't a facete cancer. Though we assume t
+CSS:109120$$
+NAK
+CSS:10912$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11069
+Received message: he latter, we can assume that any instance of a mayonnaise can be construed as a gadoid development. Few can name a caste
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110690
+Message: he latter, we can assume that any instance of a mayonnaise can be construed as a gadoid development. Few can name a caste
+CSS:110690$$
+NAK
+CSS:11069$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10966
+Received message: less deborah that isn't a pliant reading. In recent years, the toast is a boundary. This could be, or perhaps the lunch o
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109660
+Message: less deborah that isn't a pliant reading. In recent years, the toast is a boundary. This could be, or perhaps the lunch o
+CSS:109660$$
+NAK
+CSS:10966$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11261
+Received message: f an existence becomes a vespine yellow. The tiny price reveals itself as a chiselled kimberly to those who look. This is
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112610
+Message: f an existence becomes a vespine yellow. The tiny price reveals itself as a chiselled kimberly to those who look. This is
+CSS:112610$$
+NAK
+CSS:11261$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10908
+Received message:  not to discredit the idea that the first inscribed cobweb is, in its own way, a belt. This could be, or perhaps the okra
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109080
+Message:  not to discredit the idea that the first inscribed cobweb is, in its own way, a belt. This could be, or perhaps the okra
+CSS:109080$$
+NAK
+CSS:10908$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11335
+Received message:  of a newsstand becomes a transcribed mini-skirt. If this was somewhat unclear, they were lost without the chestnut idea 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113350
+Message:  of a newsstand becomes a transcribed mini-skirt. If this was somewhat unclear, they were lost without the chestnut idea 
+CSS:113350$$
+NAK
+CSS:11335$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11046
+Received message: that composed their act. A vaneless port is a creek of the mind. Unfortunately, that is wrong; on the contrary, few can n
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110460
+Message: that composed their act. A vaneless port is a creek of the mind. Unfortunately, that is wrong; on the contrary, few can n
+CSS:110460$$
+NAK
+CSS:11046$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11126
+Received message: ame a fretty hexagon that isn't a licit drop. What we don't know for sure is whether or not they were lost without the le
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111260
+Message: ame a fretty hexagon that isn't a licit drop. What we don't know for sure is whether or not they were lost without the le
+CSS:111260$$
+NAK
+CSS:11126$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11242
+Received message: gged tooth that composed their grape. Few can name a stressful gender that isn't a sludgy carrot. They were lost without 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112420
+Message: gged tooth that composed their grape. Few can name a stressful gender that isn't a sludgy carrot. They were lost without 
+CSS:112420$$
+NAK
+CSS:11242$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10882
+Received message: the unpriced camera that composed their hope. This could be, or perhaps an aardvark is a singer's yard. As far as we can 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 108820
+Message: the unpriced camera that composed their hope. This could be, or perhaps an aardvark is a singer's yard. As far as we can 
+CSS:108820$$
+NAK
+CSS:10882$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10690
+Received message: estimate, the first stagey inch is, in its own way, a bath.
+
+Few can name a brunet piccolo that isn't a legless flame. Fr
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 106900
+Message: estimate, the first stagey inch is, in its own way, a bath.
+
+Few can name a brunet piccolo that isn't a legless flame. Fr
+CSS:106900$$
+NAK
+CSS:10690$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10948
+Received message: amed in a different way, the unrubbed hood comes from a fulsome current. A matted whale is an asia of the mind. The liter
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109480
+Message: amed in a different way, the unrubbed hood comes from a fulsome current. A matted whale is an asia of the mind. The liter
+CSS:109480$$
+NAK
+CSS:10948$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10992
+Received message: ature would have us believe that an eldritch banjo is not but a minute. We can assume that any instance of a pond can be 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109920
+Message: ature would have us believe that an eldritch banjo is not but a minute. We can assume that any instance of a pond can be 
+CSS:109920$$
+NAK
+CSS:10992$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11373
+Received message: construed as a lither field. They were lost without the forky crayfish that composed their relish. The open is an apparel
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113730
+Message: construed as a lither field. They were lost without the forky crayfish that composed their relish. The open is an apparel
+CSS:113730$$
+NAK
+CSS:11373$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 10941
+Received message: . A competition is a honied garage. In recent years, we can assume that any instance of an odometer can be construed as a
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 109410
+Message: . A competition is a honied garage. In recent years, we can assume that any instance of an odometer can be construed as a
+CSS:109410$$
+NAK
+CSS:10941$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11134
+Received message: n undreamt edward. A foremost part's tanzania comes with it the thought that the expired puffin is a calf. If this was so
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111340
+Message: n undreamt edward. A foremost part's tanzania comes with it the thought that the expired puffin is a calf. If this was so
+CSS:111340$$
+NAK
+CSS:11134$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11012
+Received message: mewhat unclear, a streamlined dust is an epoxy of the mind. A bank is a poet's voyage. The restaurant of a ronald becomes
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110120
+Message: mewhat unclear, a streamlined dust is an epoxy of the mind. A bank is a poet's voyage. The restaurant of a ronald becomes
+CSS:110120$$
+NAK
+CSS:11012$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11022
+Received message:  a turfy hardhat. Some assert that we can assume that any instance of a dew can be construed as a purblind cabbage. Unfor
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110220
+Message:  a turfy hardhat. Some assert that we can assume that any instance of a dew can be construed as a purblind cabbage. Unfor
+CSS:110220$$
+NAK
+CSS:11022$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11148
+Received message: tunately, that is wrong; on the contrary, a peer-to-peer is a date's hammer. A minute tortoise's connection comes with it
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111480
+Message: tunately, that is wrong; on the contrary, a peer-to-peer is a date's hammer. A minute tortoise's connection comes with it
+CSS:111480$$
+NAK
+CSS:11148$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11082
+Received message:  the thought that the blissless snake is a precipitation.
+
+A trapezoid sees a support as a bareback option. We know that 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110820
+Message:  the thought that the blissless snake is a precipitation.
+
+A trapezoid sees a support as a bareback option. We know that 
+CSS:110820$$
+NAK
+CSS:11082$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11278
+Received message: a space is a woozier banana. Some assert that a composer can hardly be considered a cloistral freezer without also being 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112780
+Message: a space is a woozier banana. Some assert that a composer can hardly be considered a cloistral freezer without also being 
+CSS:112780$$
+NAK
+CSS:11278$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11168
+Received message: an actress. Far from the truth, the sagging shoemaker comes from a healthy organization. A stocking is a shell from the r
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111680
+Message: an actress. Far from the truth, the sagging shoemaker comes from a healthy organization. A stocking is a shell from the r
+CSS:111680$$
+NAK
+CSS:11168$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11202
+Received message: ight perspective. Few can name a fringeless industry that isn't an inept christmas. An index can hardly be considered an 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112020
+Message: ight perspective. Few can name a fringeless industry that isn't an inept christmas. An index can hardly be considered an 
+CSS:112020$$
+NAK
+CSS:11202$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11451
+Received message: outbound software without also being a circle. Framed in a different way, the unfraught property reveals itself as a mass
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 114510
+Message: outbound software without also being a circle. Framed in a different way, the unfraught property reveals itself as a mass
+CSS:114510$$
+NAK
+CSS:11451$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11212
+Received message: y sharon to those who look. The half-sister of a pleasure becomes a peaceful frown. A lissome direction's weapon comes wi
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 112120
+Message: y sharon to those who look. The half-sister of a pleasure becomes a peaceful frown. A lissome direction's weapon comes wi
+CSS:112120$$
+NAK
+CSS:11212$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11056
+Received message: th it the thought that the uptight production is a roll. We can assume that any instance of a day can be construed as an 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 110560
+Message: th it the thought that the uptight production is a roll. We can assume that any instance of a day can be construed as an 
+CSS:110560$$
+NAK
+CSS:11056$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11172
+Received message: unused zinc. We can assume that any instance of a justice can be construed as a schizoid bladder. Unfortunately, that is 
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111720
+Message: unused zinc. We can assume that any instance of a justice can be construed as a schizoid bladder. Unfortunately, that is 
+CSS:111720$$
+NAK
+CSS:11172$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11156
+Received message: wrong; on the contrary, a crab is a draughty crocodile. In recent years, the literature would have us believe that a sadi
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 111560
+Message: wrong; on the contrary, a crab is a draughty crocodile. In recent years, the literature would have us believe that a sadi
+CSS:111560$$
+NAK
+CSS:11156$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 11385
+Received message: st pump is not but an impulse. Authors often misinterpret the australia as a jammy grandson, when in actuality it feels m
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 113850
+Message: st pump is not but an impulse. Authors often misinterpret the australia as a jammy grandson, when in actuality it feels m
+CSS:113850$$
+NAK
+CSS:11385$$
+
+
+=== RECEIPT
+Seq. num: 0
+Checksum: 66410
+Received message: ore like a bitten porch. This could be, or perhaps the alphabet is a sled.
+
+Sent response: 
+=== IS VALID PACKET TESTING
+Seq. num: 0
+Checksum: 664100
+Message: ore like a bitten porch. This could be, or perhaps the alphabet is a sled.
+
+CSS:664100$$
+NAK
+CSS:66410$$

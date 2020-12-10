@@ -1,0 +1,7 @@
+****Make sure to have the latest SWI-Prolog
+Get it from http://www.swi-prolog.org
+
+Run instructions:
+1. Open the file into SWI-Prolog
+2. Compile the source .pl
+3. Go to the terminal and call functions

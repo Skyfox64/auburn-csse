@@ -1,0 +1,26 @@
+COMP 5370 Assignment 1 - Build Info
+
+"Write TCP/IP client-server socket programs such that when client sends two numbers, server replies with their sum in programming language of your choice. (C, C++, Java)
+
+Source code must be submitted with build info.
+
+This is individual assignment. 
+
+Date of Submission – 2nd September 2015"
+
+I used Java for the socket programming assignment. I also used IntelliJ IDEA as my development tool.
+
+
+Source files are in zip folder submitted on Canvas. This build information is in the same folder directory. I placed the entire IntelliJ project folder into the submission folder. TO get to the .class files, go to “~/NetworkSecurity_HW1/out/production/NetworkSecurity_HW1/“ . There are the .class files. 
+Go to the src folder in /NetworkSecurity_HW1/src/ for .java files, then compile if wanted. Run the .class files instead of compiling.
+
+Change directory from the project folder in terminal by using this command line:
+cd ./out/production/NetworkSecurity_HW1/
+
+1) To run, open up the terminal, compile SimpleServer.java, then run it. Make sure it is running before the client.
+e.g “$ java SimpleServer”
+
+2) Open up a secondary terminal, compile SimpleClient.java, then run it.
+e.g “$ java SimpleClient 2 5”
+
+Provided, I have a screenshot(s) of my terminal and testing.

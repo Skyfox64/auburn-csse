@@ -1,0 +1,28 @@
+COMP 4320
+
+Open Ports in Linux computers
+-----------------------------
+
+In each of the Linux computers, tux175 to tux198, in Davis 123,
+each group is assigned 4 port numbers as follows: 
+
+G1: okeefe, scott			   	10010 to 10013
+G2: folmar, stell, daniel			10014 to 10017
+G3: fleet, lee					10018 to 10021
+G4: mscdonsld, sanchez, carroll      	10022 to 10025
+G5: edgar, johnson, shackleford		10026 to 10029
+G6: li, bordelon, zuerhout      		10030 to 10033
+G7: xu, singh					10034 to 10037
+G8: woods, harris, phillips		   	10038 to 10041
+G9: edwards, caufield, williams       10042 to 10045 
+G10: zhou, smith, jorgensen			10046 to 10049
+G11: hines, white, smith          	10050 to 10053
+G12: cates, varner				10054 to 10057
+G13: skinner, fernandez, reynolds	10058 to 10061
+G14: pearce, kinchler, wishum		10062 to 10065
+G15: massaro, smith, ware			10066 to 10069
+G16: bartlett, linquist			10070 to 10073
+G17: johnson, jackson				10074 to 10077
+
+    
+Use only the port numbers assigned to your group.

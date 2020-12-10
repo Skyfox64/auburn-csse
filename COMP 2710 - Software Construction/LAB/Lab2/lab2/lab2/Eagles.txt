@@ -1,0 +1,4 @@
+[(4)]|<Abraham::Eagles>|Eagles have landed!
+War eagle, hey!
+[(6)]|<Kate::Eagles>|It's time for Auburn Football!
+War Eagle!

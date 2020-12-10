@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Debugging With GDB</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1265.21">
+  <style type="text/css">
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times}
+    p.p8 {margin: 0.0px 0.0px 12.0px 40.0px; font: 12.0px Times}
+    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
+    td.td1 {width: 145.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 629.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times"><b>Debugging With GDB</b></h2>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 15.0px Times"><b>What GDB is and why you need to use it</b></h2>
+<p class="p3">GDB is a debugger. Its purpose is to help you analyze the behavior of your program, and thus help you diagnose bugs or mistakes. With GDB you can do the following things:</p>
+<ul class="ul1">
+  <li class="li4">Control aspects of the environment that your program will run in.</li>
+  <li class="li4">Start your program, or connect up to an already-started copy.</li>
+  <li class="li4">Make your program stop for inspection or under specified conditions.</li>
+  <li class="li4">Step through your program one line at a time, or one machine instruction at a time.</li>
+  <li class="li4">Inspect the state of your program once it has stopped.</li>
+  <li class="li4">Change the state of your program and then allow it to resume execution.</li>
+</ul>
+<p class="p3">In your previous programming experience, you may have managed without using a debugger. You might have been able to find the mistakes in your programs by printing things on the screen or simply reading through your code. Beware, however, that OS/161 is a large and complex body of code, much more so than you may have worked on in the past. To make matters worse, much of it was written by someone other than you. A debugger is an essential tool in this environment.</p>
+<p class="p3">We would not lie if we said that there has never been a student who has survived this course without using GDB. You should, therefore, take the time to learn GDB and make it your best friend (or rather your second best friend; your best friend should be your partner).</p>
+<p class="p3">This guide will explain to you how to get started debugging OS/161, describe the most common GDB commands, and suggest some helpful debugging techniques.</p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 15.0px Times"><b>How to start debugging OS/161</b></h2>
+<p class="p3">To debug OS/161, you should use the CS161 version of GDB, which is accessible as <i>cs161-gdb</i> . This copy of GDB has been configured for the MIPS architecture and has been patched to be able to talk to System/161.</p>
+<p class="p3">The difference between debugging a regular program and debugging an OS/161 kernel is that the kernel is running in a machine simulator. You want to debug the kernel; running the debugger on the machine simulator is not very illuminating and we hope it will not be necessary. If you were to type:</p>
+<p class="p3">% cs161-gdb system161</p>
+<h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 9.0px Times"><b> </b></h6>
+<p class="p3">you would be attempting to debug the simulator. This will not work, because the simulator is not compiled for MIPS. (If you do need to debug the simulator at some point, you would use the regular system copy of GDB.) So you must type this:</p>
+<p class="p3">% cs161-gdb kernel</p>
+<h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 9.0px Times"><b> </b></h6>
+<p class="p3">You will find, however, that having done this, telling GDB to run the kernel does not work, because the kernel has to be run on System/161.</p>
+<p class="p3">Instead, what you need to do is start your kernel running in System/161; then run <i>cs161-gdb</i> on the same kernel and tell it to attach to the copy you started running. To do this you have to tell GDB to talk to System/161's debugger port.</p>
+<p class="p3">This requires two windows, one to run the kernel in and one to run GDB in. These two windows must be logged into the same machine. It will not work if they are not.</p>
+<p class="p3">Now you are ready to debug. In one window (the run window), boot OS/161 on System/161. Use the <i>-w</i> option to tell System/161 to wait for a debugger connection:</p>
+<p class="p3">% cd ~/cs161/root</p>
+<p class="p3">% sys161 -w kernel</p>
+<p class="p3"> </p>
+<p class="p3">Next, in the other window (your debug window), run <i>cs161-gdb</i> on the same kernel (if you run it on a different kernel by accident, you'll get bizarre results) and tell GDB to connect to System/161:</p>
+<p class="p3">% cd ~/cs161/root</p>
+<p class="p3">% cs161-gdb kernel</p>
+<p class="p3">(gdb) target remote unix:.sockets/gdb</p>
+<p class="p3"> </p>
+<p class="p3">GDB will connect and tell you that the program is stopped somewhere in <i>start.S</i> . It is waiting at the very first instruction of your kernel, as if you'd run it from GDB and put a breakpoint there.</p>
+<p class="p3">Once you've connected, you can use GDB to debug as you would debug any other program. We'll give you some practice later. When you are done debugging, you can disconnect the debugger from System/161 (and thus the running kernel) using the detach command:</p>
+<p class="p3">(gdb) detach</p>
+<h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>You can also, instead, tell GDB to kill the process it's debugging. This will cause System/161 to exit unceremoniously, much as if you'd gone to its window and typed ^C:</b></h6>
+<p class="p3">(gdb) kill</p>
+<h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 9.0px Times"><b> </b></h6>
+<h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>Note that you do not necessarily need to attach GDB to System/161 at startup. You can attach it at any time. However, for reasons we do not presently understand, connecting does not always work properly unless System/161 is stopped waiting for a debugger connection. You can put it into this state at any time by typing ^G into its window. This can be useful if your kernel is looping or deadlocked.</b></h6>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 15.0px Times"><b>Most common GDB commands</b></h2>
+<p class="p3"> </p>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3">Command</p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Annotation</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><b>l, list - List lines from source files</b></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Use this command to display parts of your source file. For example, typing</p>
+        <p class="p3">  (gdb) l 101</p>
+        <p class="p3"> will display line 101 in your source file. If you have more than one source file, precede the line number by the file name and a colon:</p>
+        <p class="p3">(gdb) l os.c:101</p>
+        <p class="p3">  Instead of specifying a line number, you can give a function name, in which case the listing will begin at the top of that function.</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>b, break - Set a breakpoint</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Use this command to specify that your program should stop execution at a certain line or function. Typing</p>
+        <p class="p3">(gdb) b 18</p>
+        <p class="p3">means that your program will stop every time it executes a statement on line 18. As with the "list" command, you can specify to break at a function, e.g.:</p>
+        <p class="p3">(gdb) b main</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>d, delete - Delete breakpoint (or other things)</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Use this command to delete a breakpoint. By typing</p>
+        <p class="p3">(gdb) d 1</p>
+        <p class="p3">you will delete the breakpoint number "1". GDB displays the number of a breakpoint when you set that breakpoint. Typing "d" without arguments will cause the deletion of all breakpoints.</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>clear - Clear a breakpoint</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">If you don't remember the number of the breakpoint you want to delete, use the "clear" command. Just like the "breakpoint" command, it takes a line number or a function name as an argument.</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>c, continue - Continue execution</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">After your program has stopped at a breakpoint, type</p>
+        <p class="p3">(gdb) c</p>
+        <p class="p3">if you want your program to continue the execution until the next breakpoint.</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>s, step - Step through the program</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">If you want to go through your program step by step after it has hit a breakpoint, use the "step" command. Typing</p>
+        <p class="p3">(gdb) s</p>
+        <p class="p3">will execute the next line of code. If the next line is a function call, the debugger will step into this function.</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>n, next: Execute the next line</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">This command is similar to the "step" command, except for it does not step into a function, but executes it, as if it were a simple statement.</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>disable, enable - Disable/enable the breakpoint</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Use these commands with a breakpoint number as an argument to disable or enable a breakpoint.</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>display - Display an expression</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Display a value of an expression every time the program stops. Typing</p>
+        <p class="p3"> (gdb) display x</p>
+        <p class="p3"> Will print the value of a variable "x" every time the program hits a breakpoint. If you want to print the value in hex, type:</p>
+        <p class="p3"> (gdb) display /x x</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>undisp - Cancel display</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Cancel the display of some expressions. Arguments are the code numbers of the expressions. If no arguments are given, GDB will cancel all expression displays.</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>print, printf - Print an expression</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">To print a value of an expression only once, use the "print" command. It takes the same arguments as the "display" command.</p>
+        <p class="p3">The "printf" command allows you to specify the formatting of the output, just like you do with a C library printf() function. For example, you can type:</p>
+        <p class="p3"> (gdb) printf "X = %d, Y = %d\n",X,Y</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>command - Execute a command on a breakpoint</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">You can specify that a certain command, or a number of commands be executed at a breakpoint. For example, to specify that a certain string and a certain value are printed every time you stop at breakpoint 2, you could type:</p>
+        <p class="p3"> (gdb) command 2</p>
+        <p class="p3">&gt; printf "theString = %s\n", theString</p>
+        <p class="p3">&gt; print /x x</p>
+        <p class="p3">&gt; end</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>bt, where - Display backtrace</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">To find out where you are in the execution of your program and how you got there, type</p>
+        <p class="p3">(gdb) bt or (gdb) where</p>
+        <p class="p3">This will show the backtrace of the execution, including the function names and arguments.</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>set - Assign a value to a variable</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Sometimes it is useful to change the value of a variable while the program is running. For example if you have a variable "x", typing</p>
+        <p class="p3"> (gdb) set variable x = 15</p>
+        <p class="p3">will change the value of "x" to 15.</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>define - Define a new command</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Use this if you want to define a new command. This is similar to assigning a macro and can save you typing. Just as with a macro, you can put together several commands. For example, if you were tired of typing</p>
+        <p class="p3">(gdb) target remote unix :.sockets/gdb</p>
+        <p class="p3"> all the time, you could do:</p>
+        <p class="p3"> (gdb) define db</p>
+        <p class="p3">Type commands for definition of "db".</p>
+        <p class="p3">End with a line saying just "end".</p>
+        <p class="p3">&gt; target remote unix :.sockets/gdb</p>
+        <p class="p3">&gt; end</p>
+        <p class="p3"> </p>
+        <p class="p3">Then you could invoke it just by typing "db". (If you put this or other commands in a file called .gdbinit, GDB will execute them automatically at startup time.)</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>info - Display information</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">With this command you can get information about various things in your debugging session. For example, to list all breakpoints, type:</p>
+        <p class="p3">(gdb) info breakpoints</p>
+        <p class="p3">To see the current state of the hardware machine registers, type:</p>
+        <p class="p3">(gdb) info registers</p>
+        <p class="p3"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>help - Get help</b></h6>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3">Finally, if you want to find more about a particular command just type:</p>
+        <p class="p3"> (gdb) help &lt;command name&gt;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p3"> </p>
+<p class="p3"> </p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 15.0px Times"><b>Debugging tips</b></h2>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 12.0px Times"><b>Check your beliefs about the program</b></h3>
+<p class="p3">So how do you actually approach debugging? When you have a bug in a program, it means that you have a particular belief about how your program should behave, and somewhere in the program this belief is violated. For example, you may believe that a certain variable should always be 0 when you start a "for" loop, or a particular pointer can never be NULL in a certain "if statement". To check such beliefs, set a breakpoint in the debugger at a line where you can check the validity of your belief. When your program hits the breakpoint, ask the debugger to display the value of the variable in question.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 12.0px Times"><b>Narrow down your search</b></h3>
+<p class="p3">If you have a situation where a variable does not have the value you expect, and you want to find a place where it is modified, instead of walking through the entire program line by line, you can check the value of the variable at several points in the program and narrow down the location of the misbehaving code.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 12.0px Times"><b>Walk through your code</b></h3>
+<p class="p3">Steve Maguire (the author of Writing Solid Code) recommends using the debugger to step through every new line of code you write, at least once, in order to understand exactly what your code is doing. It helps you visually verify that your program is behaving more or less as intended. With judicious use, the step, next and finish commands can help you trace through complex code quickly and make it possible to examine key data structures as they are built.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 12.0px Times"><b>Use good tools</b></h3>
+<p class="p3">Using GDB with a visual front-end can be very helpful. For example, using GDB inside the emacs editor puts you in a split-window mode, where in one of the windows you run your GDB session, and in the other window the GDB moves an arrow through the lines of your source file as they are executed. To use GDB through emacs do the following:</p>
+<h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 12.0px Times"><b>Start emacs.</b></h6>
+<ol class="ol1">
+  <li class="li4">Type the "meta" key followed by an "x".</li>
+  <li class="li4">At the prompt type:</li>
+</ol>
+<p class="p3"> </p>
+<p class="p3">gdb</p>
+<p class="p3">emacs will display the message:</p>
+<p class="p3"> </p>
+<p class="p3">Run gdb (like this): gdb</p>
+<ol class="ol1">
+  <li class="li4">Remove the word "gdb", and type:</li>
+</ol>
+<p class="p3"> </p>
+<p class="p8">cs161-gdb kernel</p>
+<p class="p3"> </p>
+<p class="p3">So in the end you should have:</p>
+<p class="p3"> </p>
+<p class="p3">Run gdb (like this): cs161-gdb kernel</p>
+<p class="p3">displayed in the control window.</p>
+<p class="p3"> </p>
+<p class="p3">At this point you can continue using GDB as explained in section 2.</p>
+<p class="p3"> </p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 12.0px Times"><b>Beware of printfs!</b></h3>
+<p class="p3">A lot of programmers like to find mistakes in their programs by inserting "printf" statements that display the values of the variables. If you decide to resort to this technique, you have to keep in mind two things: First, because adding printfs requires a recompile, printf debugging may take longer overall than using a debugger.</p>
+<p class="p3">More subtly, if you are debugging a multi-threaded program, such as a kernel, the order in which the instructions are executed depends on how your threads are scheduled, and some bugs may or may not manifest themselves under a particular execution scenario. Because printf outputs to the console, and the console in System/161 is a serial device that isn't extraordinarily fast, an extra call to printf may alter the timing and scheduling considerably. This can make bugs hide or appear to come and go, which makes your debugging job much more difficult.</p>
+<p class="p3">To help address this problem, System/161 provides a simple debug output facility as part of its trace control device. One of the trace control device's registers, when written to, prints a notice in the System/161 output including the value that was written. In OS/161, provided your System/161 has been configured to include the trace control device, you can access this feature by calling <i>trace_debug()</i> , which is defined in <i>dev/lamebus/ltrace.h</i> . While this is less disruptive than calling printf, it is still not instant and can still alter the timing of execution. By contrast, the System/161 debugger interface is completely invisible; as far as your kernel is concerned, time is stopped while you are working in the debugger.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 12.0px Times"><b>Debugging assembly</b></h3>
+<p class="p3">When GDB stops in an assembly source file (a <i>.S</i> file) various special considerations apply. GDB is meant to be a source-level debugger for high level languages and isn't very good at debugging assembly. So various tricks are required to get adequate results.</p>
+<p class="p3">The OS/161 toolchain now tells the assembler to emit line number information for assembly files, so in theory you should at least be able to see the file you're working on. (If GDB can't find the file, you can use the <i>path</i> command to tell it where to look.)</p>
+<p class="p3">It is also sometimes helpful to disassemble the kernel; type</p>
+<p class="p8">% objdump --disassemble kernel | less</p>
+<p class="p3">in another window and page or search through it as needed.</p>
+<p class="p3">To single step through assembler, use the <i>nexti</i> and <i>stepi</i> commands, which are like <i>next</i> and <i>step</i> but move by one instruction at a time.</p>
+<p class="p3">The command <i>x /i</i> (examine as instructions) is useful for disassembling regions from inside GDB.</p>
+<p class="p3">Use the command <i>info registers</i> to see the values that are being handled. Unfortunately, you can't print only one register.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 12.0px Times"><b>trace161</b></h3>
+<p class="p3">The <i>trace161</i> program is the same as <i>sys161</i> but includes additional support for various kinds of tracing and debugging operations. You can have System/161 report disk I/O, interrupts, exceptions, or whatever. See the System/161 documentation for more information.</p>
+<p class="p3">One of the perhaps more interesting trace options is to have System/161 report every machine instruction that is executed, either at user level, at kernel level, or both. Because this setting generates vast volumes of output, it's generally not a good idea to turn it on from the command line. (It is sometimes useful, however, in the early stages of debugging assignment 2 or 3, to log all user-mode instructions.) However, the trace options can be turned on and off under software control using the System/161 trace control device. It can be extremely useful to turn instruction logging on for short intervals in places you suspect something strange is happening. See <i>dev/lamebus/ltrace.h</i> for further information.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 12.0px Times"><b>Other tricks and caveats</b></h3>
+<p class="p3">If you have a <i>void *</i> in GDB and you know what type it actually is, you can cast it when printing, using the usual C expression syntax. This can be surprisingly useful; for instance, if you want to know what a thread is sleeping on, you can cast its <i>sleepaddr</i> pointer to <i>struct lock *</i> . This will tell you the name of the lock. (If the object is not a lock but a semaphore or CV, it still works, as long as the name field of those structures is in the same place as the name field of the lock.)</p>
+<p class="p3">Another trick with a stopped thread is to cast <i>thread-&gt;pcb.pcb_savestack</i> to <i>struct switchframe *</i> ; this will let you inspect its saved register values.</p>
+<p class="p3">When you get a stack backtrace and it reaches an exception frame, GDB can sometimes now trace through the exception frame, but it doesn't always work very well. Sometimes it only gets one function past the exception, and sometimes it skips one function. (This is a result of properties of the MIPS architecture and the way GDB is implemented and doesn't appear readily fixable.) Always check the <i>tf_epc</i> field of the trap frame to see exactly where the exception happened, and if in doubt, cross-check it against a disassembly or have GDB disassemble the address.</p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 15.0px Times"><b>Where to go for more help</b></h2>
+<p class="p3">For help on GDB commands, type "help" from inside GDB. You can find the documentation on GDB at <i>http://www.gnu.org/software/gdb/gdb.html</i> .</p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+!786;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;
+SCU0PATH+=%<JGRASP_PATHS>%;\012PATH+=C:\\cygwin\\bin;\012CYGWIN=nodosfilewarning
+S+U0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SyU0PATH+=%<PYTHON_PATH>%;\012PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0PATH+=%<JGRASP_PATHS>%;
+s#i0
+s#k0
+s#j0
+s#l0
+!2958;d
+[\012  grasp [\012   legendy -51.78571428571429\012   legendx -22.428571428571445\012   version 1\012   winflags 2\012   height 342\012   width 372\012   wbp 0\012   initlayout 0\012   yoffs -33.142857142857174\012   xoffs -31.928571428571587\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "MessageCalc\\011()V\\011c\\0111\\011\\011\\011MessageCalc\011calc\\011(IILjava/lang/String;)C\\011\\0110\\011\\011\\011MessageCalc"\012    condition 0\012    access2 0\012    access 2228257\012    classname "MessageCalc"\012    fromclassfiledate 1347460937509\012    fromclassfilename "%\011MessageCalc.class"\012    fromfilename "%\011MessageCalc.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x 57.85714285714289\012     y -23.999999999999996\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "MethodExample\\011()V\\011c\\0111\\011\\011\\011MethodExample\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011MethodExample"\012    condition 0\012    access2 0\012    access 2490401\012    classname "MethodExample"\012    fromclassfiledate 1347464447352\012    fromclassfilename "%\011MethodExample.class"\012    fromfilename "%\011MethodExample.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x -57.85714285714289\012     y 23.999999999999996\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 0\012    access2 0\012    access 1048576\012    classname "Die"\012   ]\012   id 2\012   graphics [\012    center [\012     x -86.64285714285728\012     y -105.85714285714286\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "RollingDice\\011()V\\011c\\0111\\011\\011\\011RollingDice\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011RollingDice"\012    condition 0\012    access2 0\012    access 2490401\012    classname "RollingDice"\012    fromclassfiledate 1347463600146\012    fromclassfilename "%\011RollingDice.class"\012    fromfilename "%\011RollingDice.java"\012   ]\012   id 3\012   graphics [\012    center [\012     x 23.35714285714272\012     y -105.85714285714286\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  edge [\012   ClassInfo [\012    dependencies "Die\\011()V\\011c\\011\\011\\011\\011Die\011getFaceValue\\011()I\\011\\011\\011\\011\\011Die\011roll\\011()I\\011\\011\\011\\011\\011Die\011setFaceValue\\011(I)V\\011\\011\\011\\011\\011Die"\012    type 3\012   ]\012   source 2\012   target 3\012  ]\012  edge [\012   ClassInfo [\012    dependencies "MessageCalc\\011()V\\011c\\011\\011\\011\\011MessageCalc\011calc\\011(IILjava/lang/String;)C\\011\\011\\011\\011\\011MessageCalc"\012    type 3\012   ]\012   source 0\012   target 1\012  ]\012 ]!68;g
+%\011RollingDice.java
+%\011MethodExample.java
+%\011MessageCalc.java
+!68;f
+%\011RollingDice.java
+%\011MethodExample.java
+%\011MessageCalc.java

@@ -1,0 +1,21 @@
+roc0017 insertion #1: 8
+roc0017 insertion #2: 12
+roc0017 insertion #3: 13
+roc0017 insertion #4: 24
+roc0017 insertion #5: 1023
+roc0017 insertion #6: 32767
+roc0017 insertion assignments: 14 comparisons: 14
+roc0017 heap #1: 8
+roc0017 heap #2: 12
+roc0017 heap #3: 13
+roc0017 heap #4: 24
+roc0017 heap #5: 1023
+roc0017 heap #6: 32767
+roc0017 heap assignments: 26 comparisons: 32
+roc0017 quick #1: 8
+roc0017 quick #2: 12
+roc0017 quick #3: 13
+roc0017 quick #4: 24
+roc0017 quick #5: 1023
+roc0017 quick #6: 32767
+roc0017 quick assignments: 10 comparisons: 11

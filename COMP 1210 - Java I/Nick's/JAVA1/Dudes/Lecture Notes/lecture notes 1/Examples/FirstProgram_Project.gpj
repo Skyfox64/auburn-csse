@@ -1,0 +1,18 @@
+!656;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;
+SCU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+S+U0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!2323;d
+[\012  grasp [\012   legendy -110.89459815546775\012   legendx -3.9641706924315656\012   version 1\012   winflags 2\012   height 337\012   width 156\012   wbp 0\012   initlayout 0\012   yoffs -26.08893280632401\012   xoffs -11.679841897233246\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 252641535\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "FirstProgram\\011()V\\011c\\0111\\011\\011\\011FirstProgram\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011FirstProgram"\012    condition 0\012    access2 0\012    access 2490401\012    classname "FirstProgram"\012    fromclassfiledate 1313095938544\012    fromclassfilename "%\011FirstProgram.class"\012    fromfilename "%\011FirstProgram.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x -12.636363636363598\012     y 37.95454545454547\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 0\012    access2 0\012    access 1048576\012    classname "java/io/PrintStream"\012   ]\012   id 1\012   graphics [\012    center [\012     x -110.00000000000003\012     y -37.95454545454547\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 0\012    access2 0\012    access 1048576\012    classname "java/lang/String"\012   ]\012   id 2\012   graphics [\012    center [\012     x 0.0\012     y -37.95454545454547\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    condition 0\012    access2 0\012    access 1048576\012    classname "java/lang/System"\012   ]\012   id 3\012   graphics [\012    center [\012     x 110.00000000000003\012     y -37.95454545454547\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  edge [\012   ClassInfo [\012    dependencies "out\\011Ljava/io/PrintStream;\\011\\011\\011\\011\\011java.lang.System"\012    type 3\012   ]\012   source 3\012   target 0\012  ]\012  edge [\012   ClassInfo [\012    type 3\012   ]\012   source 2\012   target 0\012  ]\012  edge [\012   ClassInfo [\012    dependencies "println\\011(Ljava/lang/String;)V\\011\\011\\011\\011\\011java.io.PrintStream"\012    type 3\012   ]\012   source 1\012   target 0\012  ]\012 ]!1;k
+1!23;g
+%\011FirstProgram.java
+!20;f
+%	FirstProgram.java

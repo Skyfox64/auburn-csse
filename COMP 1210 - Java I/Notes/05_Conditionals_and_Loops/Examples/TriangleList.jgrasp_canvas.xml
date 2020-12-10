@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>TriangleList</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>30</X>
+      <Y>270</Y>
+      <W>527</W>
+      <H>114</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.util.ArrayList` triangles</Expression>
+      <ViewerClass>java__util__Collection_ToStringView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>30</X>
+      <Y>60</Y>
+      <W>528</W>
+      <H>171</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.util.ArrayList` triangles</Expression>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+        <StructureData>
+          <Type>Array</Type>
+          <SzExp>(_struct_.elementData == null)? 0 : _struct_.elementData.length</SzExp>
+          <UsedExp>_index_ &lt; _struct_.size</UsedExp>
+          <ElementExp>_struct_.elementData[_index_]</ElementExp>
+          <IndexExp>index</IndexExp>
+        </StructureData>
+        <ViewData>
+          <Scale>41</Scale>
+          <Width>49</Width>
+        </ViewData>
+      </ViewerData>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>660</W>
+    <H>706</H>
+  </Size>
+  <ESize>
+    <W>660</W>
+    <H>706</H>
+  </ESize>
+</Canvas>

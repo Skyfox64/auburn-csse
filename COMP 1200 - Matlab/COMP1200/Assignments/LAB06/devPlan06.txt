@@ -1,0 +1,107 @@
+---'Save As' this file using the name in the assignment instructions.
+---Type your information.
+---Submit the completed development plan via Blackboard with your other files.
+
+NAME:        John carroll
+ASSIGNMENT:  Lab06
+DATE:        Oct/20/2011
+
+PROBLEM SOLVING IN ENGINEERING AND SCIENCE 
+Always use a systematic problem-solving strategy.
+
+1. STATE THE PROBLEM:
+The purpose of this assignment is to get the user to enter in data, turning it into an index.
+The program will then compute the number of pairs, and the sums needed to compute the slope and y-intercept.
+It will also place this data into a table and show the slope and y-intercept in the form of a linear equation. 
+The user will be able to enter one of the velocities entered earlier and get the distance using the linear equation that is created in my program.
+ 
+
+
+
+
+
+
+
+2. DESCRIBE THE INPUT AND OUTPUT REQUIREMENTS:
+---List and describe the following as needed to solve the problem, as needed.
+---Include units where needed.
+
+   CONSTANTS (known values that don't change):
+None.
+
+
+   INPUT (values needed to find the output):
+counter and accumulators 
+while velocity not = 0
+ask user to enter a velocity and distance 
+add values to vectors
+increment counter
+
+			
+   OUTPUT (unknowns):
+print velocity and distance data in table
+print LINEAR EQUATION: y = mx + b
+print velocity and distance
+
+
+   Relevant formulas (for complicated equations, it may be helpful to divide it into parts):
+slope = ((vel_counter)*sum(vel.*dist)-sum(vel)*sum(dist))/((vel_counter)*sum(vel.*vel)-sum(vel)*sum(vel))
+intercept = (sum(dist)*sum(vel.*vel)-sum(vel)*sum(vel.*dist))/((vel_counter)*sum(vel.*vel)-sum(vel)*sum(vel))
+Regression Equation: y = mx + b
+ 
+
+
+
+
+
+
+
+3. WORK HAND EXAMPLES
+---Solve the problem with a few hand examples.
+---Record the input values used and the results
+
+Slope(m)=[n*(sum(x*y))-(sum(x))*(sum(y))]/[n*(sum(x^2))-(sum(x))^2]
+
+Intercept(b)=[(sum(y))*(sum(x)^2)-(sum(x))*(sum(x*y))]/[n*(sum(x^2))-(sum(x)^2)]
+
+My sample input
+ NEBULA INPUT DATA
+ VELOCITY  DISTANCE
+  km/sec  106 parsecs
+      7      2.000
+      6      3.000
+      5      4.000
+      4      5.000
+      x       y
+
+
+Slope(m)=[4*(sum(x*y))-(sum(x))*(sum(y))]/[4*(sum(x^2))-(sum(x))^2]
+
+                     =[(4*(72))-(22)*(14)]/[(4*(126))-(22)^2]
+                                =[288-308]/[504-484]
+                                     =-20/20
+
+                     m = -1.00
+
+
+Intercept(b)=[(sum(y))*(sum(x)^2)-(sum(x))*(sum(x*y))]/[4*(sum(x^2))-(sum(x)^2)]
+
+                               =[(14)*(126)-(22)*(72)]/[(4*(126))-(22)^2)]
+                                          =[1764-1584]/[504-484]
+                                                  =180/20
+                     b = +9.00
+
+
+Regression Equation: y = mx + b
+
+              distance = -1.00 * velocity + 9.00
+
+
+
+
+
+
+
+
+
+

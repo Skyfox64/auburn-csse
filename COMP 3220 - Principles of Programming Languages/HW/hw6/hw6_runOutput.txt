@@ -1,0 +1,275 @@
+Run 1
+
+Objective: Show that there can be multiple readers, however; 
+           if there is a writer everything else must wait to resume.
+
+_______________________________
+
+       Homework 6 Output         
+_______________________________
+
+Writer[1] wants to write [1] time(s).
+   >Writer[1]: Hello!
+Writer[2] wants to write [6] time(s).
+   >Writer[2]: A
+   >Writer[2]: B
+   >Writer[2]: C
+   >Writer[2]: D
+   >Writer[2]: E
+   >Writer[2]: F
+Reader[2] wants to read [20] time(s).
+   >Reader[2]: Hello!
+   >Reader[2]: A
+   >Reader[2]: B
+   >Reader[2]: C
+   >Reader[2]: D
+   >Reader[2]: E
+   >Reader[2]: F
+Reader[1] wants to read [26] time(s).
+   >Reader[1]: Hello!
+   >Reader[1]: A
+   >Reader[1]: B
+   >Reader[1]: C
+   >Reader[1]: D
+   >Reader[1]: E
+   >Reader[1]: F
+Reader[5] wants to read [1] time(s).
+   >Reader[5]: Hello!
+Writer[5] wants to write [8] time(s).
+   >Writer[5]: S
+   >Writer[5]: T
+   >Writer[5]: U
+   >Writer[5]: V
+   >Writer[5]: W
+   >Writer[5]: X
+   >Writer[5]: Y
+   >Writer[5]: Z
+Reader[4] wants to read [6] time(s).
+   >Reader[4]: Hello!
+   >Reader[4]: A
+   >Reader[4]: B
+   >Reader[4]: C
+   >Reader[4]: D
+   >Reader[4]: E
+Writer[4] wants to write [6] time(s).
+   >Writer[4]: M
+   >Writer[4]: N
+   >Writer[4]: O
+   >Writer[4]: P
+   >Writer[4]: Q
+   >Writer[4]: R
+Writer[3] wants to write [6] time(s).
+   >Writer[3]: G
+   >Writer[3]: H
+   >Writer[3]: I
+   >Writer[3]: J
+   >Writer[3]: K
+   >Writer[3]: L
+Reader[3] wants to read [15] time(s).
+   >Reader[3]: Hello!
+   >Reader[3]: A
+   >Reader[3]: B
+   >Reader[3]: C
+   >Reader[3]: D
+   >Reader[3]: E
+   >Reader[3]: F
+   >Reader[3]: S
+   >Reader[3]: T
+   >Reader[3]: U
+   >Reader[3]: V
+   >Reader[3]: W
+   >Reader[3]: X
+   >Reader[3]: Y
+   >Reader[3]: Z
+
+Process finished with exit code 0
+
+
+
+Run 2
+
+_______________________________
+
+       Homework 6 Output         
+_______________________________
+
+Writer[1] wants to write [1] time(s).
+   >Writer[1]: Hello!
+Reader[5] wants to read [1] time(s).
+   >Reader[5]: Hello!
+Reader[3] wants to read [15] time(s).
+   >Reader[3]: Hello!
+Reader[4] wants to read [6] time(s).
+   >Reader[4]: Hello!
+Writer[5] wants to write [8] time(s).
+   >Writer[5]: S
+   >Writer[5]: T
+   >Writer[5]: U
+   >Writer[5]: V
+   >Writer[5]: W
+   >Writer[5]: X
+   >Writer[5]: Y
+   >Writer[5]: Z
+Writer[4] wants to write [6] time(s).
+   >Writer[4]: M
+   >Writer[4]: N
+   >Writer[4]: O
+   >Writer[4]: P
+   >Writer[4]: Q
+   >Writer[4]: R
+Writer[2] wants to write [6] time(s).
+   >Writer[2]: A
+   >Writer[2]: B
+   >Writer[2]: C
+   >Writer[2]: D
+   >Writer[2]: E
+   >Writer[2]: F
+Writer[3] wants to write [6] time(s).
+   >Writer[3]: G
+   >Writer[3]: H
+   >Writer[3]: I
+   >Writer[3]: J
+   >Writer[3]: K
+   >Writer[3]: L
+Reader[1] wants to read [26] time(s).
+   >Reader[1]: Hello!
+   >Reader[1]: S
+   >Reader[1]: T
+   >Reader[1]: U
+   >Reader[1]: V
+   >Reader[1]: W
+   >Reader[1]: X
+   >Reader[1]: Y
+   >Reader[1]: Z
+   >Reader[1]: M
+   >Reader[1]: N
+   >Reader[1]: O
+   >Reader[1]: P
+   >Reader[1]: Q
+   >Reader[1]: R
+   >Reader[1]: A
+   >Reader[1]: B
+   >Reader[1]: C
+   >Reader[1]: D
+   >Reader[1]: E
+   >Reader[1]: F
+   >Reader[1]: G
+   >Reader[1]: H
+   >Reader[1]: I
+   >Reader[1]: J
+   >Reader[1]: K
+Reader[2] wants to read [20] time(s).
+   >Reader[2]: Hello!
+   >Reader[2]: S
+   >Reader[2]: T
+   >Reader[2]: U
+   >Reader[2]: V
+   >Reader[2]: W
+   >Reader[2]: X
+   >Reader[2]: Y
+   >Reader[2]: Z
+   >Reader[2]: M
+   >Reader[2]: N
+   >Reader[2]: O
+   >Reader[2]: P
+   >Reader[2]: Q
+   >Reader[2]: R
+   >Reader[2]: A
+   >Reader[2]: B
+   >Reader[2]: C
+   >Reader[2]: D
+   >Reader[2]: E
+
+Process finished with exit code 0
+
+
+Run 3
+
+_______________________________
+
+       Homework 6 Output         
+_______________________________
+
+Writer[1] wants to write [1] time(s).
+   >Writer[1]: Hello!
+Writer[2] wants to write [6] time(s).
+   >Writer[2]: A
+   >Writer[2]: B
+   >Writer[2]: C
+   >Writer[2]: D
+   >Writer[2]: E
+   >Writer[2]: F
+Reader[3] wants to read [15] time(s).
+   >Reader[3]: Hello!
+   >Reader[3]: A
+   >Reader[3]: B
+   >Reader[3]: C
+   >Reader[3]: D
+   >Reader[3]: E
+   >Reader[3]: F
+Reader[1] wants to read [26] time(s).
+   >Reader[1]: Hello!
+   >Reader[1]: A
+   >Reader[1]: B
+   >Reader[1]: C
+   >Reader[1]: D
+   >Reader[1]: E
+   >Reader[1]: F
+Reader[5] wants to read [1] time(s).
+   >Reader[5]: Hello!
+Writer[5] wants to write [8] time(s).
+   >Writer[5]: S
+   >Writer[5]: T
+   >Writer[5]: U
+   >Writer[5]: V
+   >Writer[5]: W
+   >Writer[5]: X
+   >Writer[5]: Y
+   >Writer[5]: Z
+Writer[4] wants to write [6] time(s).
+   >Writer[4]: M
+   >Writer[4]: N
+   >Writer[4]: O
+   >Writer[4]: P
+   >Writer[4]: Q
+   >Writer[4]: R
+Reader[4] wants to read [6] time(s).
+   >Reader[4]: Hello!
+   >Reader[4]: A
+   >Reader[4]: B
+   >Reader[4]: C
+   >Reader[4]: D
+   >Reader[4]: E
+Writer[3] wants to write [6] time(s).
+   >Writer[3]: G
+   >Writer[3]: H
+   >Writer[3]: I
+   >Writer[3]: J
+   >Writer[3]: K
+   >Writer[3]: L
+Reader[2] wants to read [20] time(s).
+   >Reader[2]: Hello!
+   >Reader[2]: A
+   >Reader[2]: B
+   >Reader[2]: C
+   >Reader[2]: D
+   >Reader[2]: E
+   >Reader[2]: F
+   >Reader[2]: S
+   >Reader[2]: T
+   >Reader[2]: U
+   >Reader[2]: V
+   >Reader[2]: W
+   >Reader[2]: X
+   >Reader[2]: Y
+   >Reader[2]: Z
+   >Reader[2]: M
+   >Reader[2]: N
+   >Reader[2]: O
+   >Reader[2]: P
+   >Reader[2]: Q
+
+Process finished with exit code 0
+
+//The reason why writer 1 always seems to go first is because it only writes once whereas
+all of the other writers are set up to write more than one times

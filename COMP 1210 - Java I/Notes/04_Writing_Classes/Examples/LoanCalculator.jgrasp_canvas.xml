@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>LoanCalculator</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>120</X>
+      <Y>30</Y>
+      <W>116</W>
+      <H>122</H>
+    </Bounds>
+    <LabelLoc>
+      <X>-1</X>
+      <Y>40</Y>
+      <H>LEFT</H>
+      <V>CENTER</V>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.lang.String` loanType</Expression>
+      <ViewerClass>java__lang__String_CharArrayView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>120</X>
+      <Y>200</Y>
+      <W>312</W>
+      <H>112</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local Loan` loan</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>785</W>
+    <H>489</H>
+  </Size>
+</Canvas>

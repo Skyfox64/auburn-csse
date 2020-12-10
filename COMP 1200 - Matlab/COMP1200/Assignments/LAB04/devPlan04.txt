@@ -1,0 +1,153 @@
+SOFTWARE DEVELOPMENT PLAN
+
+   Name: John Carroll
+   Assignment:	Lab04
+   Date: Sept. 22, 2011
+
+PROBLEM SOLVING IN ENGINEERING AND SCIENCE 
+Always use a systematic problem-solving strategy.
+__________________________________________________________________________________________________________________________________________________________
+1. STATE THE PROBLEM:
+---Describe the problem to be solved for the assignment.
+We have a vector from the angles 5 to 85 degrees. Our objective is to solve for the distance that water balloons have to travel from the balcony to the swimming pool. I have to compute the distance of the water balloon's travels given the balloon launch angle (theta) in degrees, balloon launch velocity (v) in min/sec, and the thrower’s height in feet.
+
+
+
+
+__________________________________________________________________________________________________________________________________________________________
+2. DESCRIBE THE INPUT AND OUTPUT REQUIREMENTS:
+---List and describe the following as needed to solve the problem, as needed.
+---Include units where needed.
+
+
+
+   CONSTANTS (known values that don't change):
+BALCONY_HT = 12;                                Balcony height in feet
+G = 32;                                         Gravitational acceleration in ft/s^2
+MIN_THETA = 5; MAX_THETA = 85;                  The angles minimums and maximums in degrees
+MIN_VELOCITY = 1; MAX_VELOCITY = 30;            The min and max velocities of the throw shown in ft/sec
+MIN_THROWERS_HT = 4.5; MAX_THROWERS_HT = 7.0;   The min and max height of the thrower shown in feet 
+POOL_CENTER = 35;                               The distance to the center of pool
+
+
+
+   INPUT (values needed to find the output):
+theta = (85-5) * rand (7,1) + 5;                    This creates a random matrix within the limits of the angle theta for the balloon launch angle
+velocity = (30-1) * rand (7,1) + 1;                 This creates a random matrix within the limits of the velocity for the balloon launch velocity
+throwers_ht = (7.0-4.5) * rand (7,1) + 4.5;         This creates a random matrix within the limits of the thrower's height
+balloon_ht = (12 + throwers_ht);                    This is the equation to establish the height of the balloon when thrown
+
+
+   COMPUTATION
+a = (velocity.*cosd(theta))/G;                      This is part a of the equation that consists of "velocity*cosd(theta)/G"
+b = (velocity.*sind(theta));                        This is part b of the equation that consists of "velocity*sind(theta)"
+c = sqrt(b.^2 +(2*G.*balloon_ht));                  This is part c of the equation that consists of "sqrt(b^2 +(2*G*balloon_ht))"
+distance = a' .*(b' + c');                          The combined equation resulting in the computed distance
+
+n = [theta, velocity, throwers_ht, distance'];      The information fully computed and ready to be displayed in a 4x7 matrix 
+
+j = find(n(:,4) <= POOL_CENTER - 1);                               This variable finds the distances that are too short to hit the pool.
+k = find(n(:,4) >= POOL_CENTER + 1);                               This variable finds the distances that are too long to hit the pool.
+l = find(n(:,4) < POOL_CENTER + 1 & n(:,4) > POOL_CENTER - 1);     This variable finds the distances that hit the pool.
+			
+
+
+   OUTPUT (unknowns)
+1.)distances that a water balloon will travel
+2.)the matrix containing theta, velocity, thrower’s height, and distance with column headers.
+3.)the distances that are too short
+4.)the distances that are too long
+5.)the distances that hit the pool
+6.)average distance
+7.)message about average distance
+
+
+
+   Relevant formulas: 
+distance = (((velocity.*cosd(theta))/G) *[(velocity.*sind(theta)) + sqrt(b.^2 +(2*G.*12 + (throwers_ht)))]
+
+x = (max-min) * r+min
+ 
+ 
+
+
+__________________________________________________________________________________________________________________________________________________________
+3. WORK HAND EXAMPLES
+---Solve the problem with a few hand examples.
+---Record the input values used and the results
+
+a = (((velocity.*cosd(theta))/G)
+b = (velocity.*sind(theta))
+c = sqrt(b.^2 +(2*G.*12 + (throwers_ht)))]
+distance = a' .*(b' + c')
+distance = (((velocity.*cosd(theta))/G) *[(velocity.*sind(theta)) + sqrt(b.^2 +(2*G.*12 + (throwers_ht)))]
+
+
+         theta       velocity      throwers_ht    distance
+          7.09         21.47          6.73         24.89
+         81.37         19.71          6.64          5.46
+         39.45         17.02          5.51         18.88
+
+
+      (((21.47)*(cos(7.09))/32) * [((21.47)*(sin(7.09))) + sqrt(((21.47)*(sin(7.09))^2) + 2(32)(12 + 6.73))]
+                            .665*(2.65+ sqrt(7.022 + 1198.84)
+                            .665*(2.65 + 34.72)
+                            .665*(37.37)
+                            =24.89
+
+      (((19.71)*(cos(81.37))/32) * [((19.71)*(sin(81.37))) + sqrt(((19.71)*(sin(81.37))^2) + 2(32)(12 + 6.64))]
+                            .0924*(19.486 + sqrt(379.737 + 1192.96)
+                            .0924*(19.486 + 39.657)
+                            =5.46
+
+      (((17.02)*(cos(39.45))/32) * [((17.02)*(sin(39.45))) + sqrt(((17.02)*(sin(39.45))^2) + 2(32)(12 + 5.51))] 
+                            .4107*(10.814 + sqrt(116.955 + 1120.64)
+                            .4107*(10.814 + 35.1794)
+                            =18.88
+
+This problem uses random number as input. Care should be taken to know that your equation is still working properly from previous problem.
+
+__________________________________________________________________________________________________________________________________________________________
+4. DEVELOP AN ALGORITHM:
+---Think about the steps used to solve the problem to solve the problem by 
+   hand and list them here to create an algorithm. 
+---The algorithm steps should be used as comments in your program as a guide.
+
+*****INPUT*****
+   get angle theta, velocity, and thrower's height
+      using rand() to create vectors of 7 values each
+
+
+*****COMPUTATION*****
+   compute the horizontal distance using input vectors
+   combine vectors as a metrix
+   find distances in the matrix that are too short, too long, a hit
+
+
+*****OUTPUT*****
+   display a table containing theta, velocity, thrower's ht, distance
+      with column headers
+
+   display the distances that are too short. 
+      If the vector is empty, display a message.
+   display the distances that are too long. 
+      If the vector is empty, display a message.
+   display the distances that hit the pool. 
+      If the vector is empty, display a message.
+
+   display the average distance
+   determine if average distance hit the pool
+     distance too short
+     distance too long 
+     distance is a hit
+ 
+__________________________________________________________________________________________________________________________________________________________
+5. SOLVE THE PROBLEM:
+---This step represents your writing a computer program to solve the problem. 
+---NOTE: Do not type your program here. Submit it as a computer program file. 
+---Use steps in your algorithm as comments in your program 
+   to guide the development of you program.
+__________________________________________________________________________________________________________________________________________________________
+6. TEST THE SOLUTION:
+---Run your program using the values from #3 to check for correctness.
+---If there is an error, correct your program code and run again.

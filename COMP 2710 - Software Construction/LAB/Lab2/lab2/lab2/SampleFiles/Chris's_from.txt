@@ -1,0 +1,4 @@
+[(4)]|<John>|Hey John
+wassup ma dude
+[(6)]|<John>|Hey John, another msg.
+#2

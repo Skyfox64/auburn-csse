@@ -1,0 +1,105 @@
+---'Save As' this file using the name in the assignment instructions.
+---Type you information.
+---Submit the completed development plan via Blackboard with you other files.
+
+NAME:        John Carroll
+ASSIGNMENT:  Lab07
+DATE:        October 27th, 2011
+
+PROBLEM SOLVING IN ENGINEERING AND SCIENCE 
+Always use a systematic problem-solving strategy.
+
+1. STATE THE PROBLEM:
+---Describe the problem to be solved for the assignment.
+The program will need to build vectors to store from the velocites and distances that are 
+given by the "hubbleData.txt" file. It will also compute the sums that are needed. 
+It will find the slope and y-intercept and it will also print the velocity and 
+distance vectors. By using all of this information it will plot a "velocity 
+vs. distance" graph. 
+
+
+
+
+2. DESCRIBE THE INPUT AND OUTPUT REQUIREMENTS:
+---List and describe the following as needed to solve the problem, as needed.
+---Include units where needed.
+
+   CONSTANTS (known values that don't change):
+ N/A
+
+
+   INPUT (values needed to find the output):
+Hubble's data from hubbleData.txt
+velocity and distance
+
+			
+
+   OUTPUT (unknowns)
+Print the velocities and distances in a table
+Print Linear Equation
+Plot scatter plot and line graph
+ 
+
+
+   Relevant formulas: 
+	(for complicated equations, it may be helpful to divide it into parts)
+slope_1 = (r.*velocity_sum_distance - velocity_sum.*distance_sum);
+slope_2 = (r.*velocity_sum_sq - (velocity_sum.^2));
+slope = slope_1/slope_2;
+intercept_1 = ((distance_sum.*velocity_sum_sq)-(velocity_sum.*velocity_sum_distance));
+intercept_2 = (r.*velocity_sum_sq - (velocity_sum.^2));
+intercept = intercept_1/intercept_2;
+ 
+y=mx+b
+
+
+
+3. WORK HAND EXAMPLES
+---Solve the problem with a few hand examples.
+---Record the input values used and the results
+
+
+
+
+
+4. DEVELOP AN ALGORITHM:
+---Think about the steps used to solve the problem to solve the problem by 
+   hand and list them here to create an algorithm. 
+---The algorithm steps should be used as comments in your program as a guide.
+
+*****INITIALIZE*****
+initializes the summation of the distances, velocities, velocities squared, and velocities time distances' sum.
+
+
+*****INPUT*****
+-Read Hubble's data from hubbleData.txt
+-Use a while loop for reading the data file.
+-Use counting loops when summing data and printing table.
+
+
+*****COMPUTATION*****
+-Create the linear equation that estimates the relationship between the velocity and distance readings.
+-accumulate into sums data
+-compute SLOPE (m)
+-compute INTERCEPT (b)
+-Draw a scatter plot and the line graph for the data pairs
+
+
+*****OUTPUT*****
+-Print the slope and y-intercept in the form of a linear equation.
+-Display the data in a scatter plot and line graph
+-Print the velocities and distances in a two columns with a title and column headings
+
+
+
+
+5. SOLVE THE PROBLEM:
+---This step represents your writing a computer program to solve the problem. 
+---NOTE: Do not type your program here. Submit it as a computer program file. 
+---Use steps in your algorithm as comments in your program 
+   to guide the development of you program.
+
+6. TEST THE SOLUTION:
+---Run your program using the values from #3 to check for correctness.
+---If there is an error, correct your program code and run again.
+

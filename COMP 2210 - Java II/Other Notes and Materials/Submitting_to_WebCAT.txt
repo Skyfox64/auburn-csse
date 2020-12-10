@@ -1,0 +1,22 @@
+Submitting Assignments to WebCAT
+--------------------------------
+
+(1) Via WebCAT online
+
+- Point your browser to http://webcat.eng.auburn.edu:8080/
+- Enter your AU user id and your WebCAT password. Your WebCAT password is the same as it was in COMP 1210, but if you don't remember it you can click on the "Forgot your password?" link.
+- Select "Submit" under the Assignments Accepting Submissions in Your Courses section.
+
+
+(2) Via jGRASP
+
+In jGRASP, go to Tools -> Web-CAT -> Configure. Type the following into the text box labeled "Assignment Definition URL".
+	http://webcat.eng.auburn.edu:8080/Web-CAT/WebObjects/Web-CAT.woa/wa/assignments/eclipse
+
+The Web-CAT icon should now appear in the toolbar and project menus.
+
+
+(3) Via Eclipse
+
+Configure Eclipse according to the instructions here:
+http://wiki.web-cat.org/WCWiki/EclipsePlugins/SubmissionPlugin

@@ -1,0 +1,21 @@
+User stories
+	Admin
+		I need to log into a secured account
+		I need to view statistics on each individual student
+		I need to pair students with their most frequently matched tutors
+		I need to plan lessons for each student.
+	Student
+		I need to log into the site with no password
+		I need to be able to start a session with my tutor (?)
+		I need to view notifications
+		I need to view my progress from the last session
+		I need to know who will be tutoring me today
+		I need to be automatically brought to my lesson
+		I need to be able to watch my tutor make marks on my screen
+		I need to be able to log in from home
+	Tutor
+		I need to be able to log into the site
+		I need to see my scheduled student
+		I need to see the student's lesson plan for the day
+		I need to be able to take control of my student's screen
+		I need to be able to video chat with the student.

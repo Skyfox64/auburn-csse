@@ -1,0 +1,63 @@
+SOFTWARE DEVELOPMENT PLAN
+
+John Carroll
+Lab02
+September 8, 2011
+
+
+
+1. STATE THE PROBLEM:
+   Calculate the distance a water balloon will travel given the balloon launch angel (theta) in degrees, balloon launch velocity (v) in min/sec, and the thrower's height in feet.
+
+
+
+2. DESCRIBE THE INPUT AND OUTPUT REQUIREMENTS:
+   CONSTANTS:
+      BAL_HEIGHT= 12;               %balcony height in feet
+      G= 32;                        %gravitational acceleration in ft/s^2
+
+   INPUT:
+      Launch_Angle=[5:10:85];       %balloon's launch angle in degrees
+      LAUNCH_VELOCITY= 51;          %balloon's launch velocity in ft/sec
+      THROWER_HEIGHT= 6;            %thrower's height in feet
+      y0= 18;                       %height the balloon is released in feet
+
+   OUTPUT:
+      horizontal distance (feet) that a water balloon travels
+
+   Relevant formulas:
+      (for complicated equations, it may be helpful to divide it into parts)
+      (vcostheta/G)*((vsintheta) + sqrt((vsintheta)^2 + 2gy0)
+
+
+
+3. WORK HAND EXAMPLES
+   (vcostheta/G)*((vsintheta) + sqrt((vsintheta)^2 + 2gy0)
+
+      (51cos(5)/32)*((51sin(5)) + sqrt((51sin(5))^2 + 2(32)(18))
+            1.58*(4.444+34.2309)
+                  =61.41
+   
+      (51cos(45)/32)*((51sin(45)) + sqrt((51sin(45))^2 + 2(32)(18))
+            1.1269*(36.06 + 49.5227)
+                  =96.45
+
+      (51cos(85)/32)*((51sin(85)) + sqrt((51sin(85))^2 + 2(32)(18))
+            .138904465*(50.8059 + 61.1002
+                  =15.54
+
+
+     theta    horizontal
+     degrees   distance
+       5        61.41
+      45        96.45
+      85        15.54
+
+
+4. DEVELOP AN ALGORITHM:
+   *****INPUT*****
+        get angle theta, velocity, and thrower's height
+   *****COMPUTATION*****
+        compute the horizontal distance
+   *****OUTPUT*****
+        display a table of thetas & horizontal distance for each

@@ -1,0 +1,42 @@
+wordsPossible = new Hashtable<String, TreeSet<String>>(); // resets wordsPossible
+ArrayList<String> masks = new ArrayList<String>(); // resets masks
+String currentWord = "";
+String thisMask = "";
+String largestMask = "";
+String wordFamilies = "Possible word families: \n";
+String numWords = "Number of words possible: ";
+for(String word : currentWordFamily){
+   currentWord = word;
+   for(int i = 0; i < gameLength; i++){
+		if(!chosen.contains(word.charAt(i)) && !word.charAt(i) == '-'){
+			thisMask = word; //ex: abba, and chosen contains a
+			//then thisMask updates to: a--a
+			thisMask.replace(charAt(i), '-'); // this word's final mask
+		}
+		if(!wordsPossible.containsKey(thisMask)){
+			TreeSet<String> sprout = new TreeSet<String>();                               						sprout.add(currentWord);
+			wordsPossible.put(thisMask, sprout);
+			masks.add(thisMask); //adds: a--a to ArrayList
+					}
+		else{
+              //gets thisMask's value(treeset) and adds the current word to the TreeSet
+			wordsPossible.get(thisMask).add(currentWord);
+		}	
+   }
+}
+largestMask = masks.get(0);
+for(int i = 0; i < masks.size(); i++){
+	
+		if(wordsPossible.get(masks.get(i)).size() > largestMask.size()){
+			largestMask = masks.get(i);
+		}
+// saves the word families to wordFamilies.
+	wordFamilies += masks.get(i) + " " + wordsPossible.get(masks.get(i)).size() + "\n"; 
+}
+if(secretWordSet){
+	currentWordFamily = 
+}
+//currentWordFamily = wordsPossible.get(largestMask); //for dirty
+
+
+		

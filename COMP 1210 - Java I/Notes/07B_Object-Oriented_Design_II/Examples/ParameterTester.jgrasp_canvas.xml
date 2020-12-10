@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>changeValues</Name>
+    <Signature>(ILNum;LNum;)V</Signature>
+    <DeclaringType>ParameterModifier</DeclaringType>
+    <Depth>1</Depth>
+  </Scope>
+  <Scope id="1">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>ParameterTester</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>110</X>
+      <Y>220</Y>
+      <W>136</W>
+      <H>50</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local Num` f2</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>30</X>
+      <Y>70</Y>
+      <W>72</W>
+      <H>50</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local int` a1</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>260</X>
+      <Y>220</Y>
+      <W>136</W>
+      <H>50</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local Num` f3</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>110</X>
+      <Y>70</Y>
+      <W>136</W>
+      <H>50</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local Num` a2</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>30</X>
+      <Y>220</Y>
+      <W>72</W>
+      <H>50</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local int` f1</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>260</X>
+      <Y>70</Y>
+      <W>136</W>
+      <H>50</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local Num` a3</Expression>
+      <ViewerClass>_X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>520</W>
+    <H>600</H>
+  </Size>
+</Canvas>

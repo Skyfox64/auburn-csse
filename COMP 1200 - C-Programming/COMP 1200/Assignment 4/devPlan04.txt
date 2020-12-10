@@ -1,0 +1,108 @@
+---'Save As' this file using the name in the assignment instructions.
+---Type you information.
+---Submit the completed development plan via Blackboard with you other files.
+                                                       
+NAME: John Carroll                       
+ASSIGNMENT: Assignment04  (a & b)                   
+DATE: February 15th, 2012                  
+                                                      
+PROBLEM SOLVING IN ENGINEERING AND SCIENCE 
+Always use a systematic problem-solving strategy.
+
+1. STATE THE PROBLEM:
+---Describe the problem to be solved for the assignment.
+
+Find the BMI for a given height(in inches) and weight(in pounds.)
+Determine the BMI catagory.
+Compute and display the target weight for a given BMI.
+Compute the Idea Body Weight (IBW) for given height and gender.
+Prompt the user to enter the requested values until program is given good data.
+Prompt the user for the number of people, then execute program according to that number.
+
+
+
+2. DESCRIBE THE INPUT AND OUTPUT REQUIREMENTS:
+---List and describe the following as needed to solve the problem, as needed.
+---Include units where needed.
+
+   CONSTANTS (known values that don't change):
+ 
+none
+
+   INPUT (values needed to find the output):
+ 
+height in inches
+weight in pounds
+BMI
+gender			
+
+   OUTPUT (unknowns)
+
+BMI
+weight in pounds
+IBW
+
+   OTHER VARIABLES
+
+height in meters
+weight in kilograms
+
+   Relevant formulas: 
+	(for complicated equations, it may be helpful to divide it into parts)
+ 
+BMI = mass in kg / (height in meters)^2
+1 kg = 2.2046 pounds 
+1 inch = 2,54 cm
+
+IBW (men)   = 50.0 + 2.3 * (height - 60)
+IBW (women) = 45.5 + 2.3 * (height - 60)
+
+
+3. WORK HAND EXAMPLES
+---Solve the problem with a few hand examples.
+---Record the input values used and the results
+
+#People  ht(in) wt(lbs) Actual-BMI   Target-BMI    Target-wt(lbs)  F/M     IBW
+      2      60     145      28.32           25            128.01    F  100.31
+             72     165      22.38           25            184.33    M  171.08
+
+
+4. DEVELOP AN ALGORITHM:
+---Think about the steps used to solve the problem to solve the problem by 
+   hand and list them here to create an algorithm. 
+---The algorithm steps should be used as comments in your program as a guide.
+
+[Prompt user for the number of people
+For each person enter and compute stats]-part B
+---INPUT---
+While not a good weight, prompt the user to enter a value for weight in pounds
+While not a good height, prompt the user to enter a value for height in inches.
+----BMI----
+Compute conversions.
+Calculate.
+Display BMI.
+Display BMI classification
+     if BMI < 25 normal
+     else if BMI 25-30 overweight
+     else obese
+----Target BMI and weight----
+Until good BMI, prompt the user to enter a value for BMI.
+Compute weight.
+Compute conversions.
+Display weight.
+----IBW----
+While not a good gender, prompt user to enter the gender (F/f or M/m).
+Compute IBW for given height and gender.
+Compute conversions
+
+
+5. SOLVE THE PROBLEM:
+---This step represents your writing a computer program to solve the problem. 
+---NOTE: Do not type your program here. Submit it as a computer program file. 
+---Use steps in your algorithm as comments in your program 
+   to guide the development of you program.
+
+6. TEST THE SOLUTION:
+---Run your program using the values from #3 to check for correctness.
+---If there is an error, correct your program code and run again.
+

@@ -1,0 +1,8 @@
+****Make sure to have the latest DrRacket
+
+Function modification instructions:
+1. Open the file into DrRacket
+2. Follow the questions' number. 
+3. Look for the comment that says "Execution".
+4. Follow the 3 sample test cases to write more functions.
+5. Run using ctrl+r.

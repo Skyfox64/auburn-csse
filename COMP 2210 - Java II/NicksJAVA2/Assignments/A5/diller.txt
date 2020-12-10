@@ -1,0 +1,10 @@
+cat hat
+cat dog
+head tail
+door lock
+bank loan
+clash clown
+chair board
+board hotel
+chair hotel
+gimlets theeing

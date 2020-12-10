@@ -1,0 +1,9 @@
+[(2)]|<Mary>|Good Morning, Sunshine!
+When did you get back from Ireland?
+[(3)]|<All>|Just created a new Eagles group!
+Come one, come all!
+Have a blast!
+[(4)]|<Eagles>|Eagles have landed!
+War eagle, hey!
+[(5)]|<Tigers>|I'm enjoying your group too.
+Spent my summer in South Africa; it was amazing!

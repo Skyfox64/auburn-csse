@@ -1,0 +1,47 @@
+//System Calls
+//implement file
+//=====================
+
+//open, read, write, lseek, close, dup2
+int open(const char *path, int oflag, mode_t mode){
+//It should be as simple as it seems.
+};
+
+int read(int fd, void *buf, size_t nbytes){
+//You can use struct uios, and make use you understand it. You also can check out VOP_READ.
+};
+
+int write(int fd, const void *buf, size_t nbytes){
+//Involves I/O to userland. You can use struct uios again. Please check out VOP_WRITE.
+};
+
+int lseek(int fd, off_t offset, int whence){ 
+//Can we always perform an lseek? For example, can we perform lseek() beyond the end of a file? Please use VOP_TRYSEEK.
+};
+
+int close(int fd){
+	//fd is filedirectory
+	//It may be interesting because of the refcounting issue (think about garbage collection)! 
+};
+
+int dup2(int oldfd, int newfd){ 
+	//If newfd is already opened, close it. Upon successful completion, both file descriptors refer to the same file table object and share all properties of the object.
+};
+
+
+//=====================
+getPID(){
+
+}
+
+
+//=====================
+//fork, execv, waitpid, _exit
+fork(){}
+execv(){
+//runs an executable file in the context of an existing process, replacing the previous executable. 
+}
+
+waitpid(){}
+
+_exit(){}

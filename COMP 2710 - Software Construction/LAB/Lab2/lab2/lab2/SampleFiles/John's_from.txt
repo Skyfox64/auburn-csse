@@ -1,0 +1,9 @@
+[(0)]|<All>|sup
+[(1)]|<Heroes>|hello heroes
+line2
+[(2)]|<Villains>|sup ma villains
+line2 of msg1 to villains
+[(3)]|<Villains>|villains rule!
+line2
+[(5)]|<All>|Hello all!!! another message to you!
+line2 for you, too!

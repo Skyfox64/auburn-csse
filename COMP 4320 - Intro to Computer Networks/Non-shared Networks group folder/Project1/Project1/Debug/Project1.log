@@ -1,0 +1,44 @@
+﻿  pch.cpp
+  client.cpp
+  packet.cpp
+  server.cpp
+  App.xaml.cpp
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\packet.cpp(1): warning C4627: '#include "packet.h"': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\packet.cpp(1): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(1): warning C4627: '#include <sys/socket.h>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(1): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(1): warning C4627: '#include <sys/socket.h>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(1): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(2): warning C4627: '#include <netinet/in.h>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(2): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(2): warning C4627: '#include <netinet/in.h>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(2): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(3): warning C4627: '#include <arpa/inet.h>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(3): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(3): warning C4627: '#include <arpa/inet.h>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(3): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\packet.cpp(3): warning C4627: '#include <string>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\packet.cpp(3): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\packet.cpp(4): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\packet.cpp(4): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\packet.cpp(87): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(6): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(6): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(7): warning C4627: '#include <fstream>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(7): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(8): warning C4627: '#include <boost/lexical_cast.hpp>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(8): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(5): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(5): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(9): warning C4627: '#include "packet.h"': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(9): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(6): warning C4627: '#include <fstream>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(6): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\client.cpp(178): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  MainPage.xaml.cpp
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(7): warning C4627: '#include <boost/lexical_cast.hpp>': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(7): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(8): warning C4627: '#include "packet.h"': skipped when looking for precompiled header use
+  w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(8): note: Add directive to 'pch.h' or rebuild precompiled header
+w:\academia\auburn\2015-2016 spring\comp 4320 - intro to computer networks\networks group project folder\netwark-master\server.cpp(135): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  XamlTypeInfo.Impl.g.cpp

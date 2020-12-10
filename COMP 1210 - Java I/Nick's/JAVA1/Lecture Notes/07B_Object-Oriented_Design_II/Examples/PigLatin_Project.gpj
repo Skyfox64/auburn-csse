@@ -1,0 +1,19 @@
+!656;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;
+SCU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+S+U0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!2064;d
+[\012  grasp [\012   legendy -107.08510728402032\012   legendx 37.04009034443823\012   version 1\012   winflags 2\012   height 524\012   width 511\012   wbp 1\012   initlayout 0\012   yoffs -9.581818181818221\012   xoffs -20.88441558441656\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "PigLatin\\011()V\\011c\\0111\\011\\011\\011PigLatin\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011PigLatin"\012    condition 0\012    access2 0\012    access 2490401\012    classname "PigLatin"\012    fromclassfiledate 1332775741926\012    fromclassfilename "%\011PigLatin.class"\012    fromfilename "%\011PigLatin.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x -47.001298701298765\012     y 30.675324675324692\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "PigLatinTranslator\\011()V\\011c\\0111\\011\\011\\011PigLatinTranslator\011beginsWithBlend\\011(Ljava/lang/String;)Z\\011\\01110\\011\\011\\011PigLatinTranslator\011beginsWithVowel\\011(Ljava/lang/String;)Z\\011\\01110\\011\\011\\011PigLatinTranslator\011translate\\011(Ljava/lang/String;)Ljava/lang/String;\\011\\0119\\011\\011\\011PigLatinTranslator\011translateWord\\011(Ljava/lang/String;)Ljava/lang/String;\\011\\01110\\011\\011\\011PigLatinTranslator"\012    condition 0\012    access2 0\012    access 2228257\012    classname "PigLatinTranslator"\012    fromclassfiledate 1332772159870\012    fromclassfilename "%\011PigLatinTranslator.class"\012    fromfilename "%\011PigLatinTranslator.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x 47.001298701298765\012     y -30.675324675324692\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  edge [\012   ClassInfo [\012    dependencies "translate\\011(Ljava/lang/String;)Ljava/lang/String;\\011\\011\\011\\011\\011PigLatinTranslator"\012    type 3\012   ]\012   source 1\012   target 0\012  ]\012 ]!48;g
+%\011PigLatin.java
+%\011PigLatinTranslator.java
+!42;f
+%	PigLatin.java
+%	PigLatinTranslator.java

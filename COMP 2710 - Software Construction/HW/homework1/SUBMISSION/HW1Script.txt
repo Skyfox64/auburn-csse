@@ -1,0 +1,49 @@
+Script started on Wed 10 Sep 2014 07:53:55 PM CDT
+]0;john@ZetaGundam: ~/Downloadsjohn@ZetaGundam:~/Downloads$ exit./hw1g++ hw1.cpp -o hw1./hw1[K
+===========================================================
+|          Welcome to the Auburn Messaging System!        |
+===========================================================
+
+
+Enter user name> George
+Enter group name> All
+Enter the message> Join our Tigers message group!
+It was fun at the beach.
+How was your summer?
+$$
+
+Any more users? > yes
+
+Enter user name> Abraham
+Enter group name> Tigers
+Enter the message> This is a great group.
+Our Alaskan tour was amazing!
+$$
+
+Any more users? > yes
+
+Enter user name> Kate
+Enter group name> Tigers
+Enter the message> Good to hear from you all.
+Brazil was an interesting place.
+$$
+
+Any more users? > no
+
+The current messages are:
+
+Kate(Tigers)>>
+Good to hear from you all.
+Brazil was an interesting place.
+
+Abraham(Tigers)>>
+This is a great group.
+Our Alaskan tour was amazing!
+
+George(All)>>
+Join our Tigers message group!
+It was fun at the beach.
+How was your summer?
+
+]0;john@ZetaGundam: ~/Downloadsjohn@ZetaGundam:~/Downloads$ exit
+Script done on Wed 10 Sep 2014 07:56:22 PM CDT

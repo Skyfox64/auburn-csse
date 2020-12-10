@@ -1,0 +1,6 @@
+import hangman
+
+public main{
+	
+	Hangman playgame = Hangman;
+}

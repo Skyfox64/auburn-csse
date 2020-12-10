@@ -1,0 +1,22 @@
+!656;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;
+SCU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+S+U0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!1219;d
+[\012  grasp [\012   legendy -32.09999999999998\012   legendx -0.8000000000000114\012   version 1\012   winflags 2\012   height 707\012   width 474\012   wbp 1\012   initlayout 0\012   yoffs 1.599999999999966\012   xoffs -1.6000000000000227\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "s1\\011D\\011\\0112\\011\\011\\011Triangle3\011s2\\011D\\011\\0112\\011\\011\\011Triangle3\011s3\\011D\\011\\0112\\011\\011\\011Triangle3\011Triangle3\\011(DDD)V\\011c\\0111\\011\\011\\011Triangle3\011getClassification\\011()Ljava/lang/String;\\011\\0111\\011\\011\\011Triangle3\011setSides\\011(DDD)V\\011\\0112\\011\\011\\011Triangle3\011toString\\011()Ljava/lang/String;\\011\\0111\\011\\011\\011Triangle3"\012    condition 0\012    access2 0\012    access 2228257\012    classname "Triangle3"\012    fromclassfiledate 1319233813694\012    fromclassfilename "%\011Triangle3.class"\012    fromfilename "%\011Triangle3.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x -2.6000000000000227\012     y 0.6000000000000227\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012 ]!1;k
+1!20;g
+%\011Triangle3.java
+!17;f
+%	Triangle3.java
+!24;l
+%\011Triangle3Test.java
+!131;t
+jgrJUnit0xr	%\011Triangle3.java	1319233864608:P%\011Triangle3Test.java	%\011Triangle3Test.java	1319233864608:P%\011Triangle3.java	

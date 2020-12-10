@@ -1,0 +1,11 @@
+0.08
+Meatballs Frozen 4.33
+Panko General 1.05
+Tacos Refrigerated 6.12
+Parsley Produce 0.67
+Eggs Refrigerated 1.08
+Spinach Frozen 0.84
+Hamburgers Refrigerated 2.55
+Pizza Refrigerated 4.7
+Granola General 2.1
+Peanuts General 1.2

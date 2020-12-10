@@ -1,0 +1,4 @@
+[(2)]|<John>|sup ma villains
+line2 of msg1 to villains
+[(3)]|<John>|villains rule!
+line2

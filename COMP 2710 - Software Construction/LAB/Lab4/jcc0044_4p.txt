@@ -1,0 +1,356 @@
+Script started on Wed 3 Dec 2014 11:09:55 PM CDT
+]0;john@ZetaGundam: ~/Downloadsjohn@ZetaGundam:~/Downloads$ exit./lab34g++ lab4.cpp -o lab4./lab4[K
+
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 1
+
+Enter name: Kevin
+Enter account type: CD Account
+Enter interest rate (in percentage): 5
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 2
+
+Enter name: Kevin
+Enter account type: CD account
+Enter deposit amount: $ 4500.00
+Balance: $ 4500.00
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 1
+
+Enter name: Kathy
+Enter account type: Money market account
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 2
+
+Enter name: Kathy
+Enter account type: Money market account
+Enter deposit amount: $ 3000.00
+Balance: $ 3000.00
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 1
+
+Enter name: Joan
+Enter account type: Checking account
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 2
+
+Enter name: Joan
+Enter account type: Checking account
+Enter deposit amount: $ 1500.00
+Balance: $ 1500.00
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 1
+
+Enter name: Trent
+Enter account type: Saving account
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 2
+
+Enter name: Trent
+Enter account type: Saving account
+Enter deposit amount: $ 2000.00
+Balance: $ 2000.00
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 3
+
+Enter name: Kathy
+Enter account type: Money market account
+Enter withdrawal amount: $ 500.00
+Balance: $ 2500.00
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 3
+
+Enter name: Kevin
+Enter account type: CD account
+Enter withdrawal amount: $ 1500.00
+Withdrawal Penalty: $ 56.25
+Balance: $ 2943.7
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 3
+
+Enter name: Kathy
+Enter account type: Money market account
+Enter withdrawal amount: $ 800.00
+Balance: $ 1700.00
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 3
+
+Enter name: Joan
+Enter account type: Checking account
+Enter withdrawal amount: $ 1100.00
+Withdrawal Fee: $ 2.50
+Balance: $ 397.50
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 3
+
+Enter name: Kathy
+Enter account type: Money market account
+Enter withdrawal amount: $ 200.00
+Withdrawal fee: $ 1.50
+Balance: $ 1498.50
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 6
+
+Transaction # 1:
+Account created
+Name: Kevin
+Account type: CD Account
+Interest rate (in percentage): 5
+
+Transaction # 2:
+Deposit
+Name: Kevin
+Account type: CD account
+Deposit amount: $ 4500.00
+Balance: $ 4500.00
+
+Transaction # 3:
+Account created
+Name: Kathy
+Account type: Money market account
+
+Transaction # 4:
+Deposit
+Name: Kathy
+Account type: Money market account
+Deposit amount: $ 3000.00
+Balance: $ 3000.00
+
+Transaction # 5:
+Account created
+Name: Joan
+Account type: Checking account
+
+Transaction # 6:
+Deposit
+Name: Joan
+Account type: Checking account
+Deposit amount: $ 1500.00
+Balance: $ 1500.00
+
+Transaction # 7:
+Account created
+Name: Trent
+Account type: Saving account
+
+Transaction # 8:
+Deposit
+Enter name: Trent
+Account type: Saving account
+Deposit amount: $ 2000.00
+Balance: $ 2000.00
+
+Transaction # 9:
+Withdrawal
+Name: Kathy
+Account type: Money market account
+Withdrawal amount: $ 500.00
+Balance: $ 2500.00
+
+Transaction # 10:
+Withdrawal
+Name: Kevin
+Account type: CD account
+Withdrawal amount: $ 1500.00
+Withdrawal Penalty: $ 56.25
+Balance: $ 2943.7
+
+Transaction # 11:
+Withdrawal
+Name: Kathy
+11
+Account type: Money market account
+Withdrawal amount: $ 800.00
+Balance: $ 1700.00
+
+Transaction # 12:
+Withdrawal
+Name: Joan
+Account type: Checking account
+Withdrawal amount: $ 1100.00
+Withdrawal Fee: $ 2.50
+Balance: $ 397.50
+
+Transaction # 13:
+Withdrawal
+Name: Kathy
+Account type: Money market account
+Withdrawal amount: $ 200.00
+Withdrawal fee: $ 1.50
+Balance: $ 1498.50
+
+	===========================================================
+	|                    Welcome to Aubie Bank!               |
+	===========================================================
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 7
+
+Transaction # 2:
+Deposit
+Name: Kevin
+Account type: CD account
+Deposit amount: $ 4500.00
+
+Transaction # 4:
+Deposit
+Name: Kathy
+Account type: Money market account
+Deposit amount: $ 3000.00
+Balance: $ 3000.00
+
+Transaction # 6:
+Deposit
+Name: Joan
+Account type: Checking account
+Deposit amount: $ 1500.00
+Balance: $ 1500.00
+
+Transaction # 8:
+Deposit
+Enter name: Trent
+Account type: Saving account
+Deposit amount: $ 2000.00
+Balance: $ 2000.00
+
+Transaction # 9:
+Withdrawal
+Name: Kathy
+12
+Account type: Money market account
+Withdrawal amount: $ 500.00
+Balance: $ 2500.00
+
+Transaction # 10:
+Withdrawal
+Name: Kevin
+Account type: CD account
+Withdrawal amount: $ 1500.00
+Withdrawal Penalty: $ 56.25
+Balance: $ 2943.7
+
+Transaction # 11:
+Withdrawal
+Name: Kathy
+Account type: Money market account
+Withdrawal amount: $ 800.00
+Balance: $ 1700.00
+
+Transaction # 12:
+Withdrawal
+Name: Joan
+Account type: Checking account
+Withdrawal amount: $ 1100.00
+Withdrawal Fee: $ 2.50
+Balance: $ 397.50
+
+Transaction # 13:
+Withdrawal
+Name: Kathy
+Account type: Money market account
+Withdrawal amount: $ 200.00
+Withdrawal fee: $ 1.50
+Balance: $ 1498.50
+
+
+Total Bank Balance = $6,960.25
+
+
+	===========================================================
+	|                 Welcome to Aubie Bank!                  |
+	===========================================================
+
+Select an option: (1) Create account, (2) Deposit fund, (3) Withdraw fund, (4)
+Transfer fund, (5) Inquiry, (6) Print all transactions, (7) Print Bank balance,
+(8) Quit: 8
+
+	===========================================================
+	|           Thank you for banking with Aubie Bank!        |
+	===========================================================
+
+]0;john@ZetaGundam: ~/Downloadsjohn@ZetaGundam:~/Downloads$ exit
+Script done on Wed 3 Dec 2014 11:12:03 PM CDT

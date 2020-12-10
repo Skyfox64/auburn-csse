@@ -1,0 +1,8 @@
+Notice that there is a new file
+	Get filename and mimetype
+		Display available conversion possibilities.
+		Open correct filetype converting java program
+			Accept user input and desired file output.
+				Convert and store in appropriate location.
+					Notify user that the conversion has completed and whether it was successful
+					supply src for file for http download

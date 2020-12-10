@@ -1,0 +1,23 @@
+****Make sure to have the newest jdk 7 or jdk 8 installed along with the adjacent jre/jvm
+
+
+
+Compile Instructions using windows command line
+1. In the command shell window, change the current directory to the one containing the .java file you wish to compile.
+	Ex: hw6Driver.java could be found in C:\Users\<Username>\Auburn\2014-2015 Fall\COMP 3220 - Principles of Programming Languages\HW\hw6\src
+2. Once you know the file is in your current directory, type: javac <fileName>.java
+	This will compile and create a class file.
+3. Execute the class file.
+
+
+
+
+Compile Instructions using IDE's
+1. Open file in IDE using "open with..." or through the IDE. Add the .java to a new project file if need be.
+2. Using, Auburn University favorite, jGrasp you can compile with ctrl+b and run with ctrl+r.
+
+
+
+
+
+If all else fails, please visit this webpage: http://www.horstmann.com/bigj/help/compiler/tutorial.html

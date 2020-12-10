@@ -1,0 +1,21 @@
+!656;s
+J
+SAU0PATH+=%<JGRASP_PATHS>%;
+SCU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+S+U0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK, not just the JRE, installed.\\nThe JDK is available from http://www.oracle.com/technetwork/java/index.html.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012
+SOU0PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!2822;d
+[\012  grasp [\012   legendy -105.28571428571425\012   legendx -51.85714285714286\012   version 1\012   winflags 2\012   height 629\012   width 512\012   wbp 0\012   initlayout 0\012   yoffs 5.4571428571428555\012   xoffs -22.48571428571455\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "InvalidLengthException\\011(D)V\\011c\\0111\\011\\011\\011InvalidLengthException"\012    condition 0\012    access2 0\012    access 2228257\012    classname "InvalidLengthException"\012    fromclassfiledate 1334765458015\012    fromclassfilename "%\011InvalidLengthException.class"\012    fromfilename "%\011InvalidLengthException.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x 70.42857142857139\012     y -28.285714285714278\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "sideLengths\\011[D\\011\\0112\\011\\011\\011Polygon\011Polygon\\011([D)V\\011c\\0111\\011\\011\\011Polygon\011calculatePerimeter\\011()D\\011\\0111\\011\\011\\011Polygon\011getSides\\011()[D\\011\\0111\\011\\011\\011Polygon\011getSidesGreaterThan\\011(D)[D\\011\\0111\\011\\011\\011Polygon\011setSides\\011([D)V\\011\\0111\\011\\011\\011Polygon\011toString\\011()Ljava/lang/String;\\011\\0111\\011\\011\\011Polygon"\012    condition 0\012    access2 0\012    access 2228257\012    classname "Polygon"\012    fromclassfiledate 1334765458008\012    fromclassfilename "%\011Polygon.class"\012    fromfilename "%\011Polygon.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x -63.00000000000003\012     y 19.71428571428575\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "PolygonCreator\\011()V\\011c\\0111\\011\\011\\011PolygonCreator\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011PolygonCreator"\012    condition 0\012    access2 0\012    access 2490401\012    classname "PolygonCreator"\012    fromclassfiledate 1334765457996\012    fromclassfilename "%\011PolygonCreator.class"\012    fromfilename "%\011PolygonCreator.java"\012   ]\012   id 2\012   graphics [\012    center [\012     x -39.28571428571428\012     y 91.71428571428572\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  edge [\012   ClassInfo [\012    dependencies "Polygon\\011([D)V\\011c\\011\\011\\011\\011Polygon"\012    type 3\012   ]\012   source 1\012   target 2\012  ]\012  edge [\012   ClassInfo [\012    type 3\012   ]\012   source 0\012   target 2\012  ]\012  edge [\012   ClassInfo [\012    dependencies "InvalidLengthException\\011(D)V\\011c\\011\\011\\011\\011InvalidLengthException"\012    type 3\012   ]\012   source 0\012   target 1\012  ]\012 ]!76;g
+%\011PolygonCreator.java
+%\011InvalidLengthException.java
+%\011Polygon.java
+!67;f
+%	PolygonCreator.java
+%	InvalidLengthException.java
+%	Polygon.java

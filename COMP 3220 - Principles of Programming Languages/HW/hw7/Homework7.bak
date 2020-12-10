@@ -1,0 +1,90 @@
+#lang racket
+
+#|
+PROGRAM NAME - Homework7
+PROGRAMMER - Robinson Davis
+COMPILE - 
+SYSTEM - Windows 8 Pro 
+DATE - November 20, 2014
+BUGS - None known.
+DESCRIPTION - Defines multiple functions to solve required tasks.
+|#
+
+#|
+TASK 1 - Write a DrRacket (formerly DrScheme) function that takes an expression as its
+         argument and returns a non-nested list of all atoms found in the expression. Example,
+         (squash ‘(a (a (a (a b))) (((a b) b) b) b)) returns (a a a a b a b b b b)).
+|#
+(define (squash lst)
+  (cond ((null? lst) '())
+        ((not (list? lst)) (list lst))
+        ((append (squash (car lst))
+                 (squash (cdr lst))))))
+
+(squash '(1 (2 (3)) (4 5))) 
+(squash '(a (a (a (a b))) (((a b) b) b) b))
+
+#|
+TASK 2 - Write a DrRacket function that determines whether an integer is divisible by 3
+         (e.g., (divisible-by-three 6) returns #t).
+|#
+(define (divisible? big small)
+  (= (remainder big small) 0))
+
+(define (divisible-by-3? x)
+  (and (number? x) (divisible? x 3)))
+
+(divisible-by-3? 0)
+(divisible-by-3? 3)
+(divisible-by-3? 4)
+(divisible-by-3? 5)
+(divisible-by-3? 6)
+
+#|
+TASK 3 - Write a DrRacket function that that can sort a list in ascending or descending
+         order (by making the comparison operator a parameter). The sorting algorithm should be
+         INSERTION SORT.
+|#
+(define (insertToSortedList element comparator lst)
+  (cond
+    [(or (empty? lst) (comparator element (first lst))) (cons element lst)]
+    [else (cons (first lst) (insertToSortedList element comparator (rest lst)))]))
+
+(define (sort-demo comparator lst)
+  (cond
+    [(empty? lst) empty]
+    [else (insertToSortedList (first lst) comparator (sort-demo comparator (rest lst)))]))
+
+#|
+TASK 4 - Write a DrRacket function, palindrome, that tests its argument to see if it is a
+         list that has the same sequence of symbols when read from right to left as when it is read
+         from left to right.
+|#
+
+
+
+#|
+TASK 5 - Write the Quicksort algorithm in DrRacket.
+|#
+
+(define pivot (lambda (all chk list list2)
+                  (cond ((null? all) (cons list (cons chk (cons list2 '()))))
+                        (else
+                        (let ((x (car all)))
+                          (if (<= x chk) 
+                              (pivot (cdr all) chk (cons x list) list2)
+                              (pivot (cdr all) chk list (cons x list2))))))))
+
+;Partition function, used for Quicksort
+(define partition (lambda (list)
+                      (pivot (cdr list) (car list) '() '())))
+;Quicksort function
+(define Quicksort (lambda (list)
+                    (cond ((null? list) list)
+                          (else
+                          (let ((lx (partition list)))
+                            (append (Quicksort (car lx)) (cons (cadr lx) (Quicksort (caddr lx)))))))))
+
+(Quicksort '(1 4 6 3 8 12 56 2 9))
+(Quicksort '(2 4 6 1 8 12 66 9 0))
+(Quicksort '(6 7 8 9 2 33 12 1 7))

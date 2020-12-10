@@ -1,0 +1,4 @@
+On Friday, November 7, we reviewed some of the material that was covered on
+Exam 2, notably material relating to procedures and stack frames.
+
+There are no additional notes for this period.

@@ -1,0 +1,333 @@
+Script started on Mon 20 Oct 2014 03:34:55 PM CDT
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit./lab2g++ lab2.cpp -o lab2./lab2[K
+===========================================================
+|               Distributed Messaging System!              |
+===========================================================
+
+Please enter user name: George 
+
+===========================================================
+|    Welcome to Distributed Messaging System, George!      |
+===========================================================
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h),
+Create Group (g), Join Group (j), Quit (q)
+Enter Option: j
+Please enter the group name: Tigers
+
+===========================================================
+|             George has joined group Tigers               |
+===========================================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h),
+Create Group (g), Join Group (j), Quit (q)
+Enter Option: b
+Enter message: Join our new Tigers message group!
+It was fun at the beach.
+How was your summer?
+$$
+  
+=========================================================== 
+|     George has broadcasted a new message                | ===========================================================  
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: q  
+=========================================================== 
+|  Thank you for using the Distributed Messaging System   | =========================================================== 
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit
+Script done on Mon 20 Oct 2014 03:36:23 PM CDT
+
+
+
+
+Script started on Mon 20 Oct 2014 03:38:38 PM CDT
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit./lab2g++ lab2.cpp -o lab2./lab2[K
+=========================================================== 
+|               Distributed Messaging System!             | ===========================================================  
+
+ Please enter user name: Mary  
+
+=========================================================== 
+|     Welcome to Distributed Messaging System, Mary!      | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: j 
+Enter the group name: Tigers  
+Please enter the group name: Tigers  
+
+=========================================================== 
+|               Mary has joined group Tigers              | =========================================================== 
+ 
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: m  
+Enter the group name: Tigers 
+Enter message: Welcome back, guys! 
+We had so much fun at Ireland! 
+$$  
+
+=========================================================== 
+|     Mary has multicasted a message to group Tigers      |               ===========================================================
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: q  
+
+=========================================================== 
+|  Thank you for using the Distributed Messaging System   | ===========================================================  
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit
+Script done on Mon 20 Oct 2014 03:40:01 PM CDT
+
+
+
+Script started on Mon 20 Oct 2014 03:41:38 PM CDT
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit./lab2g++ lab2.cpp -o lab2./lab2[K
+=========================================================== 
+|               Distributed Messaging System!             | ===========================================================  
+ Please enter user name: Abraham  
+
+=========================================================== 
+|    Welcome to Distributed Messaging System, Abraham!    | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: j 
+Enter the group name: Tigers  
+
+=========================================================== 
+|             Abraham has joined group Tigers              | =========================================================== 
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: u 
+Enter the recipient user name: Mary 
+Enter message: Good Morning, Sunshine! 
+When did you get back from Ireland? 
+$$  
+
+=========================================================== 
+|          Abraham has unicasted a message to Mary        |               ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: g 
+Enter the recipient user name: Eagles  
+
+=========================================================== 
+|               New group Eagles created                   | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: j 
+Please enter the group name: Eagles  
+
+=========================================================== 
+|              Abraham has joined group Eagles             | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: b  
+Enter message: Just created a new Eagles group! 
+Come one, come all! 
+Have a blast! 
+$$  
+
+=========================================================== 
+|         Abraham has broadcasted a new message            | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: m 
+Enter the group name: Eagles 
+Enter message: Eagles have landed! 
+War eagle, hey! 
+$$  
+
+=========================================================== 
+|  Abraham has multicasted a new message to group Eagles  | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: m 
+Enter the group name: Tigers 
+Enter message: I’m enjoying your group too. 
+Spent my summer in South Africa; it was amazing! 
+$$  
+
+=========================================================== 
+|  Abraham has multicasted a new message to group Tigers  | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: q  
+
+=========================================================== 
+|  Thank you for using the Distributed Messaging System   | =========================================================== 
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit
+Script done on Mon 20 Oct 2014 03:43:56 PM CDT
+
+
+
+Script started on Mon 20 Oct 2014 03:45:31 PM CDT
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit./lab2g++ lab2.cpp -o lab2./lab2[K
+=========================================================== 
+|                Distributed Messaging System!             | ===========================================================  
+
+ Please enter user name: Kate  
+
+=========================================================== 
+|      Welcome to Distributed Messaging System, Kate!      | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: j 
+Enter the group name: Eagles  
+
+=========================================================== 
+|               Kate has joined group Eagles               | ===========================================================  
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: m  
+Enter the group name: Eagles 
+Enter message: It’s time for Auburn Football! 
+War Eagle! 
+$$ 
+=========================================================== 
+|   Kate has multicasted a new message to group Eagles     |               ===========================================================
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q)   
+Enter option: h   
+
+===========================================================
+|                  Kate’s Home Page                        |        ===========================================================
+
+Kate(Eagles)>>  It’s time for Auburn Football! 
+War Eagle!  
+
+Abraham(Eagles)>> Eagles have landed! 
+War eagle, hey!
+
+                       More message? (yes/no): yes  
+
+Abraham(All)>> Just created a new Eagles group! 
+Come one, come all! Have a blast! 
+
+George(All)>> Join our new Tigers message group! 
+It was fun at the beach. 
+How was your summer?  
+=========================================================== 
+|                  End of Kate’s Home Page                | ===========================================================  
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: q  
+
+=========================================================== 
+|  Thank you for using the Distributed Messaging System   | ===========================================================  
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit
+Script done on Mon 20 Oct 2014 03:47:20 PM CDT
+
+
+
+Script started on Mon 20 Oct 2014 03:49:17 PM CDT
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit./lab2g++ lab2.cpp -o lab2./lab2[K
+=========================================================== 
+|               Distributed Messaging System!             | =========================================================== 
+ 
+ Please enter user name: Mary  
+
+=========================================================== 
+|     Welcome to Distributed Messaging System, Mary!      | =========================================================== 
+ 
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),   
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: h   
+
+=========================================================== 
+|                    Mary’s Home Page                     |        ===========================================================
+
+Abraham(Tigers)>> I’m enjoying your group too. 
+Spent my summer in South Africa; it was amazing!
+  
+Abraham(All)>> Just created a new Eagles group! Come one, come all! 
+Have a blast!  
+
+                      More message? (yes/no): yes  
+
+Abraham>> Good Morning, Sunshine! 
+When did you get back from Ireland?  
+
+Mary(Tigers)>> Welcome back, guys!
+We had so much fun at Ireland!  
+
+George(All)>> Join our new Tigers message group!
+It was fun at the beach. How was your summer?  
+
+=========================================================== 
+|                  End of Mary’s Home Page                 | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  Create Group (g), Join Group (j), Quit (q) 
+Enter option: w   
+=========================================================== 
+|                     Mary’s Wall Page                     |        ===========================================================
+
+Mary(Tigers)>> Welcome back, guys! 
+We had so much fun at Ireland!  
+
+=========================================================== 
+|                 End of Mary’s Wall Page                 | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: q 
+
+=========================================================== 
+|  Thank you for using the Distributed Messaging System   | =========================================================== 
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit
+Script done on Mon 20 Oct 2014 03:53:48 PM CDT
+
+
+
+Script started on Mon 20 Oct 2014 03:54:59 PM CDT
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit./lab2g++ lab2.cpp -o lab2./lab2[K
+=========================================================== 
+|                Distributed Messaging System!             | ===========================================================  
+
+ Please enter user name: Abraham  
+
+=========================================================== 
+|    Welcome to Distributed Messaging System, Abraham!    | =========================================================== 
+ 
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: w  
+
+=========================================================== 
+|                   Abraham’s Wall Page                    |        =========================================================== 
+
+Abraham(Tigers)>> I’m enjoying your group too. 
+Spent my summer in South Africa; it was amazing!  
+
+Abraham(Eagles)>> Eagles have landed! 
+War eagle, hey!  
+
+                     More message? (yes/no): yes  
+
+Abraham(All)>> Just created a new Eagles group! 
+Come one, come all! Have a blast!  
+
+Abraham(Mary)>> Good Morning, Sunshine! 
+When did you get back from Ireland?  
+
+=========================================================== 
+|               End of Abraham’s Wall Page                 | ===========================================================  
+
+Broadcast (b), Multicast (m), Unicast(u), Wall (w), Home (h),  
+Create Group (g), Join Group (j), Quit (q) 
+Enter option: q  
+
+=========================================================== 
+|  Thank you for using the Distributed Messaging System   | ===========================================================  
+]0;chris@Madgod: ~/Downloadschris@Madgod:~/Downloads$ exit
+Script done on Mon 20 Oct 2014 03:58:07 PM CDT
+

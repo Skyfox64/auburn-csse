@@ -1,0 +1,2 @@
+project5make: functions.c Project5.c
+	gcc -o project5make functions.c Project5.c -I

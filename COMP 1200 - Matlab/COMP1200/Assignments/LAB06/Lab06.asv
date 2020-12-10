@@ -1,0 +1,83 @@
+clear all
+
+
+%John Carroll
+%Lab06.m
+%10/20/2011
+%Our objective is to 
+
+
+clc;                                   %To clear all
+clear all;
+
+
+% =======================================================================
+% ***** INITIALIZE *****
+% initialize counter and accumulators 
+velCounter = 1;
+velTotal = 0;
+distCounter = 0;
+distTotal = 0;
+
+vel(velCounter) = input('Enter the velocity of a nebula(enter 0 to stop): ');
+
+% ***** INPUT *****
+% while velocity not = 0
+% ask user to enter a velocity and distance 
+% add values to vectors
+% increment counter
+
+if vel(velCounter) == 0
+    break
+end
+
+while vel(velCounter) ~= 0
+    distCounter = distCounter + 1;
+    dist(distCounter) = input('Enter the distance of a nebula: ');
+    velCounter = velCounter + 1;
+    vel(velCounter) = input('Enter the velocity of a nebula(enter 0 to stop): ');
+end
+
+
+
+
+% *****COMPUTE*****
+% accumulate into sums data
+
+% Counters
+distCounter = distCounter + 1;
+velCounter = velCounter - 1;
+vel(end) = [];
+
+% Print Velocities and Distances Right Aligned
+for g = 1 : velCounter
+    velTotal = velTotal + vel(g);
+    distTotal = distTotal + dist(g);
+    fprintf('%7d %10.3f\n', vel(g), dist(g));
+end
+
+
+% compute SLOPE (m)
+% compute INTERCEPT (b)
+slope = ((velCounter)*sum(vel.*dist)-sum(vel)*sum(dist))/((velCounter)*sum(vel.*vel)-sum(vel)*sum(vel));
+intercept = (sum(dist)*sum(vel.*vel)-sum(vel)*sum(vel.*dist))/((velCounter)*sum(vel.*vel)-sum(vel)*sum(vel));
+
+% ***** OUTPUT *****
+% Print Headers
+fprintf('\n  NEBULA INPUT DATA\n');
+fprintf(' VELOCITY  DISTANCE\n');
+fprintf('  km/sec  106 parsecs\n');
+fprintf('\nLINEAR EQUATION: distance = %7.4f * velocity + %5.3f\n', slope, intercept);
+
+% If wrong Velocity is entered
+x = input('\nEnter a velocity of a nebula from above: ');
+while x ~= vel
+    fprintf('Not a velocity from above. Try again.');
+    x = input('\nEnter a velocity of a nebula from above: ');
+end
+
+% Find the distance given slope and y-intercept
+y = slope * x + intercept;
+fprintf('For velocity = %3d, distance = %5.3f\n', x, y); 
+
+

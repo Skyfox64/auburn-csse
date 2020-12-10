@@ -1,0 +1,448 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "SportStackerApp.java",
+			"settings":
+			{
+				"buffer_size": 3432,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "SportStacker.java",
+			"settings":
+			{
+				"buffer_size": 4194,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Nick/Dropbox/School/COMP1210-Java/Activities/Activity7a/BankLoan.java",
+			"settings":
+			{
+				"buffer_size": 1961,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/index.htm",
+			"settings":
+			{
+				"buffer_size": 4892,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/login.htm",
+			"settings":
+			{
+				"buffer_size": 3214,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/tour.htm",
+			"settings":
+			{
+				"buffer_size": 2961,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/pricing.htm",
+			"settings":
+			{
+				"buffer_size": 7054,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/test.htm",
+			"settings":
+			{
+				"buffer_size": 5445,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 304.0
+	},
+	"console":
+	{
+		"height": 68.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Nick/AppData/Roaming/Sublime Text 2/Packages/User/javabuildnick.sublime-build",
+		"/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/knollgrass.sublime-project",
+		"/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/login.htm",
+		"/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/index.htm",
+		"/C/Users/Nick/Desktop/Trie.java",
+		"/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/pricing.htm"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "SportStackerApp.java",
+					"settings":
+					{
+						"buffer_size": 3432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "SportStacker.java",
+					"settings":
+					{
+						"buffer_size": 4194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/C/Users/Nick/Dropbox/School/COMP1210-Java/Activities/Activity7a/BankLoan.java",
+					"settings":
+					{
+						"buffer_size": 1961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/index.htm",
+					"settings":
+					{
+						"buffer_size": 4892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								611,
+								611
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/login.htm",
+					"settings":
+					{
+						"buffer_size": 3214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/tour.htm",
+					"settings":
+					{
+						"buffer_size": 2961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/pricing.htm",
+					"settings":
+					{
+						"buffer_size": 7054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Nick/Documents/GitHub/Knollgrass-Code/workspace/Knoll_Prime/Templates/knollgrass.com/test.htm",
+					"settings":
+					{
+						"buffer_size": 5445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.677295918367,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false
+}

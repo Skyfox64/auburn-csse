@@ -1,0 +1,9 @@
+Group 13
+
+Programming Exercises Questions
+
+exercises.txt
+
+1) Explain how each of your solutions avoid starvation.
+
+2) Comment on the relative ease of implementation under the two schemes. Can you derive any principles about the use of these different synchronization primitives?

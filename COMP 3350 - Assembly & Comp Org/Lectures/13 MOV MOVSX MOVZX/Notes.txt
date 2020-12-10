@@ -1,0 +1,4 @@
+Written notes on:
+- Notation for x86 instructions' syntax and flags affected
+- MOV
+- MOVSX and MOVZX
